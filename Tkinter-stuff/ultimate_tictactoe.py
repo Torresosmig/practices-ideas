@@ -9,8 +9,9 @@ clicked = True
 count = 0
 
 
-# disable all buttons
-def disable_buttons():
+# disable all buttons [ for when game is over
+def disable_all_buttons():
+
     # 1st tic tac toe
     b1.config(state=DISABLED)
     b2.config(state=DISABLED)
@@ -25,6 +26,7 @@ def disable_buttons():
     b9.config(state=DISABLED)
 
     # 2nd tic tac toe
+
     b10.config(state=DISABLED)
     b11.config(state=DISABLED)
     b12.config(state=DISABLED)
@@ -129,6 +131,7 @@ def disable_buttons():
     b80.config(state=DISABLED)
     b81.config(state=DISABLED)
 
+
 # check if someone won
 def check_winner():
     global winner
@@ -141,7 +144,7 @@ def check_winner():
         b3.config(bg="blue")
         winner = True
         messagebox.showinfo("Winner", "X is the winner...")
-        disable_buttons()
+        disable_all_buttons()
 
     elif b4["text"] == "X" and b5["text"] == "X" and b6["text"] == "X":
         b4.config(bg="blue")
@@ -149,7 +152,7 @@ def check_winner():
         b6.config(bg="blue")
         winner = True
         messagebox.showinfo("Winner", "X is the winner...")
-        disable_buttons()
+        disable_all_buttons()
 
     elif b7["text"] == "X" and b8["text"] == "X" and b9["text"] == "X":
         b7.config(bg="blue")
@@ -157,7 +160,7 @@ def check_winner():
         b9.config(bg="blue")
         winner = True
         messagebox.showinfo("Winner", "X is the winner...")
-        disable_buttons()
+        disable_all_buttons()
 
     elif b1["text"] == "X" and b4["text"] == "X" and b7["text"] == "X":
         b1.config(bg="blue")
@@ -165,7 +168,7 @@ def check_winner():
         b7.config(bg="blue")
         winner = True
         messagebox.showinfo("Winner", "X is the winner...")
-        disable_buttons()
+        disable_all_buttons()
 
     elif b2["text"] == "X" and b5["text"] == "X" and b8["text"] == "X":
         b2.config(bg="blue")
@@ -173,7 +176,7 @@ def check_winner():
         b8.config(bg="blue")
         winner = True
         messagebox.showinfo("Winner", "X is the winner...")
-        disable_buttons()
+        disable_all_buttons()
 
     elif b3["text"] == "X" and b6["text"] == "X" and b9["text"] == "X":
         b3.config(bg="blue")
@@ -181,7 +184,7 @@ def check_winner():
         b8.config(bg="blue")
         winner = True
         messagebox.showinfo("Winner", "X is the winner...")
-        disable_buttons()
+        disable_all_buttons()
 
     elif b1["text"] == "X" and b5["text"] == "X" and b9["text"] == "X":
         b1.config(bg="blue")
@@ -189,7 +192,7 @@ def check_winner():
         b9.config(bg="blue")
         winner = True
         messagebox.showinfo("Winner", "X is the winner...")
-        disable_buttons()
+        disable_all_buttons()
 
     elif b3["text"] == "X" and b5["text"] == "X" and b7["text"] == "X":
         b3.config(bg="blue")
@@ -197,7 +200,7 @@ def check_winner():
         b7.config(bg="blue")
         winner = True
         messagebox.showinfo("Winner", "X is the winner...")
-        disable_buttons()
+        disable_all_buttons()
 
     # CHECK IF O HAS WON
 
@@ -207,7 +210,7 @@ def check_winner():
         b3.config(bg="red")
         winner = True
         messagebox.showinfo("Winner", "O is the winner...")
-        disable_buttons()
+        disable_all_buttons()
 
     elif b4["text"] == "O" and b5["text"] == "O" and b6["text"] == "O":
         b4.config(bg="red")
@@ -215,7 +218,7 @@ def check_winner():
         b6.config(bg="red")
         winner = True
         messagebox.showinfo("Winner", "O is the winner...")
-        disable_buttons()
+        disable_all_buttons()
 
     elif b7["text"] == "O" and b8["text"] == "O" and b9["text"] == "O":
         b7.config(bg="red")
@@ -223,7 +226,7 @@ def check_winner():
         b9.config(bg="red")
         winner = True
         messagebox.showinfo("Winner", "O is the winner...")
-        disable_buttons()
+        disable_all_buttons()
 
     elif b1["text"] == "O" and b4["text"] == "O" and b7["text"] == "O":
         b1.config(bg="red")
@@ -231,7 +234,7 @@ def check_winner():
         b7.config(bg="red")
         winner = True
         messagebox.showinfo("Winner", "O is the winner...")
-        disable_buttons()
+        disable_all_buttons()
 
     elif b2["text"] == "O" and b5["text"] == "O" and b8["text"] == "O":
         b2.config(bg="red")
@@ -239,7 +242,7 @@ def check_winner():
         b8.config(bg="red")
         winner = True
         messagebox.showinfo("Winner", "O is the winner...")
-        disable_buttons()
+        disable_all_buttons()
 
     elif b3["text"] == "O" and b6["text"] == "O" and b9["text"] == "O":
         b3.config(bg="red")
@@ -247,7 +250,7 @@ def check_winner():
         b9.config(bg="red")
         winner = True
         messagebox.showinfo("Winner", "O is the winner...")
-        disable_buttons()
+        disable_all_buttons()
 
     elif b1["text"] == "O" and b5["text"] == "O" and b9["text"] == "O":
         b1.config(bg="red")
@@ -255,7 +258,7 @@ def check_winner():
         b9.config(bg="red")
         winner = True
         messagebox.showinfo("Winner", "O is the winner...")
-        disable_buttons()
+        disable_all_buttons()
 
     elif b3["text"] == "O" and b5["text"] == "O" and b7["text"] == "O":
         b3.config(bg="red")
@@ -263,12 +266,32 @@ def check_winner():
         b7.config(bg="red")
         winner = True
         messagebox.showinfo("Winner", "O is the winner...")
-        disable_buttons()
+        disable_all_buttons()
 
     # check if tie
     if count == 9 and winner == False:
         messagebox.showinfo("Tie", "There is no winner\n     You suck!!")
-        disable_buttons()
+        disable_all_buttons()
+
+
+# build function for when button 1 is clicked [ note: it has to mark area for next move ]
+def b1_clicked(b):
+    global clicked, count
+
+    if b["text"] == " " and clicked == True:
+        b["text"] = "X"
+        clicked = False
+        count += 1
+        check_winner()
+    elif b["text"] == " " and clicked == False:
+        b["text"] = "O"
+        clicked = True
+        count += 1
+        check_winner()
+    else:
+        messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+
+
 
 
 # button click function
@@ -315,25 +338,25 @@ def reset():
     b9 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="SystemButtonFace", command=lambda: b_click(b9))
 
     # building buttons for 2nd tic tac toe
-    b10 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="SystemButtonFace",
+    b10 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="#bdbdbd",
                 command=lambda: b_click(b10))
-    b11 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="SystemButtonFace",
+    b11 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="#bdbdbd",
                 command=lambda: b_click(b11))
-    b12 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="SystemButtonFace",
+    b12 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="#bdbdbd",
                 command=lambda: b_click(b12))
 
-    b13 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="SystemButtonFace",
+    b13 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="#bdbdbd",
                 command=lambda: b_click(b13))
-    b14 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="SystemButtonFace",
+    b14 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="#bdbdbd",
                 command=lambda: b_click(b14))
-    b15 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="SystemButtonFace",
+    b15 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="#bdbdbd",
                 command=lambda: b_click(b15))
 
-    b16 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="SystemButtonFace",
+    b16 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="#bdbdbd",
                 command=lambda: b_click(b16))
-    b17 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="SystemButtonFace",
+    b17 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="#bdbdbd",
                 command=lambda: b_click(b17))
-    b18 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="SystemButtonFace",
+    b18 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="#bdbdbd",
                 command=lambda: b_click(b18))
 
     # building buttons for 3rd tic tac toe
@@ -359,25 +382,25 @@ def reset():
                  command=lambda: b_click(b27))
 
     # building buttons for 4th tic tac toe
-    b28 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="SystemButtonFace",
+    b28 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="#bdbdbd",
                  command=lambda: b_click(b28))
-    b29 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="SystemButtonFace",
+    b29 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="#bdbdbd",
                  command=lambda: b_click(b29))
-    b30 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="SystemButtonFace",
+    b30 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="#bdbdbd",
                  command=lambda: b_click(b30))
 
-    b31 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="SystemButtonFace",
+    b31 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="#bdbdbd",
                  command=lambda: b_click(b31))
-    b32 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="SystemButtonFace",
+    b32 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="#bdbdbd",
                  command=lambda: b_click(b32))
-    b33 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="SystemButtonFace",
+    b33 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="#bdbdbd",
                  command=lambda: b_click(b33))
 
-    b34 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="SystemButtonFace",
+    b34 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="#bdbdbd",
                  command=lambda: b_click(b34))
-    b35 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="SystemButtonFace",
+    b35 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="#bdbdbd",
                  command=lambda: b_click(b35))
-    b36 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="SystemButtonFace",
+    b36 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="#bdbdbd",
                  command=lambda: b_click(b36))
 
     # building buttons for 5th tic tac toe
@@ -403,25 +426,25 @@ def reset():
                  command=lambda: b_click(b45))
 
     # building buttons for 6th tic tac toe
-    b46 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="SystemButtonFace",
+    b46 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="#bdbdbd",
                  command=lambda: b_click(b46))
-    b47 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="SystemButtonFace",
+    b47 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="#bdbdbd",
                  command=lambda: b_click(b47))
-    b48 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="SystemButtonFace",
+    b48 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="#bdbdbd",
                  command=lambda: b_click(b48))
 
-    b49 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="SystemButtonFace",
+    b49 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="#bdbdbd",
                  command=lambda: b_click(b49))
-    b50 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="SystemButtonFace",
+    b50 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="#bdbdbd",
                  command=lambda: b_click(b50))
-    b51 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="SystemButtonFace",
+    b51 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="#bdbdbd",
                  command=lambda: b_click(b51))
 
-    b52 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="SystemButtonFace",
+    b52 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="#bdbdbd",
                  command=lambda: b_click(b52))
-    b53 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="SystemButtonFace",
+    b53 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="#bdbdbd",
                  command=lambda: b_click(b53))
-    b54 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="SystemButtonFace",
+    b54 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="#bdbdbd",
                  command=lambda: b_click(b54))
 
     # [ CONTINUE NEXT 3 TIC TAC TOE]
@@ -449,25 +472,25 @@ def reset():
                  command=lambda: b_click(b63))
 
     # building buttons for 8th tic tac toe
-    b64 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="SystemButtonFace",
+    b64 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="#bdbdbd",
                  command=lambda: b_click(b64))
-    b65 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="SystemButtonFace",
+    b65 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="#bdbdbd",
                  command=lambda: b_click(b65))
-    b66 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="SystemButtonFace",
+    b66 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="#bdbdbd",
                  command=lambda: b_click(b66))
 
-    b67 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="SystemButtonFace",
+    b67 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="#bdbdbd",
                  command=lambda: b_click(b67))
-    b68 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="SystemButtonFace",
+    b68 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="#bdbdbd",
                  command=lambda: b_click(b68))
-    b69 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="SystemButtonFace",
+    b69 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="#bdbdbd",
                  command=lambda: b_click(b69))
 
-    b70 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="SystemButtonFace",
+    b70 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="#bdbdbd",
                  command=lambda: b_click(b70))
-    b71 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="SystemButtonFace",
+    b71 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="#bdbdbd",
                  command=lambda: b_click(b71))
-    b72 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="SystemButtonFace",
+    b72 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="#bdbdbd",
                  command=lambda: b_click(b72))
 
     # building buttons for 9th tic tac toe
