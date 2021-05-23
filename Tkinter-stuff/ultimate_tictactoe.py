@@ -9,7 +9,7 @@ clicked = True
 count = 0
 
 
-# to allow playing on the area assignated by playing button 1 or 2 or 3 ....
+# to allow playing on the area assigned by playing button 1 or 2 or 3 .... [ tic tac toe 1 ]
 def disable_tic_one():
     # 2nd tic tac toe
     b10.config(state=DISABLED)
@@ -964,6 +964,7709 @@ def disable_tic_9():
     b72.config(state=DISABLED)
 
 
+#  [ tic tac toe 2 ]  SAME AS DISABLE_TIC_ONE
+def disable_tic_10():
+    # 2nd tic tac toe
+    b10.config(state=DISABLED)
+    b11.config(state=DISABLED)
+    b12.config(state=DISABLED)
+
+    b13.config(state=DISABLED)
+    b14.config(state=DISABLED)
+    b15.config(state=DISABLED)
+
+    b16.config(state=DISABLED)
+    b17.config(state=DISABLED)
+    b18.config(state=DISABLED)
+
+    # 3rd tic tac toe
+    b19.config(state=DISABLED)
+    b20.config(state=DISABLED)
+    b21.config(state=DISABLED)
+
+    b22.config(state=DISABLED)
+    b23.config(state=DISABLED)
+    b24.config(state=DISABLED)
+
+    b25.config(state=DISABLED)
+    b26.config(state=DISABLED)
+    b27.config(state=DISABLED)
+
+    # 4th tic tac toe
+    b28.config(state=DISABLED)
+    b29.config(state=DISABLED)
+    b30.config(state=DISABLED)
+
+    b31.config(state=DISABLED)
+    b32.config(state=DISABLED)
+    b33.config(state=DISABLED)
+
+    b34.config(state=DISABLED)
+    b35.config(state=DISABLED)
+    b36.config(state=DISABLED)
+
+    # 5th tic tac toe
+    b37.config(state=DISABLED)
+    b38.config(state=DISABLED)
+    b39.config(state=DISABLED)
+
+    b40.config(state=DISABLED)
+    b41.config(state=DISABLED)
+    b42.config(state=DISABLED)
+
+    b43.config(state=DISABLED)
+    b44.config(state=DISABLED)
+    b45.config(state=DISABLED)
+
+    # 6th tic tac toe
+    b46.config(state=DISABLED)
+    b47.config(state=DISABLED)
+    b48.config(state=DISABLED)
+
+    b49.config(state=DISABLED)
+    b50.config(state=DISABLED)
+    b51.config(state=DISABLED)
+
+    b52.config(state=DISABLED)
+    b53.config(state=DISABLED)
+    b54.config(state=DISABLED)
+
+    # 7th tic tac toe
+    b55.config(state=DISABLED)
+    b56.config(state=DISABLED)
+    b57.config(state=DISABLED)
+
+    b58.config(state=DISABLED)
+    b59.config(state=DISABLED)
+    b60.config(state=DISABLED)
+
+    b61.config(state=DISABLED)
+    b62.config(state=DISABLED)
+    b63.config(state=DISABLED)
+
+    # 8th tic tac toe
+    b64.config(state=DISABLED)
+    b65.config(state=DISABLED)
+    b66.config(state=DISABLED)
+
+    b67.config(state=DISABLED)
+    b68.config(state=DISABLED)
+    b69.config(state=DISABLED)
+
+    b70.config(state=DISABLED)
+    b71.config(state=DISABLED)
+    b72.config(state=DISABLED)
+
+    # 9th tic tac toe
+    b73.config(state=DISABLED)
+    b74.config(state=DISABLED)
+    b75.config(state=DISABLED)
+
+    b76.config(state=DISABLED)
+    b77.config(state=DISABLED)
+    b78.config(state=DISABLED)
+
+    b79.config(state=DISABLED)
+    b80.config(state=DISABLED)
+    b81.config(state=DISABLED) #
+
+
+#   SAME AS DISABLE_TIC_TWO
+def disable_tic_11():
+    # 1st tic tac toe
+    b1.config(state=DISABLED)
+    b2.config(state=DISABLED)
+    b3.config(state=DISABLED)
+
+    b4.config(state=DISABLED)
+    b5.config(state=DISABLED)
+    b6.config(state=DISABLED)
+
+    b7.config(state=DISABLED)
+    b8.config(state=DISABLED)
+    b9.config(state=DISABLED)
+
+    # 3rd tic tac toe
+    b19.config(state=DISABLED)
+    b20.config(state=DISABLED)
+    b21.config(state=DISABLED)
+
+    b22.config(state=DISABLED)
+    b23.config(state=DISABLED)
+    b24.config(state=DISABLED)
+
+    b25.config(state=DISABLED)
+    b26.config(state=DISABLED)
+    b27.config(state=DISABLED)
+
+    # 4th tic tac toe
+    b28.config(state=DISABLED)
+    b29.config(state=DISABLED)
+    b30.config(state=DISABLED)
+
+    b31.config(state=DISABLED)
+    b32.config(state=DISABLED)
+    b33.config(state=DISABLED)
+
+    b34.config(state=DISABLED)
+    b35.config(state=DISABLED)
+    b36.config(state=DISABLED)
+
+    # 5th tic tac toe
+    b37.config(state=DISABLED)
+    b38.config(state=DISABLED)
+    b39.config(state=DISABLED)
+
+    b40.config(state=DISABLED)
+    b41.config(state=DISABLED)
+    b42.config(state=DISABLED)
+
+    b43.config(state=DISABLED)
+    b44.config(state=DISABLED)
+    b45.config(state=DISABLED)
+
+    # 6th tic tac toe
+    b46.config(state=DISABLED)
+    b47.config(state=DISABLED)
+    b48.config(state=DISABLED)
+
+    b49.config(state=DISABLED)
+    b50.config(state=DISABLED)
+    b51.config(state=DISABLED)
+
+    b52.config(state=DISABLED)
+    b53.config(state=DISABLED)
+    b54.config(state=DISABLED)
+
+    # 7th tic tac toe
+    b55.config(state=DISABLED)
+    b56.config(state=DISABLED)
+    b57.config(state=DISABLED)
+
+    b58.config(state=DISABLED)
+    b59.config(state=DISABLED)
+    b60.config(state=DISABLED)
+
+    b61.config(state=DISABLED)
+    b62.config(state=DISABLED)
+    b63.config(state=DISABLED)
+
+    # 8th tic tac toe
+    b64.config(state=DISABLED)
+    b65.config(state=DISABLED)
+    b66.config(state=DISABLED)
+
+    b67.config(state=DISABLED)
+    b68.config(state=DISABLED)
+    b69.config(state=DISABLED)
+
+    b70.config(state=DISABLED)
+    b71.config(state=DISABLED)
+    b72.config(state=DISABLED)
+
+    # 9th tic tac toe
+    b73.config(state=DISABLED)
+    b74.config(state=DISABLED)
+    b75.config(state=DISABLED)
+
+    b76.config(state=DISABLED)
+    b77.config(state=DISABLED)
+    b78.config(state=DISABLED)
+
+    b79.config(state=DISABLED)
+    b80.config(state=DISABLED)
+    b81.config(state=DISABLED)
+
+
+#   SAME AS DISABLE_TIC_3
+def disable_tic_12():
+    # 1st tic tac toe
+    b1.config(state=DISABLED)
+    b2.config(state=DISABLED)
+    b3.config(state=DISABLED)
+
+    b4.config(state=DISABLED)
+    b5.config(state=DISABLED)
+    b6.config(state=DISABLED)
+
+    b7.config(state=DISABLED)
+    b8.config(state=DISABLED)
+    b9.config(state=DISABLED)
+
+    # 2nd tic tac toe
+    b10.config(state=DISABLED)
+    b11.config(state=DISABLED)
+    b12.config(state=DISABLED)
+
+    b13.config(state=DISABLED)
+    b14.config(state=DISABLED)
+    b15.config(state=DISABLED)
+
+    b16.config(state=DISABLED)
+    b17.config(state=DISABLED)
+    b18.config(state=DISABLED)
+
+    # 4th tic tac toe
+    b28.config(state=DISABLED)
+    b29.config(state=DISABLED)
+    b30.config(state=DISABLED)
+
+    b31.config(state=DISABLED)
+    b32.config(state=DISABLED)
+    b33.config(state=DISABLED)
+
+    b34.config(state=DISABLED)
+    b35.config(state=DISABLED)
+    b36.config(state=DISABLED)
+
+    # 5th tic tac toe
+    b37.config(state=DISABLED)
+    b38.config(state=DISABLED)
+    b39.config(state=DISABLED)
+
+    b40.config(state=DISABLED)
+    b41.config(state=DISABLED)
+    b42.config(state=DISABLED)
+
+    b43.config(state=DISABLED)
+    b44.config(state=DISABLED)
+    b45.config(state=DISABLED)
+
+    # 6th tic tac toe
+    b46.config(state=DISABLED)
+    b47.config(state=DISABLED)
+    b48.config(state=DISABLED)
+
+    b49.config(state=DISABLED)
+    b50.config(state=DISABLED)
+    b51.config(state=DISABLED)
+
+    b52.config(state=DISABLED)
+    b53.config(state=DISABLED)
+    b54.config(state=DISABLED)
+
+    # 7th tic tac toe
+    b55.config(state=DISABLED)
+    b56.config(state=DISABLED)
+    b57.config(state=DISABLED)
+
+    b58.config(state=DISABLED)
+    b59.config(state=DISABLED)
+    b60.config(state=DISABLED)
+
+    b61.config(state=DISABLED)
+    b62.config(state=DISABLED)
+    b63.config(state=DISABLED)
+
+    # 8th tic tac toe
+    b64.config(state=DISABLED)
+    b65.config(state=DISABLED)
+    b66.config(state=DISABLED)
+
+    b67.config(state=DISABLED)
+    b68.config(state=DISABLED)
+    b69.config(state=DISABLED)
+
+    b70.config(state=DISABLED)
+    b71.config(state=DISABLED)
+    b72.config(state=DISABLED)
+
+    # 9th tic tac toe
+    b73.config(state=DISABLED)
+    b74.config(state=DISABLED)
+    b75.config(state=DISABLED)
+
+    b76.config(state=DISABLED)
+    b77.config(state=DISABLED)
+    b78.config(state=DISABLED)
+
+    b79.config(state=DISABLED)
+    b80.config(state=DISABLED)
+    b81.config(state=DISABLED)
+
+
+#   SAME AS DISABLE_TIC_4
+def disable_tic_13():
+    # 1st tic tac toe
+    b1.config(state=DISABLED)
+    b2.config(state=DISABLED)
+    b3.config(state=DISABLED)
+
+    b4.config(state=DISABLED)
+    b5.config(state=DISABLED)
+    b6.config(state=DISABLED)
+
+    b7.config(state=DISABLED)
+    b8.config(state=DISABLED)
+    b9.config(state=DISABLED)
+
+    # 2nd tic tac toe
+    b10.config(state=DISABLED)
+    b11.config(state=DISABLED)
+    b12.config(state=DISABLED)
+
+    b13.config(state=DISABLED)
+    b14.config(state=DISABLED)
+    b15.config(state=DISABLED)
+
+    b16.config(state=DISABLED)
+    b17.config(state=DISABLED)
+    b18.config(state=DISABLED)
+
+    # 3rd tic tac toe
+    b19.config(state=DISABLED)
+    b20.config(state=DISABLED)
+    b21.config(state=DISABLED)
+
+    b22.config(state=DISABLED)
+    b23.config(state=DISABLED)
+    b24.config(state=DISABLED)
+
+    b25.config(state=DISABLED)
+    b26.config(state=DISABLED)
+    b27.config(state=DISABLED)
+
+    # 5th tic tac toe
+    b37.config(state=DISABLED)
+    b38.config(state=DISABLED)
+    b39.config(state=DISABLED)
+
+    b40.config(state=DISABLED)
+    b41.config(state=DISABLED)
+    b42.config(state=DISABLED)
+
+    b43.config(state=DISABLED)
+    b44.config(state=DISABLED)
+    b45.config(state=DISABLED)
+
+    # 6th tic tac toe
+    b46.config(state=DISABLED)
+    b47.config(state=DISABLED)
+    b48.config(state=DISABLED)
+
+    b49.config(state=DISABLED)
+    b50.config(state=DISABLED)
+    b51.config(state=DISABLED)
+
+    b52.config(state=DISABLED)
+    b53.config(state=DISABLED)
+    b54.config(state=DISABLED)
+
+    # 7th tic tac toe
+    b55.config(state=DISABLED)
+    b56.config(state=DISABLED)
+    b57.config(state=DISABLED)
+
+    b58.config(state=DISABLED)
+    b59.config(state=DISABLED)
+    b60.config(state=DISABLED)
+
+    b61.config(state=DISABLED)
+    b62.config(state=DISABLED)
+    b63.config(state=DISABLED)
+
+    # 8th tic tac toe
+    b64.config(state=DISABLED)
+    b65.config(state=DISABLED)
+    b66.config(state=DISABLED)
+
+    b67.config(state=DISABLED)
+    b68.config(state=DISABLED)
+    b69.config(state=DISABLED)
+
+    b70.config(state=DISABLED)
+    b71.config(state=DISABLED)
+    b72.config(state=DISABLED)
+
+    # 9th tic tac toe
+    b73.config(state=DISABLED)
+    b74.config(state=DISABLED)
+    b75.config(state=DISABLED)
+
+    b76.config(state=DISABLED)
+    b77.config(state=DISABLED)
+    b78.config(state=DISABLED)
+
+    b79.config(state=DISABLED)
+    b80.config(state=DISABLED)
+    b81.config(state=DISABLED)
+
+
+#   SAME AS DISABLE_TIC_5
+def disable_tic_14():
+    # 1st tic tac toe
+    b1.config(state=DISABLED)
+    b2.config(state=DISABLED)
+    b3.config(state=DISABLED)
+
+    b4.config(state=DISABLED)
+    b5.config(state=DISABLED)
+    b6.config(state=DISABLED)
+
+    b7.config(state=DISABLED)
+    b8.config(state=DISABLED)
+    b9.config(state=DISABLED)
+
+    # 2nd tic tac toe
+    b10.config(state=DISABLED)
+    b11.config(state=DISABLED)
+    b12.config(state=DISABLED)
+
+    b13.config(state=DISABLED)
+    b14.config(state=DISABLED)
+    b15.config(state=DISABLED)
+
+    b16.config(state=DISABLED)
+    b17.config(state=DISABLED)
+    b18.config(state=DISABLED)
+
+    # 3rd tic tac toe
+    b19.config(state=DISABLED)
+    b20.config(state=DISABLED)
+    b21.config(state=DISABLED)
+
+    b22.config(state=DISABLED)
+    b23.config(state=DISABLED)
+    b24.config(state=DISABLED)
+
+    b25.config(state=DISABLED)
+    b26.config(state=DISABLED)
+    b27.config(state=DISABLED)
+
+    # 4th tic tac toe
+    b28.config(state=DISABLED)
+    b29.config(state=DISABLED)
+    b30.config(state=DISABLED)
+
+    b31.config(state=DISABLED)
+    b32.config(state=DISABLED)
+    b33.config(state=DISABLED)
+
+    b34.config(state=DISABLED)
+    b35.config(state=DISABLED)
+    b36.config(state=DISABLED)
+
+    # 6th tic tac toe
+    b46.config(state=DISABLED)
+    b47.config(state=DISABLED)
+    b48.config(state=DISABLED)
+
+    b49.config(state=DISABLED)
+    b50.config(state=DISABLED)
+    b51.config(state=DISABLED)
+
+    b52.config(state=DISABLED)
+    b53.config(state=DISABLED)
+    b54.config(state=DISABLED)
+
+    # 7th tic tac toe
+    b55.config(state=DISABLED)
+    b56.config(state=DISABLED)
+    b57.config(state=DISABLED)
+
+    b58.config(state=DISABLED)
+    b59.config(state=DISABLED)
+    b60.config(state=DISABLED)
+
+    b61.config(state=DISABLED)
+    b62.config(state=DISABLED)
+    b63.config(state=DISABLED)
+
+    # 8th tic tac toe
+    b64.config(state=DISABLED)
+    b65.config(state=DISABLED)
+    b66.config(state=DISABLED)
+
+    b67.config(state=DISABLED)
+    b68.config(state=DISABLED)
+    b69.config(state=DISABLED)
+
+    b70.config(state=DISABLED)
+    b71.config(state=DISABLED)
+    b72.config(state=DISABLED)
+
+    # 9th tic tac toe
+    b73.config(state=DISABLED)
+    b74.config(state=DISABLED)
+    b75.config(state=DISABLED)
+
+    b76.config(state=DISABLED)
+    b77.config(state=DISABLED)
+    b78.config(state=DISABLED)
+
+    b79.config(state=DISABLED)
+    b80.config(state=DISABLED)
+    b81.config(state=DISABLED)
+
+
+#   SAME AS DISABLE_TIC_6
+def disable_tic_15():
+    # 1st tic tac toe
+    b1.config(state=DISABLED)
+    b2.config(state=DISABLED)
+    b3.config(state=DISABLED)
+
+    b4.config(state=DISABLED)
+    b5.config(state=DISABLED)
+    b6.config(state=DISABLED)
+
+    b7.config(state=DISABLED)
+    b8.config(state=DISABLED)
+    b9.config(state=DISABLED)
+
+    # 2nd tic tac toe
+    b10.config(state=DISABLED)
+    b11.config(state=DISABLED)
+    b12.config(state=DISABLED)
+
+    b13.config(state=DISABLED)
+    b14.config(state=DISABLED)
+    b15.config(state=DISABLED)
+
+    b16.config(state=DISABLED)
+    b17.config(state=DISABLED)
+    b18.config(state=DISABLED)
+
+    # 3rd tic tac toe
+    b19.config(state=DISABLED)
+    b20.config(state=DISABLED)
+    b21.config(state=DISABLED)
+
+    b22.config(state=DISABLED)
+    b23.config(state=DISABLED)
+    b24.config(state=DISABLED)
+
+    b25.config(state=DISABLED)
+    b26.config(state=DISABLED)
+    b27.config(state=DISABLED)
+
+    # 4th tic tac toe
+    b28.config(state=DISABLED)
+    b29.config(state=DISABLED)
+    b30.config(state=DISABLED)
+
+    b31.config(state=DISABLED)
+    b32.config(state=DISABLED)
+    b33.config(state=DISABLED)
+
+    b34.config(state=DISABLED)
+    b35.config(state=DISABLED)
+    b36.config(state=DISABLED)
+
+    # 5th tic tac toe
+    b37.config(state=DISABLED)
+    b38.config(state=DISABLED)
+    b39.config(state=DISABLED)
+
+    b40.config(state=DISABLED)
+    b41.config(state=DISABLED)
+    b42.config(state=DISABLED)
+
+    b43.config(state=DISABLED)
+    b44.config(state=DISABLED)
+    b45.config(state=DISABLED)
+
+    # 7th tic tac toe
+    b55.config(state=DISABLED)
+    b56.config(state=DISABLED)
+    b57.config(state=DISABLED)
+
+    b58.config(state=DISABLED)
+    b59.config(state=DISABLED)
+    b60.config(state=DISABLED)
+
+    b61.config(state=DISABLED)
+    b62.config(state=DISABLED)
+    b63.config(state=DISABLED)
+
+    # 8th tic tac toe
+    b64.config(state=DISABLED)
+    b65.config(state=DISABLED)
+    b66.config(state=DISABLED)
+
+    b67.config(state=DISABLED)
+    b68.config(state=DISABLED)
+    b69.config(state=DISABLED)
+
+    b70.config(state=DISABLED)
+    b71.config(state=DISABLED)
+    b72.config(state=DISABLED)
+
+    # 9th tic tac toe
+    b73.config(state=DISABLED)
+    b74.config(state=DISABLED)
+    b75.config(state=DISABLED)
+
+    b76.config(state=DISABLED)
+    b77.config(state=DISABLED)
+    b78.config(state=DISABLED)
+
+    b79.config(state=DISABLED)
+    b80.config(state=DISABLED)
+    b81.config(state=DISABLED)
+
+
+#   SAME AS DISABLE_TIC_7
+def disable_tic_16():
+    # 1st tic tac toe
+    b1.config(state=DISABLED)
+    b2.config(state=DISABLED)
+    b3.config(state=DISABLED)
+
+    b4.config(state=DISABLED)
+    b5.config(state=DISABLED)
+    b6.config(state=DISABLED)
+
+    b7.config(state=DISABLED)
+    b8.config(state=DISABLED)
+    b9.config(state=DISABLED)
+
+    # 2nd tic tac toe
+    b10.config(state=DISABLED)
+    b11.config(state=DISABLED)
+    b12.config(state=DISABLED)
+
+    b13.config(state=DISABLED)
+    b14.config(state=DISABLED)
+    b15.config(state=DISABLED)
+
+    b16.config(state=DISABLED)
+    b17.config(state=DISABLED)
+    b18.config(state=DISABLED)
+
+    # 3rd tic tac toe
+    b19.config(state=DISABLED)
+    b20.config(state=DISABLED)
+    b21.config(state=DISABLED)
+
+    b22.config(state=DISABLED)
+    b23.config(state=DISABLED)
+    b24.config(state=DISABLED)
+
+    b25.config(state=DISABLED)
+    b26.config(state=DISABLED)
+    b27.config(state=DISABLED)
+
+    # 4th tic tac toe
+    b28.config(state=DISABLED)
+    b29.config(state=DISABLED)
+    b30.config(state=DISABLED)
+
+    b31.config(state=DISABLED)
+    b32.config(state=DISABLED)
+    b33.config(state=DISABLED)
+
+    b34.config(state=DISABLED)
+    b35.config(state=DISABLED)
+    b36.config(state=DISABLED)
+
+    # 5th tic tac toe
+    b37.config(state=DISABLED)
+    b38.config(state=DISABLED)
+    b39.config(state=DISABLED)
+
+    b40.config(state=DISABLED)
+    b41.config(state=DISABLED)
+    b42.config(state=DISABLED)
+
+    b43.config(state=DISABLED)
+    b44.config(state=DISABLED)
+    b45.config(state=DISABLED)
+
+    # 6th tic tac toe
+    b46.config(state=DISABLED)
+    b47.config(state=DISABLED)
+    b48.config(state=DISABLED)
+
+    b49.config(state=DISABLED)
+    b50.config(state=DISABLED)
+    b51.config(state=DISABLED)
+
+    b52.config(state=DISABLED)
+    b53.config(state=DISABLED)
+    b54.config(state=DISABLED)
+
+    # 8th tic tac toe
+    b64.config(state=DISABLED)
+    b65.config(state=DISABLED)
+    b66.config(state=DISABLED)
+
+    b67.config(state=DISABLED)
+    b68.config(state=DISABLED)
+    b69.config(state=DISABLED)
+
+    b70.config(state=DISABLED)
+    b71.config(state=DISABLED)
+    b72.config(state=DISABLED)
+
+    # 9th tic tac toe
+    b73.config(state=DISABLED)
+    b74.config(state=DISABLED)
+    b75.config(state=DISABLED)
+
+    b76.config(state=DISABLED)
+    b77.config(state=DISABLED)
+    b78.config(state=DISABLED)
+
+    b79.config(state=DISABLED)
+    b80.config(state=DISABLED)
+    b81.config(state=DISABLED)
+
+
+#   SAME AS DISABLE_TIC_8
+def disable_tic_17():
+    # 1st tic tac toe
+    b1.config(state=DISABLED)
+    b2.config(state=DISABLED)
+    b3.config(state=DISABLED)
+
+    b4.config(state=DISABLED)
+    b5.config(state=DISABLED)
+    b6.config(state=DISABLED)
+
+    b7.config(state=DISABLED)
+    b8.config(state=DISABLED)
+    b9.config(state=DISABLED)
+
+    # 2nd tic tac toe
+    b10.config(state=DISABLED)
+    b11.config(state=DISABLED)
+    b12.config(state=DISABLED)
+
+    b13.config(state=DISABLED)
+    b14.config(state=DISABLED)
+    b15.config(state=DISABLED)
+
+    b16.config(state=DISABLED)
+    b17.config(state=DISABLED)
+    b18.config(state=DISABLED)
+
+    # 3rd tic tac toe
+    b19.config(state=DISABLED)
+    b20.config(state=DISABLED)
+    b21.config(state=DISABLED)
+
+    b22.config(state=DISABLED)
+    b23.config(state=DISABLED)
+    b24.config(state=DISABLED)
+
+    b25.config(state=DISABLED)
+    b26.config(state=DISABLED)
+    b27.config(state=DISABLED)
+
+    # 4th tic tac toe
+    b28.config(state=DISABLED)
+    b29.config(state=DISABLED)
+    b30.config(state=DISABLED)
+
+    b31.config(state=DISABLED)
+    b32.config(state=DISABLED)
+    b33.config(state=DISABLED)
+
+    b34.config(state=DISABLED)
+    b35.config(state=DISABLED)
+    b36.config(state=DISABLED)
+
+    # 5th tic tac toe
+    b37.config(state=DISABLED)
+    b38.config(state=DISABLED)
+    b39.config(state=DISABLED)
+
+    b40.config(state=DISABLED)
+    b41.config(state=DISABLED)
+    b42.config(state=DISABLED)
+
+    b43.config(state=DISABLED)
+    b44.config(state=DISABLED)
+    b45.config(state=DISABLED)
+
+    # 6th tic tac toe
+    b46.config(state=DISABLED)
+    b47.config(state=DISABLED)
+    b48.config(state=DISABLED)
+
+    b49.config(state=DISABLED)
+    b50.config(state=DISABLED)
+    b51.config(state=DISABLED)
+
+    b52.config(state=DISABLED)
+    b53.config(state=DISABLED)
+    b54.config(state=DISABLED)
+
+    # 7th tic tac toe
+    b55.config(state=DISABLED)
+    b56.config(state=DISABLED)
+    b57.config(state=DISABLED)
+
+    b58.config(state=DISABLED)
+    b59.config(state=DISABLED)
+    b60.config(state=DISABLED)
+
+    b61.config(state=DISABLED)
+    b62.config(state=DISABLED)
+    b63.config(state=DISABLED)
+
+    # 9th tic tac toe
+    b73.config(state=DISABLED)
+    b74.config(state=DISABLED)
+    b75.config(state=DISABLED)
+
+    b76.config(state=DISABLED)
+    b77.config(state=DISABLED)
+    b78.config(state=DISABLED)
+
+    b79.config(state=DISABLED)
+    b80.config(state=DISABLED)
+    b81.config(state=DISABLED)
+
+
+#   SAME AS DISABLE_TIC_9
+def disable_tic_18():
+    # 1st tic tac toe
+    b1.config(state=DISABLED)
+    b2.config(state=DISABLED)
+    b3.config(state=DISABLED)
+
+    b4.config(state=DISABLED)
+    b5.config(state=DISABLED)
+    b6.config(state=DISABLED)
+
+    b7.config(state=DISABLED)
+    b8.config(state=DISABLED)
+    b9.config(state=DISABLED)
+
+    # 2nd tic tac toe
+    b10.config(state=DISABLED)
+    b11.config(state=DISABLED)
+    b12.config(state=DISABLED)
+
+    b13.config(state=DISABLED)
+    b14.config(state=DISABLED)
+    b15.config(state=DISABLED)
+
+    b16.config(state=DISABLED)
+    b17.config(state=DISABLED)
+    b18.config(state=DISABLED)
+
+    # 3rd tic tac toe
+    b19.config(state=DISABLED)
+    b20.config(state=DISABLED)
+    b21.config(state=DISABLED)
+
+    b22.config(state=DISABLED)
+    b23.config(state=DISABLED)
+    b24.config(state=DISABLED)
+
+    b25.config(state=DISABLED)
+    b26.config(state=DISABLED)
+    b27.config(state=DISABLED)
+
+    # 4th tic tac toe
+    b28.config(state=DISABLED)
+    b29.config(state=DISABLED)
+    b30.config(state=DISABLED)
+
+    b31.config(state=DISABLED)
+    b32.config(state=DISABLED)
+    b33.config(state=DISABLED)
+
+    b34.config(state=DISABLED)
+    b35.config(state=DISABLED)
+    b36.config(state=DISABLED)
+
+    # 5th tic tac toe
+    b37.config(state=DISABLED)
+    b38.config(state=DISABLED)
+    b39.config(state=DISABLED)
+
+    b40.config(state=DISABLED)
+    b41.config(state=DISABLED)
+    b42.config(state=DISABLED)
+
+    b43.config(state=DISABLED)
+    b44.config(state=DISABLED)
+    b45.config(state=DISABLED)
+
+    # 6th tic tac toe
+    b46.config(state=DISABLED)
+    b47.config(state=DISABLED)
+    b48.config(state=DISABLED)
+
+    b49.config(state=DISABLED)
+    b50.config(state=DISABLED)
+    b51.config(state=DISABLED)
+
+    b52.config(state=DISABLED)
+    b53.config(state=DISABLED)
+    b54.config(state=DISABLED)
+
+    # 7th tic tac toe
+    b55.config(state=DISABLED)
+    b56.config(state=DISABLED)
+    b57.config(state=DISABLED)
+
+    b58.config(state=DISABLED)
+    b59.config(state=DISABLED)
+    b60.config(state=DISABLED)
+
+    b61.config(state=DISABLED)
+    b62.config(state=DISABLED)
+    b63.config(state=DISABLED)
+
+    # 8th tic tac toe
+    b64.config(state=DISABLED)
+    b65.config(state=DISABLED)
+    b66.config(state=DISABLED)
+
+    b67.config(state=DISABLED)
+    b68.config(state=DISABLED)
+    b69.config(state=DISABLED)
+
+    b70.config(state=DISABLED)
+    b71.config(state=DISABLED)
+    b72.config(state=DISABLED)
+
+
+#  [ tic tac toe 3 ]  SAME AS DISABLE_TIC_ONE
+def disable_tic_19():
+    # 2nd tic tac toe
+    b10.config(state=DISABLED)
+    b11.config(state=DISABLED)
+    b12.config(state=DISABLED)
+
+    b13.config(state=DISABLED)
+    b14.config(state=DISABLED)
+    b15.config(state=DISABLED)
+
+    b16.config(state=DISABLED)
+    b17.config(state=DISABLED)
+    b18.config(state=DISABLED)
+
+    # 3rd tic tac toe
+    b19.config(state=DISABLED)
+    b20.config(state=DISABLED)
+    b21.config(state=DISABLED)
+
+    b22.config(state=DISABLED)
+    b23.config(state=DISABLED)
+    b24.config(state=DISABLED)
+
+    b25.config(state=DISABLED)
+    b26.config(state=DISABLED)
+    b27.config(state=DISABLED)
+
+    # 4th tic tac toe
+    b28.config(state=DISABLED)
+    b29.config(state=DISABLED)
+    b30.config(state=DISABLED)
+
+    b31.config(state=DISABLED)
+    b32.config(state=DISABLED)
+    b33.config(state=DISABLED)
+
+    b34.config(state=DISABLED)
+    b35.config(state=DISABLED)
+    b36.config(state=DISABLED)
+
+    # 5th tic tac toe
+    b37.config(state=DISABLED)
+    b38.config(state=DISABLED)
+    b39.config(state=DISABLED)
+
+    b40.config(state=DISABLED)
+    b41.config(state=DISABLED)
+    b42.config(state=DISABLED)
+
+    b43.config(state=DISABLED)
+    b44.config(state=DISABLED)
+    b45.config(state=DISABLED)
+
+    # 6th tic tac toe
+    b46.config(state=DISABLED)
+    b47.config(state=DISABLED)
+    b48.config(state=DISABLED)
+
+    b49.config(state=DISABLED)
+    b50.config(state=DISABLED)
+    b51.config(state=DISABLED)
+
+    b52.config(state=DISABLED)
+    b53.config(state=DISABLED)
+    b54.config(state=DISABLED)
+
+    # 7th tic tac toe
+    b55.config(state=DISABLED)
+    b56.config(state=DISABLED)
+    b57.config(state=DISABLED)
+
+    b58.config(state=DISABLED)
+    b59.config(state=DISABLED)
+    b60.config(state=DISABLED)
+
+    b61.config(state=DISABLED)
+    b62.config(state=DISABLED)
+    b63.config(state=DISABLED)
+
+    # 8th tic tac toe
+    b64.config(state=DISABLED)
+    b65.config(state=DISABLED)
+    b66.config(state=DISABLED)
+
+    b67.config(state=DISABLED)
+    b68.config(state=DISABLED)
+    b69.config(state=DISABLED)
+
+    b70.config(state=DISABLED)
+    b71.config(state=DISABLED)
+    b72.config(state=DISABLED)
+
+    # 9th tic tac toe
+    b73.config(state=DISABLED)
+    b74.config(state=DISABLED)
+    b75.config(state=DISABLED)
+
+    b76.config(state=DISABLED)
+    b77.config(state=DISABLED)
+    b78.config(state=DISABLED)
+
+    b79.config(state=DISABLED)
+    b80.config(state=DISABLED)
+    b81.config(state=DISABLED) #
+
+
+#   SAME AS DISABLE_TIC_TWO
+def disable_tic_20():
+    # 1st tic tac toe
+    b1.config(state=DISABLED)
+    b2.config(state=DISABLED)
+    b3.config(state=DISABLED)
+
+    b4.config(state=DISABLED)
+    b5.config(state=DISABLED)
+    b6.config(state=DISABLED)
+
+    b7.config(state=DISABLED)
+    b8.config(state=DISABLED)
+    b9.config(state=DISABLED)
+
+    # 3rd tic tac toe
+    b19.config(state=DISABLED)
+    b20.config(state=DISABLED)
+    b21.config(state=DISABLED)
+
+    b22.config(state=DISABLED)
+    b23.config(state=DISABLED)
+    b24.config(state=DISABLED)
+
+    b25.config(state=DISABLED)
+    b26.config(state=DISABLED)
+    b27.config(state=DISABLED)
+
+    # 4th tic tac toe
+    b28.config(state=DISABLED)
+    b29.config(state=DISABLED)
+    b30.config(state=DISABLED)
+
+    b31.config(state=DISABLED)
+    b32.config(state=DISABLED)
+    b33.config(state=DISABLED)
+
+    b34.config(state=DISABLED)
+    b35.config(state=DISABLED)
+    b36.config(state=DISABLED)
+
+    # 5th tic tac toe
+    b37.config(state=DISABLED)
+    b38.config(state=DISABLED)
+    b39.config(state=DISABLED)
+
+    b40.config(state=DISABLED)
+    b41.config(state=DISABLED)
+    b42.config(state=DISABLED)
+
+    b43.config(state=DISABLED)
+    b44.config(state=DISABLED)
+    b45.config(state=DISABLED)
+
+    # 6th tic tac toe
+    b46.config(state=DISABLED)
+    b47.config(state=DISABLED)
+    b48.config(state=DISABLED)
+
+    b49.config(state=DISABLED)
+    b50.config(state=DISABLED)
+    b51.config(state=DISABLED)
+
+    b52.config(state=DISABLED)
+    b53.config(state=DISABLED)
+    b54.config(state=DISABLED)
+
+    # 7th tic tac toe
+    b55.config(state=DISABLED)
+    b56.config(state=DISABLED)
+    b57.config(state=DISABLED)
+
+    b58.config(state=DISABLED)
+    b59.config(state=DISABLED)
+    b60.config(state=DISABLED)
+
+    b61.config(state=DISABLED)
+    b62.config(state=DISABLED)
+    b63.config(state=DISABLED)
+
+    # 8th tic tac toe
+    b64.config(state=DISABLED)
+    b65.config(state=DISABLED)
+    b66.config(state=DISABLED)
+
+    b67.config(state=DISABLED)
+    b68.config(state=DISABLED)
+    b69.config(state=DISABLED)
+
+    b70.config(state=DISABLED)
+    b71.config(state=DISABLED)
+    b72.config(state=DISABLED)
+
+    # 9th tic tac toe
+    b73.config(state=DISABLED)
+    b74.config(state=DISABLED)
+    b75.config(state=DISABLED)
+
+    b76.config(state=DISABLED)
+    b77.config(state=DISABLED)
+    b78.config(state=DISABLED)
+
+    b79.config(state=DISABLED)
+    b80.config(state=DISABLED)
+    b81.config(state=DISABLED)
+
+
+#   SAME AS DISABLE_TIC_3
+def disable_tic_21():
+    # 1st tic tac toe
+    b1.config(state=DISABLED)
+    b2.config(state=DISABLED)
+    b3.config(state=DISABLED)
+
+    b4.config(state=DISABLED)
+    b5.config(state=DISABLED)
+    b6.config(state=DISABLED)
+
+    b7.config(state=DISABLED)
+    b8.config(state=DISABLED)
+    b9.config(state=DISABLED)
+
+    # 2nd tic tac toe
+    b10.config(state=DISABLED)
+    b11.config(state=DISABLED)
+    b12.config(state=DISABLED)
+
+    b13.config(state=DISABLED)
+    b14.config(state=DISABLED)
+    b15.config(state=DISABLED)
+
+    b16.config(state=DISABLED)
+    b17.config(state=DISABLED)
+    b18.config(state=DISABLED)
+
+    # 4th tic tac toe
+    b28.config(state=DISABLED)
+    b29.config(state=DISABLED)
+    b30.config(state=DISABLED)
+
+    b31.config(state=DISABLED)
+    b32.config(state=DISABLED)
+    b33.config(state=DISABLED)
+
+    b34.config(state=DISABLED)
+    b35.config(state=DISABLED)
+    b36.config(state=DISABLED)
+
+    # 5th tic tac toe
+    b37.config(state=DISABLED)
+    b38.config(state=DISABLED)
+    b39.config(state=DISABLED)
+
+    b40.config(state=DISABLED)
+    b41.config(state=DISABLED)
+    b42.config(state=DISABLED)
+
+    b43.config(state=DISABLED)
+    b44.config(state=DISABLED)
+    b45.config(state=DISABLED)
+
+    # 6th tic tac toe
+    b46.config(state=DISABLED)
+    b47.config(state=DISABLED)
+    b48.config(state=DISABLED)
+
+    b49.config(state=DISABLED)
+    b50.config(state=DISABLED)
+    b51.config(state=DISABLED)
+
+    b52.config(state=DISABLED)
+    b53.config(state=DISABLED)
+    b54.config(state=DISABLED)
+
+    # 7th tic tac toe
+    b55.config(state=DISABLED)
+    b56.config(state=DISABLED)
+    b57.config(state=DISABLED)
+
+    b58.config(state=DISABLED)
+    b59.config(state=DISABLED)
+    b60.config(state=DISABLED)
+
+    b61.config(state=DISABLED)
+    b62.config(state=DISABLED)
+    b63.config(state=DISABLED)
+
+    # 8th tic tac toe
+    b64.config(state=DISABLED)
+    b65.config(state=DISABLED)
+    b66.config(state=DISABLED)
+
+    b67.config(state=DISABLED)
+    b68.config(state=DISABLED)
+    b69.config(state=DISABLED)
+
+    b70.config(state=DISABLED)
+    b71.config(state=DISABLED)
+    b72.config(state=DISABLED)
+
+    # 9th tic tac toe
+    b73.config(state=DISABLED)
+    b74.config(state=DISABLED)
+    b75.config(state=DISABLED)
+
+    b76.config(state=DISABLED)
+    b77.config(state=DISABLED)
+    b78.config(state=DISABLED)
+
+    b79.config(state=DISABLED)
+    b80.config(state=DISABLED)
+    b81.config(state=DISABLED)
+
+
+#   SAME AS DISABLE_TIC_4
+def disable_tic_22():
+    # 1st tic tac toe
+    b1.config(state=DISABLED)
+    b2.config(state=DISABLED)
+    b3.config(state=DISABLED)
+
+    b4.config(state=DISABLED)
+    b5.config(state=DISABLED)
+    b6.config(state=DISABLED)
+
+    b7.config(state=DISABLED)
+    b8.config(state=DISABLED)
+    b9.config(state=DISABLED)
+
+    # 2nd tic tac toe
+    b10.config(state=DISABLED)
+    b11.config(state=DISABLED)
+    b12.config(state=DISABLED)
+
+    b13.config(state=DISABLED)
+    b14.config(state=DISABLED)
+    b15.config(state=DISABLED)
+
+    b16.config(state=DISABLED)
+    b17.config(state=DISABLED)
+    b18.config(state=DISABLED)
+
+    # 3rd tic tac toe
+    b19.config(state=DISABLED)
+    b20.config(state=DISABLED)
+    b21.config(state=DISABLED)
+
+    b22.config(state=DISABLED)
+    b23.config(state=DISABLED)
+    b24.config(state=DISABLED)
+
+    b25.config(state=DISABLED)
+    b26.config(state=DISABLED)
+    b27.config(state=DISABLED)
+
+    # 5th tic tac toe
+    b37.config(state=DISABLED)
+    b38.config(state=DISABLED)
+    b39.config(state=DISABLED)
+
+    b40.config(state=DISABLED)
+    b41.config(state=DISABLED)
+    b42.config(state=DISABLED)
+
+    b43.config(state=DISABLED)
+    b44.config(state=DISABLED)
+    b45.config(state=DISABLED)
+
+    # 6th tic tac toe
+    b46.config(state=DISABLED)
+    b47.config(state=DISABLED)
+    b48.config(state=DISABLED)
+
+    b49.config(state=DISABLED)
+    b50.config(state=DISABLED)
+    b51.config(state=DISABLED)
+
+    b52.config(state=DISABLED)
+    b53.config(state=DISABLED)
+    b54.config(state=DISABLED)
+
+    # 7th tic tac toe
+    b55.config(state=DISABLED)
+    b56.config(state=DISABLED)
+    b57.config(state=DISABLED)
+
+    b58.config(state=DISABLED)
+    b59.config(state=DISABLED)
+    b60.config(state=DISABLED)
+
+    b61.config(state=DISABLED)
+    b62.config(state=DISABLED)
+    b63.config(state=DISABLED)
+
+    # 8th tic tac toe
+    b64.config(state=DISABLED)
+    b65.config(state=DISABLED)
+    b66.config(state=DISABLED)
+
+    b67.config(state=DISABLED)
+    b68.config(state=DISABLED)
+    b69.config(state=DISABLED)
+
+    b70.config(state=DISABLED)
+    b71.config(state=DISABLED)
+    b72.config(state=DISABLED)
+
+    # 9th tic tac toe
+    b73.config(state=DISABLED)
+    b74.config(state=DISABLED)
+    b75.config(state=DISABLED)
+
+    b76.config(state=DISABLED)
+    b77.config(state=DISABLED)
+    b78.config(state=DISABLED)
+
+    b79.config(state=DISABLED)
+    b80.config(state=DISABLED)
+    b81.config(state=DISABLED)
+
+
+#   SAME AS DISABLE_TIC_5
+def disable_tic_23():
+    # 1st tic tac toe
+    b1.config(state=DISABLED)
+    b2.config(state=DISABLED)
+    b3.config(state=DISABLED)
+
+    b4.config(state=DISABLED)
+    b5.config(state=DISABLED)
+    b6.config(state=DISABLED)
+
+    b7.config(state=DISABLED)
+    b8.config(state=DISABLED)
+    b9.config(state=DISABLED)
+
+    # 2nd tic tac toe
+    b10.config(state=DISABLED)
+    b11.config(state=DISABLED)
+    b12.config(state=DISABLED)
+
+    b13.config(state=DISABLED)
+    b14.config(state=DISABLED)
+    b15.config(state=DISABLED)
+
+    b16.config(state=DISABLED)
+    b17.config(state=DISABLED)
+    b18.config(state=DISABLED)
+
+    # 3rd tic tac toe
+    b19.config(state=DISABLED)
+    b20.config(state=DISABLED)
+    b21.config(state=DISABLED)
+
+    b22.config(state=DISABLED)
+    b23.config(state=DISABLED)
+    b24.config(state=DISABLED)
+
+    b25.config(state=DISABLED)
+    b26.config(state=DISABLED)
+    b27.config(state=DISABLED)
+
+    # 4th tic tac toe
+    b28.config(state=DISABLED)
+    b29.config(state=DISABLED)
+    b30.config(state=DISABLED)
+
+    b31.config(state=DISABLED)
+    b32.config(state=DISABLED)
+    b33.config(state=DISABLED)
+
+    b34.config(state=DISABLED)
+    b35.config(state=DISABLED)
+    b36.config(state=DISABLED)
+
+    # 6th tic tac toe
+    b46.config(state=DISABLED)
+    b47.config(state=DISABLED)
+    b48.config(state=DISABLED)
+
+    b49.config(state=DISABLED)
+    b50.config(state=DISABLED)
+    b51.config(state=DISABLED)
+
+    b52.config(state=DISABLED)
+    b53.config(state=DISABLED)
+    b54.config(state=DISABLED)
+
+    # 7th tic tac toe
+    b55.config(state=DISABLED)
+    b56.config(state=DISABLED)
+    b57.config(state=DISABLED)
+
+    b58.config(state=DISABLED)
+    b59.config(state=DISABLED)
+    b60.config(state=DISABLED)
+
+    b61.config(state=DISABLED)
+    b62.config(state=DISABLED)
+    b63.config(state=DISABLED)
+
+    # 8th tic tac toe
+    b64.config(state=DISABLED)
+    b65.config(state=DISABLED)
+    b66.config(state=DISABLED)
+
+    b67.config(state=DISABLED)
+    b68.config(state=DISABLED)
+    b69.config(state=DISABLED)
+
+    b70.config(state=DISABLED)
+    b71.config(state=DISABLED)
+    b72.config(state=DISABLED)
+
+    # 9th tic tac toe
+    b73.config(state=DISABLED)
+    b74.config(state=DISABLED)
+    b75.config(state=DISABLED)
+
+    b76.config(state=DISABLED)
+    b77.config(state=DISABLED)
+    b78.config(state=DISABLED)
+
+    b79.config(state=DISABLED)
+    b80.config(state=DISABLED)
+    b81.config(state=DISABLED)
+
+
+#   SAME AS DISABLE_TIC_6
+def disable_tic_24():
+    # 1st tic tac toe
+    b1.config(state=DISABLED)
+    b2.config(state=DISABLED)
+    b3.config(state=DISABLED)
+
+    b4.config(state=DISABLED)
+    b5.config(state=DISABLED)
+    b6.config(state=DISABLED)
+
+    b7.config(state=DISABLED)
+    b8.config(state=DISABLED)
+    b9.config(state=DISABLED)
+
+    # 2nd tic tac toe
+    b10.config(state=DISABLED)
+    b11.config(state=DISABLED)
+    b12.config(state=DISABLED)
+
+    b13.config(state=DISABLED)
+    b14.config(state=DISABLED)
+    b15.config(state=DISABLED)
+
+    b16.config(state=DISABLED)
+    b17.config(state=DISABLED)
+    b18.config(state=DISABLED)
+
+    # 3rd tic tac toe
+    b19.config(state=DISABLED)
+    b20.config(state=DISABLED)
+    b21.config(state=DISABLED)
+
+    b22.config(state=DISABLED)
+    b23.config(state=DISABLED)
+    b24.config(state=DISABLED)
+
+    b25.config(state=DISABLED)
+    b26.config(state=DISABLED)
+    b27.config(state=DISABLED)
+
+    # 4th tic tac toe
+    b28.config(state=DISABLED)
+    b29.config(state=DISABLED)
+    b30.config(state=DISABLED)
+
+    b31.config(state=DISABLED)
+    b32.config(state=DISABLED)
+    b33.config(state=DISABLED)
+
+    b34.config(state=DISABLED)
+    b35.config(state=DISABLED)
+    b36.config(state=DISABLED)
+
+    # 5th tic tac toe
+    b37.config(state=DISABLED)
+    b38.config(state=DISABLED)
+    b39.config(state=DISABLED)
+
+    b40.config(state=DISABLED)
+    b41.config(state=DISABLED)
+    b42.config(state=DISABLED)
+
+    b43.config(state=DISABLED)
+    b44.config(state=DISABLED)
+    b45.config(state=DISABLED)
+
+    # 7th tic tac toe
+    b55.config(state=DISABLED)
+    b56.config(state=DISABLED)
+    b57.config(state=DISABLED)
+
+    b58.config(state=DISABLED)
+    b59.config(state=DISABLED)
+    b60.config(state=DISABLED)
+
+    b61.config(state=DISABLED)
+    b62.config(state=DISABLED)
+    b63.config(state=DISABLED)
+
+    # 8th tic tac toe
+    b64.config(state=DISABLED)
+    b65.config(state=DISABLED)
+    b66.config(state=DISABLED)
+
+    b67.config(state=DISABLED)
+    b68.config(state=DISABLED)
+    b69.config(state=DISABLED)
+
+    b70.config(state=DISABLED)
+    b71.config(state=DISABLED)
+    b72.config(state=DISABLED)
+
+    # 9th tic tac toe
+    b73.config(state=DISABLED)
+    b74.config(state=DISABLED)
+    b75.config(state=DISABLED)
+
+    b76.config(state=DISABLED)
+    b77.config(state=DISABLED)
+    b78.config(state=DISABLED)
+
+    b79.config(state=DISABLED)
+    b80.config(state=DISABLED)
+    b81.config(state=DISABLED)
+
+
+#   SAME AS DISABLE_TIC_7
+def disable_tic_25():
+    # 1st tic tac toe
+    b1.config(state=DISABLED)
+    b2.config(state=DISABLED)
+    b3.config(state=DISABLED)
+
+    b4.config(state=DISABLED)
+    b5.config(state=DISABLED)
+    b6.config(state=DISABLED)
+
+    b7.config(state=DISABLED)
+    b8.config(state=DISABLED)
+    b9.config(state=DISABLED)
+
+    # 2nd tic tac toe
+    b10.config(state=DISABLED)
+    b11.config(state=DISABLED)
+    b12.config(state=DISABLED)
+
+    b13.config(state=DISABLED)
+    b14.config(state=DISABLED)
+    b15.config(state=DISABLED)
+
+    b16.config(state=DISABLED)
+    b17.config(state=DISABLED)
+    b18.config(state=DISABLED)
+
+    # 3rd tic tac toe
+    b19.config(state=DISABLED)
+    b20.config(state=DISABLED)
+    b21.config(state=DISABLED)
+
+    b22.config(state=DISABLED)
+    b23.config(state=DISABLED)
+    b24.config(state=DISABLED)
+
+    b25.config(state=DISABLED)
+    b26.config(state=DISABLED)
+    b27.config(state=DISABLED)
+
+    # 4th tic tac toe
+    b28.config(state=DISABLED)
+    b29.config(state=DISABLED)
+    b30.config(state=DISABLED)
+
+    b31.config(state=DISABLED)
+    b32.config(state=DISABLED)
+    b33.config(state=DISABLED)
+
+    b34.config(state=DISABLED)
+    b35.config(state=DISABLED)
+    b36.config(state=DISABLED)
+
+    # 5th tic tac toe
+    b37.config(state=DISABLED)
+    b38.config(state=DISABLED)
+    b39.config(state=DISABLED)
+
+    b40.config(state=DISABLED)
+    b41.config(state=DISABLED)
+    b42.config(state=DISABLED)
+
+    b43.config(state=DISABLED)
+    b44.config(state=DISABLED)
+    b45.config(state=DISABLED)
+
+    # 6th tic tac toe
+    b46.config(state=DISABLED)
+    b47.config(state=DISABLED)
+    b48.config(state=DISABLED)
+
+    b49.config(state=DISABLED)
+    b50.config(state=DISABLED)
+    b51.config(state=DISABLED)
+
+    b52.config(state=DISABLED)
+    b53.config(state=DISABLED)
+    b54.config(state=DISABLED)
+
+    # 8th tic tac toe
+    b64.config(state=DISABLED)
+    b65.config(state=DISABLED)
+    b66.config(state=DISABLED)
+
+    b67.config(state=DISABLED)
+    b68.config(state=DISABLED)
+    b69.config(state=DISABLED)
+
+    b70.config(state=DISABLED)
+    b71.config(state=DISABLED)
+    b72.config(state=DISABLED)
+
+    # 9th tic tac toe
+    b73.config(state=DISABLED)
+    b74.config(state=DISABLED)
+    b75.config(state=DISABLED)
+
+    b76.config(state=DISABLED)
+    b77.config(state=DISABLED)
+    b78.config(state=DISABLED)
+
+    b79.config(state=DISABLED)
+    b80.config(state=DISABLED)
+    b81.config(state=DISABLED)
+
+
+#   SAME AS DISABLE_TIC_8
+def disable_tic_26():
+    # 1st tic tac toe
+    b1.config(state=DISABLED)
+    b2.config(state=DISABLED)
+    b3.config(state=DISABLED)
+
+    b4.config(state=DISABLED)
+    b5.config(state=DISABLED)
+    b6.config(state=DISABLED)
+
+    b7.config(state=DISABLED)
+    b8.config(state=DISABLED)
+    b9.config(state=DISABLED)
+
+    # 2nd tic tac toe
+    b10.config(state=DISABLED)
+    b11.config(state=DISABLED)
+    b12.config(state=DISABLED)
+
+    b13.config(state=DISABLED)
+    b14.config(state=DISABLED)
+    b15.config(state=DISABLED)
+
+    b16.config(state=DISABLED)
+    b17.config(state=DISABLED)
+    b18.config(state=DISABLED)
+
+    # 3rd tic tac toe
+    b19.config(state=DISABLED)
+    b20.config(state=DISABLED)
+    b21.config(state=DISABLED)
+
+    b22.config(state=DISABLED)
+    b23.config(state=DISABLED)
+    b24.config(state=DISABLED)
+
+    b25.config(state=DISABLED)
+    b26.config(state=DISABLED)
+    b27.config(state=DISABLED)
+
+    # 4th tic tac toe
+    b28.config(state=DISABLED)
+    b29.config(state=DISABLED)
+    b30.config(state=DISABLED)
+
+    b31.config(state=DISABLED)
+    b32.config(state=DISABLED)
+    b33.config(state=DISABLED)
+
+    b34.config(state=DISABLED)
+    b35.config(state=DISABLED)
+    b36.config(state=DISABLED)
+
+    # 5th tic tac toe
+    b37.config(state=DISABLED)
+    b38.config(state=DISABLED)
+    b39.config(state=DISABLED)
+
+    b40.config(state=DISABLED)
+    b41.config(state=DISABLED)
+    b42.config(state=DISABLED)
+
+    b43.config(state=DISABLED)
+    b44.config(state=DISABLED)
+    b45.config(state=DISABLED)
+
+    # 6th tic tac toe
+    b46.config(state=DISABLED)
+    b47.config(state=DISABLED)
+    b48.config(state=DISABLED)
+
+    b49.config(state=DISABLED)
+    b50.config(state=DISABLED)
+    b51.config(state=DISABLED)
+
+    b52.config(state=DISABLED)
+    b53.config(state=DISABLED)
+    b54.config(state=DISABLED)
+
+    # 7th tic tac toe
+    b55.config(state=DISABLED)
+    b56.config(state=DISABLED)
+    b57.config(state=DISABLED)
+
+    b58.config(state=DISABLED)
+    b59.config(state=DISABLED)
+    b60.config(state=DISABLED)
+
+    b61.config(state=DISABLED)
+    b62.config(state=DISABLED)
+    b63.config(state=DISABLED)
+
+    # 9th tic tac toe
+    b73.config(state=DISABLED)
+    b74.config(state=DISABLED)
+    b75.config(state=DISABLED)
+
+    b76.config(state=DISABLED)
+    b77.config(state=DISABLED)
+    b78.config(state=DISABLED)
+
+    b79.config(state=DISABLED)
+    b80.config(state=DISABLED)
+    b81.config(state=DISABLED)
+
+
+#   SAME AS DISABLE_TIC_9
+def disable_tic_27():
+    # 1st tic tac toe
+    b1.config(state=DISABLED)
+    b2.config(state=DISABLED)
+    b3.config(state=DISABLED)
+
+    b4.config(state=DISABLED)
+    b5.config(state=DISABLED)
+    b6.config(state=DISABLED)
+
+    b7.config(state=DISABLED)
+    b8.config(state=DISABLED)
+    b9.config(state=DISABLED)
+
+    # 2nd tic tac toe
+    b10.config(state=DISABLED)
+    b11.config(state=DISABLED)
+    b12.config(state=DISABLED)
+
+    b13.config(state=DISABLED)
+    b14.config(state=DISABLED)
+    b15.config(state=DISABLED)
+
+    b16.config(state=DISABLED)
+    b17.config(state=DISABLED)
+    b18.config(state=DISABLED)
+
+    # 3rd tic tac toe
+    b19.config(state=DISABLED)
+    b20.config(state=DISABLED)
+    b21.config(state=DISABLED)
+
+    b22.config(state=DISABLED)
+    b23.config(state=DISABLED)
+    b24.config(state=DISABLED)
+
+    b25.config(state=DISABLED)
+    b26.config(state=DISABLED)
+    b27.config(state=DISABLED)
+
+    # 4th tic tac toe
+    b28.config(state=DISABLED)
+    b29.config(state=DISABLED)
+    b30.config(state=DISABLED)
+
+    b31.config(state=DISABLED)
+    b32.config(state=DISABLED)
+    b33.config(state=DISABLED)
+
+    b34.config(state=DISABLED)
+    b35.config(state=DISABLED)
+    b36.config(state=DISABLED)
+
+    # 5th tic tac toe
+    b37.config(state=DISABLED)
+    b38.config(state=DISABLED)
+    b39.config(state=DISABLED)
+
+    b40.config(state=DISABLED)
+    b41.config(state=DISABLED)
+    b42.config(state=DISABLED)
+
+    b43.config(state=DISABLED)
+    b44.config(state=DISABLED)
+    b45.config(state=DISABLED)
+
+    # 6th tic tac toe
+    b46.config(state=DISABLED)
+    b47.config(state=DISABLED)
+    b48.config(state=DISABLED)
+
+    b49.config(state=DISABLED)
+    b50.config(state=DISABLED)
+    b51.config(state=DISABLED)
+
+    b52.config(state=DISABLED)
+    b53.config(state=DISABLED)
+    b54.config(state=DISABLED)
+
+    # 7th tic tac toe
+    b55.config(state=DISABLED)
+    b56.config(state=DISABLED)
+    b57.config(state=DISABLED)
+
+    b58.config(state=DISABLED)
+    b59.config(state=DISABLED)
+    b60.config(state=DISABLED)
+
+    b61.config(state=DISABLED)
+    b62.config(state=DISABLED)
+    b63.config(state=DISABLED)
+
+    # 8th tic tac toe
+    b64.config(state=DISABLED)
+    b65.config(state=DISABLED)
+    b66.config(state=DISABLED)
+
+    b67.config(state=DISABLED)
+    b68.config(state=DISABLED)
+    b69.config(state=DISABLED)
+
+    b70.config(state=DISABLED)
+    b71.config(state=DISABLED)
+    b72.config(state=DISABLED)
+
+
+#  [ tic tac toe 4 ]  SAME AS DISABLE_TIC_ONE
+def disable_tic_28():
+    # 2nd tic tac toe
+    b10.config(state=DISABLED)
+    b11.config(state=DISABLED)
+    b12.config(state=DISABLED)
+
+    b13.config(state=DISABLED)
+    b14.config(state=DISABLED)
+    b15.config(state=DISABLED)
+
+    b16.config(state=DISABLED)
+    b17.config(state=DISABLED)
+    b18.config(state=DISABLED)
+
+    # 3rd tic tac toe
+    b19.config(state=DISABLED)
+    b20.config(state=DISABLED)
+    b21.config(state=DISABLED)
+
+    b22.config(state=DISABLED)
+    b23.config(state=DISABLED)
+    b24.config(state=DISABLED)
+
+    b25.config(state=DISABLED)
+    b26.config(state=DISABLED)
+    b27.config(state=DISABLED)
+
+    # 4th tic tac toe
+    b28.config(state=DISABLED)
+    b29.config(state=DISABLED)
+    b30.config(state=DISABLED)
+
+    b31.config(state=DISABLED)
+    b32.config(state=DISABLED)
+    b33.config(state=DISABLED)
+
+    b34.config(state=DISABLED)
+    b35.config(state=DISABLED)
+    b36.config(state=DISABLED)
+
+    # 5th tic tac toe
+    b37.config(state=DISABLED)
+    b38.config(state=DISABLED)
+    b39.config(state=DISABLED)
+
+    b40.config(state=DISABLED)
+    b41.config(state=DISABLED)
+    b42.config(state=DISABLED)
+
+    b43.config(state=DISABLED)
+    b44.config(state=DISABLED)
+    b45.config(state=DISABLED)
+
+    # 6th tic tac toe
+    b46.config(state=DISABLED)
+    b47.config(state=DISABLED)
+    b48.config(state=DISABLED)
+
+    b49.config(state=DISABLED)
+    b50.config(state=DISABLED)
+    b51.config(state=DISABLED)
+
+    b52.config(state=DISABLED)
+    b53.config(state=DISABLED)
+    b54.config(state=DISABLED)
+
+    # 7th tic tac toe
+    b55.config(state=DISABLED)
+    b56.config(state=DISABLED)
+    b57.config(state=DISABLED)
+
+    b58.config(state=DISABLED)
+    b59.config(state=DISABLED)
+    b60.config(state=DISABLED)
+
+    b61.config(state=DISABLED)
+    b62.config(state=DISABLED)
+    b63.config(state=DISABLED)
+
+    # 8th tic tac toe
+    b64.config(state=DISABLED)
+    b65.config(state=DISABLED)
+    b66.config(state=DISABLED)
+
+    b67.config(state=DISABLED)
+    b68.config(state=DISABLED)
+    b69.config(state=DISABLED)
+
+    b70.config(state=DISABLED)
+    b71.config(state=DISABLED)
+    b72.config(state=DISABLED)
+
+    # 9th tic tac toe
+    b73.config(state=DISABLED)
+    b74.config(state=DISABLED)
+    b75.config(state=DISABLED)
+
+    b76.config(state=DISABLED)
+    b77.config(state=DISABLED)
+    b78.config(state=DISABLED)
+
+    b79.config(state=DISABLED)
+    b80.config(state=DISABLED)
+    b81.config(state=DISABLED) #
+
+
+#   SAME AS DISABLE_TIC_TWO
+def disable_tic_29():
+    # 1st tic tac toe
+    b1.config(state=DISABLED)
+    b2.config(state=DISABLED)
+    b3.config(state=DISABLED)
+
+    b4.config(state=DISABLED)
+    b5.config(state=DISABLED)
+    b6.config(state=DISABLED)
+
+    b7.config(state=DISABLED)
+    b8.config(state=DISABLED)
+    b9.config(state=DISABLED)
+
+    # 3rd tic tac toe
+    b19.config(state=DISABLED)
+    b20.config(state=DISABLED)
+    b21.config(state=DISABLED)
+
+    b22.config(state=DISABLED)
+    b23.config(state=DISABLED)
+    b24.config(state=DISABLED)
+
+    b25.config(state=DISABLED)
+    b26.config(state=DISABLED)
+    b27.config(state=DISABLED)
+
+    # 4th tic tac toe
+    b28.config(state=DISABLED)
+    b29.config(state=DISABLED)
+    b30.config(state=DISABLED)
+
+    b31.config(state=DISABLED)
+    b32.config(state=DISABLED)
+    b33.config(state=DISABLED)
+
+    b34.config(state=DISABLED)
+    b35.config(state=DISABLED)
+    b36.config(state=DISABLED)
+
+    # 5th tic tac toe
+    b37.config(state=DISABLED)
+    b38.config(state=DISABLED)
+    b39.config(state=DISABLED)
+
+    b40.config(state=DISABLED)
+    b41.config(state=DISABLED)
+    b42.config(state=DISABLED)
+
+    b43.config(state=DISABLED)
+    b44.config(state=DISABLED)
+    b45.config(state=DISABLED)
+
+    # 6th tic tac toe
+    b46.config(state=DISABLED)
+    b47.config(state=DISABLED)
+    b48.config(state=DISABLED)
+
+    b49.config(state=DISABLED)
+    b50.config(state=DISABLED)
+    b51.config(state=DISABLED)
+
+    b52.config(state=DISABLED)
+    b53.config(state=DISABLED)
+    b54.config(state=DISABLED)
+
+    # 7th tic tac toe
+    b55.config(state=DISABLED)
+    b56.config(state=DISABLED)
+    b57.config(state=DISABLED)
+
+    b58.config(state=DISABLED)
+    b59.config(state=DISABLED)
+    b60.config(state=DISABLED)
+
+    b61.config(state=DISABLED)
+    b62.config(state=DISABLED)
+    b63.config(state=DISABLED)
+
+    # 8th tic tac toe
+    b64.config(state=DISABLED)
+    b65.config(state=DISABLED)
+    b66.config(state=DISABLED)
+
+    b67.config(state=DISABLED)
+    b68.config(state=DISABLED)
+    b69.config(state=DISABLED)
+
+    b70.config(state=DISABLED)
+    b71.config(state=DISABLED)
+    b72.config(state=DISABLED)
+
+    # 9th tic tac toe
+    b73.config(state=DISABLED)
+    b74.config(state=DISABLED)
+    b75.config(state=DISABLED)
+
+    b76.config(state=DISABLED)
+    b77.config(state=DISABLED)
+    b78.config(state=DISABLED)
+
+    b79.config(state=DISABLED)
+    b80.config(state=DISABLED)
+    b81.config(state=DISABLED)
+
+
+#   SAME AS DISABLE_TIC_3
+def disable_tic_30():
+    # 1st tic tac toe
+    b1.config(state=DISABLED)
+    b2.config(state=DISABLED)
+    b3.config(state=DISABLED)
+
+    b4.config(state=DISABLED)
+    b5.config(state=DISABLED)
+    b6.config(state=DISABLED)
+
+    b7.config(state=DISABLED)
+    b8.config(state=DISABLED)
+    b9.config(state=DISABLED)
+
+    # 2nd tic tac toe
+    b10.config(state=DISABLED)
+    b11.config(state=DISABLED)
+    b12.config(state=DISABLED)
+
+    b13.config(state=DISABLED)
+    b14.config(state=DISABLED)
+    b15.config(state=DISABLED)
+
+    b16.config(state=DISABLED)
+    b17.config(state=DISABLED)
+    b18.config(state=DISABLED)
+
+    # 4th tic tac toe
+    b28.config(state=DISABLED)
+    b29.config(state=DISABLED)
+    b30.config(state=DISABLED)
+
+    b31.config(state=DISABLED)
+    b32.config(state=DISABLED)
+    b33.config(state=DISABLED)
+
+    b34.config(state=DISABLED)
+    b35.config(state=DISABLED)
+    b36.config(state=DISABLED)
+
+    # 5th tic tac toe
+    b37.config(state=DISABLED)
+    b38.config(state=DISABLED)
+    b39.config(state=DISABLED)
+
+    b40.config(state=DISABLED)
+    b41.config(state=DISABLED)
+    b42.config(state=DISABLED)
+
+    b43.config(state=DISABLED)
+    b44.config(state=DISABLED)
+    b45.config(state=DISABLED)
+
+    # 6th tic tac toe
+    b46.config(state=DISABLED)
+    b47.config(state=DISABLED)
+    b48.config(state=DISABLED)
+
+    b49.config(state=DISABLED)
+    b50.config(state=DISABLED)
+    b51.config(state=DISABLED)
+
+    b52.config(state=DISABLED)
+    b53.config(state=DISABLED)
+    b54.config(state=DISABLED)
+
+    # 7th tic tac toe
+    b55.config(state=DISABLED)
+    b56.config(state=DISABLED)
+    b57.config(state=DISABLED)
+
+    b58.config(state=DISABLED)
+    b59.config(state=DISABLED)
+    b60.config(state=DISABLED)
+
+    b61.config(state=DISABLED)
+    b62.config(state=DISABLED)
+    b63.config(state=DISABLED)
+
+    # 8th tic tac toe
+    b64.config(state=DISABLED)
+    b65.config(state=DISABLED)
+    b66.config(state=DISABLED)
+
+    b67.config(state=DISABLED)
+    b68.config(state=DISABLED)
+    b69.config(state=DISABLED)
+
+    b70.config(state=DISABLED)
+    b71.config(state=DISABLED)
+    b72.config(state=DISABLED)
+
+    # 9th tic tac toe
+    b73.config(state=DISABLED)
+    b74.config(state=DISABLED)
+    b75.config(state=DISABLED)
+
+    b76.config(state=DISABLED)
+    b77.config(state=DISABLED)
+    b78.config(state=DISABLED)
+
+    b79.config(state=DISABLED)
+    b80.config(state=DISABLED)
+    b81.config(state=DISABLED)
+
+
+#   SAME AS DISABLE_TIC_4
+def disable_tic_31():
+    # 1st tic tac toe
+    b1.config(state=DISABLED)
+    b2.config(state=DISABLED)
+    b3.config(state=DISABLED)
+
+    b4.config(state=DISABLED)
+    b5.config(state=DISABLED)
+    b6.config(state=DISABLED)
+
+    b7.config(state=DISABLED)
+    b8.config(state=DISABLED)
+    b9.config(state=DISABLED)
+
+    # 2nd tic tac toe
+    b10.config(state=DISABLED)
+    b11.config(state=DISABLED)
+    b12.config(state=DISABLED)
+
+    b13.config(state=DISABLED)
+    b14.config(state=DISABLED)
+    b15.config(state=DISABLED)
+
+    b16.config(state=DISABLED)
+    b17.config(state=DISABLED)
+    b18.config(state=DISABLED)
+
+    # 3rd tic tac toe
+    b19.config(state=DISABLED)
+    b20.config(state=DISABLED)
+    b21.config(state=DISABLED)
+
+    b22.config(state=DISABLED)
+    b23.config(state=DISABLED)
+    b24.config(state=DISABLED)
+
+    b25.config(state=DISABLED)
+    b26.config(state=DISABLED)
+    b27.config(state=DISABLED)
+
+    # 5th tic tac toe
+    b37.config(state=DISABLED)
+    b38.config(state=DISABLED)
+    b39.config(state=DISABLED)
+
+    b40.config(state=DISABLED)
+    b41.config(state=DISABLED)
+    b42.config(state=DISABLED)
+
+    b43.config(state=DISABLED)
+    b44.config(state=DISABLED)
+    b45.config(state=DISABLED)
+
+    # 6th tic tac toe
+    b46.config(state=DISABLED)
+    b47.config(state=DISABLED)
+    b48.config(state=DISABLED)
+
+    b49.config(state=DISABLED)
+    b50.config(state=DISABLED)
+    b51.config(state=DISABLED)
+
+    b52.config(state=DISABLED)
+    b53.config(state=DISABLED)
+    b54.config(state=DISABLED)
+
+    # 7th tic tac toe
+    b55.config(state=DISABLED)
+    b56.config(state=DISABLED)
+    b57.config(state=DISABLED)
+
+    b58.config(state=DISABLED)
+    b59.config(state=DISABLED)
+    b60.config(state=DISABLED)
+
+    b61.config(state=DISABLED)
+    b62.config(state=DISABLED)
+    b63.config(state=DISABLED)
+
+    # 8th tic tac toe
+    b64.config(state=DISABLED)
+    b65.config(state=DISABLED)
+    b66.config(state=DISABLED)
+
+    b67.config(state=DISABLED)
+    b68.config(state=DISABLED)
+    b69.config(state=DISABLED)
+
+    b70.config(state=DISABLED)
+    b71.config(state=DISABLED)
+    b72.config(state=DISABLED)
+
+    # 9th tic tac toe
+    b73.config(state=DISABLED)
+    b74.config(state=DISABLED)
+    b75.config(state=DISABLED)
+
+    b76.config(state=DISABLED)
+    b77.config(state=DISABLED)
+    b78.config(state=DISABLED)
+
+    b79.config(state=DISABLED)
+    b80.config(state=DISABLED)
+    b81.config(state=DISABLED)
+
+
+#   SAME AS DISABLE_TIC_5
+def disable_tic_32():
+    # 1st tic tac toe
+    b1.config(state=DISABLED)
+    b2.config(state=DISABLED)
+    b3.config(state=DISABLED)
+
+    b4.config(state=DISABLED)
+    b5.config(state=DISABLED)
+    b6.config(state=DISABLED)
+
+    b7.config(state=DISABLED)
+    b8.config(state=DISABLED)
+    b9.config(state=DISABLED)
+
+    # 2nd tic tac toe
+    b10.config(state=DISABLED)
+    b11.config(state=DISABLED)
+    b12.config(state=DISABLED)
+
+    b13.config(state=DISABLED)
+    b14.config(state=DISABLED)
+    b15.config(state=DISABLED)
+
+    b16.config(state=DISABLED)
+    b17.config(state=DISABLED)
+    b18.config(state=DISABLED)
+
+    # 3rd tic tac toe
+    b19.config(state=DISABLED)
+    b20.config(state=DISABLED)
+    b21.config(state=DISABLED)
+
+    b22.config(state=DISABLED)
+    b23.config(state=DISABLED)
+    b24.config(state=DISABLED)
+
+    b25.config(state=DISABLED)
+    b26.config(state=DISABLED)
+    b27.config(state=DISABLED)
+
+    # 4th tic tac toe
+    b28.config(state=DISABLED)
+    b29.config(state=DISABLED)
+    b30.config(state=DISABLED)
+
+    b31.config(state=DISABLED)
+    b32.config(state=DISABLED)
+    b33.config(state=DISABLED)
+
+    b34.config(state=DISABLED)
+    b35.config(state=DISABLED)
+    b36.config(state=DISABLED)
+
+    # 6th tic tac toe
+    b46.config(state=DISABLED)
+    b47.config(state=DISABLED)
+    b48.config(state=DISABLED)
+
+    b49.config(state=DISABLED)
+    b50.config(state=DISABLED)
+    b51.config(state=DISABLED)
+
+    b52.config(state=DISABLED)
+    b53.config(state=DISABLED)
+    b54.config(state=DISABLED)
+
+    # 7th tic tac toe
+    b55.config(state=DISABLED)
+    b56.config(state=DISABLED)
+    b57.config(state=DISABLED)
+
+    b58.config(state=DISABLED)
+    b59.config(state=DISABLED)
+    b60.config(state=DISABLED)
+
+    b61.config(state=DISABLED)
+    b62.config(state=DISABLED)
+    b63.config(state=DISABLED)
+
+    # 8th tic tac toe
+    b64.config(state=DISABLED)
+    b65.config(state=DISABLED)
+    b66.config(state=DISABLED)
+
+    b67.config(state=DISABLED)
+    b68.config(state=DISABLED)
+    b69.config(state=DISABLED)
+
+    b70.config(state=DISABLED)
+    b71.config(state=DISABLED)
+    b72.config(state=DISABLED)
+
+    # 9th tic tac toe
+    b73.config(state=DISABLED)
+    b74.config(state=DISABLED)
+    b75.config(state=DISABLED)
+
+    b76.config(state=DISABLED)
+    b77.config(state=DISABLED)
+    b78.config(state=DISABLED)
+
+    b79.config(state=DISABLED)
+    b80.config(state=DISABLED)
+    b81.config(state=DISABLED)
+
+
+#   SAME AS DISABLE_TIC_6
+def disable_tic_33():
+    # 1st tic tac toe
+    b1.config(state=DISABLED)
+    b2.config(state=DISABLED)
+    b3.config(state=DISABLED)
+
+    b4.config(state=DISABLED)
+    b5.config(state=DISABLED)
+    b6.config(state=DISABLED)
+
+    b7.config(state=DISABLED)
+    b8.config(state=DISABLED)
+    b9.config(state=DISABLED)
+
+    # 2nd tic tac toe
+    b10.config(state=DISABLED)
+    b11.config(state=DISABLED)
+    b12.config(state=DISABLED)
+
+    b13.config(state=DISABLED)
+    b14.config(state=DISABLED)
+    b15.config(state=DISABLED)
+
+    b16.config(state=DISABLED)
+    b17.config(state=DISABLED)
+    b18.config(state=DISABLED)
+
+    # 3rd tic tac toe
+    b19.config(state=DISABLED)
+    b20.config(state=DISABLED)
+    b21.config(state=DISABLED)
+
+    b22.config(state=DISABLED)
+    b23.config(state=DISABLED)
+    b24.config(state=DISABLED)
+
+    b25.config(state=DISABLED)
+    b26.config(state=DISABLED)
+    b27.config(state=DISABLED)
+
+    # 4th tic tac toe
+    b28.config(state=DISABLED)
+    b29.config(state=DISABLED)
+    b30.config(state=DISABLED)
+
+    b31.config(state=DISABLED)
+    b32.config(state=DISABLED)
+    b33.config(state=DISABLED)
+
+    b34.config(state=DISABLED)
+    b35.config(state=DISABLED)
+    b36.config(state=DISABLED)
+
+    # 5th tic tac toe
+    b37.config(state=DISABLED)
+    b38.config(state=DISABLED)
+    b39.config(state=DISABLED)
+
+    b40.config(state=DISABLED)
+    b41.config(state=DISABLED)
+    b42.config(state=DISABLED)
+
+    b43.config(state=DISABLED)
+    b44.config(state=DISABLED)
+    b45.config(state=DISABLED)
+
+    # 7th tic tac toe
+    b55.config(state=DISABLED)
+    b56.config(state=DISABLED)
+    b57.config(state=DISABLED)
+
+    b58.config(state=DISABLED)
+    b59.config(state=DISABLED)
+    b60.config(state=DISABLED)
+
+    b61.config(state=DISABLED)
+    b62.config(state=DISABLED)
+    b63.config(state=DISABLED)
+
+    # 8th tic tac toe
+    b64.config(state=DISABLED)
+    b65.config(state=DISABLED)
+    b66.config(state=DISABLED)
+
+    b67.config(state=DISABLED)
+    b68.config(state=DISABLED)
+    b69.config(state=DISABLED)
+
+    b70.config(state=DISABLED)
+    b71.config(state=DISABLED)
+    b72.config(state=DISABLED)
+
+    # 9th tic tac toe
+    b73.config(state=DISABLED)
+    b74.config(state=DISABLED)
+    b75.config(state=DISABLED)
+
+    b76.config(state=DISABLED)
+    b77.config(state=DISABLED)
+    b78.config(state=DISABLED)
+
+    b79.config(state=DISABLED)
+    b80.config(state=DISABLED)
+    b81.config(state=DISABLED)
+
+
+#   SAME AS DISABLE_TIC_7
+def disable_tic_34():
+    # 1st tic tac toe
+    b1.config(state=DISABLED)
+    b2.config(state=DISABLED)
+    b3.config(state=DISABLED)
+
+    b4.config(state=DISABLED)
+    b5.config(state=DISABLED)
+    b6.config(state=DISABLED)
+
+    b7.config(state=DISABLED)
+    b8.config(state=DISABLED)
+    b9.config(state=DISABLED)
+
+    # 2nd tic tac toe
+    b10.config(state=DISABLED)
+    b11.config(state=DISABLED)
+    b12.config(state=DISABLED)
+
+    b13.config(state=DISABLED)
+    b14.config(state=DISABLED)
+    b15.config(state=DISABLED)
+
+    b16.config(state=DISABLED)
+    b17.config(state=DISABLED)
+    b18.config(state=DISABLED)
+
+    # 3rd tic tac toe
+    b19.config(state=DISABLED)
+    b20.config(state=DISABLED)
+    b21.config(state=DISABLED)
+
+    b22.config(state=DISABLED)
+    b23.config(state=DISABLED)
+    b24.config(state=DISABLED)
+
+    b25.config(state=DISABLED)
+    b26.config(state=DISABLED)
+    b27.config(state=DISABLED)
+
+    # 4th tic tac toe
+    b28.config(state=DISABLED)
+    b29.config(state=DISABLED)
+    b30.config(state=DISABLED)
+
+    b31.config(state=DISABLED)
+    b32.config(state=DISABLED)
+    b33.config(state=DISABLED)
+
+    b34.config(state=DISABLED)
+    b35.config(state=DISABLED)
+    b36.config(state=DISABLED)
+
+    # 5th tic tac toe
+    b37.config(state=DISABLED)
+    b38.config(state=DISABLED)
+    b39.config(state=DISABLED)
+
+    b40.config(state=DISABLED)
+    b41.config(state=DISABLED)
+    b42.config(state=DISABLED)
+
+    b43.config(state=DISABLED)
+    b44.config(state=DISABLED)
+    b45.config(state=DISABLED)
+
+    # 6th tic tac toe
+    b46.config(state=DISABLED)
+    b47.config(state=DISABLED)
+    b48.config(state=DISABLED)
+
+    b49.config(state=DISABLED)
+    b50.config(state=DISABLED)
+    b51.config(state=DISABLED)
+
+    b52.config(state=DISABLED)
+    b53.config(state=DISABLED)
+    b54.config(state=DISABLED)
+
+    # 8th tic tac toe
+    b64.config(state=DISABLED)
+    b65.config(state=DISABLED)
+    b66.config(state=DISABLED)
+
+    b67.config(state=DISABLED)
+    b68.config(state=DISABLED)
+    b69.config(state=DISABLED)
+
+    b70.config(state=DISABLED)
+    b71.config(state=DISABLED)
+    b72.config(state=DISABLED)
+
+    # 9th tic tac toe
+    b73.config(state=DISABLED)
+    b74.config(state=DISABLED)
+    b75.config(state=DISABLED)
+
+    b76.config(state=DISABLED)
+    b77.config(state=DISABLED)
+    b78.config(state=DISABLED)
+
+    b79.config(state=DISABLED)
+    b80.config(state=DISABLED)
+    b81.config(state=DISABLED)
+
+
+#   SAME AS DISABLE_TIC_8
+def disable_tic_35():
+    # 1st tic tac toe
+    b1.config(state=DISABLED)
+    b2.config(state=DISABLED)
+    b3.config(state=DISABLED)
+
+    b4.config(state=DISABLED)
+    b5.config(state=DISABLED)
+    b6.config(state=DISABLED)
+
+    b7.config(state=DISABLED)
+    b8.config(state=DISABLED)
+    b9.config(state=DISABLED)
+
+    # 2nd tic tac toe
+    b10.config(state=DISABLED)
+    b11.config(state=DISABLED)
+    b12.config(state=DISABLED)
+
+    b13.config(state=DISABLED)
+    b14.config(state=DISABLED)
+    b15.config(state=DISABLED)
+
+    b16.config(state=DISABLED)
+    b17.config(state=DISABLED)
+    b18.config(state=DISABLED)
+
+    # 3rd tic tac toe
+    b19.config(state=DISABLED)
+    b20.config(state=DISABLED)
+    b21.config(state=DISABLED)
+
+    b22.config(state=DISABLED)
+    b23.config(state=DISABLED)
+    b24.config(state=DISABLED)
+
+    b25.config(state=DISABLED)
+    b26.config(state=DISABLED)
+    b27.config(state=DISABLED)
+
+    # 4th tic tac toe
+    b28.config(state=DISABLED)
+    b29.config(state=DISABLED)
+    b30.config(state=DISABLED)
+
+    b31.config(state=DISABLED)
+    b32.config(state=DISABLED)
+    b33.config(state=DISABLED)
+
+    b34.config(state=DISABLED)
+    b35.config(state=DISABLED)
+    b36.config(state=DISABLED)
+
+    # 5th tic tac toe
+    b37.config(state=DISABLED)
+    b38.config(state=DISABLED)
+    b39.config(state=DISABLED)
+
+    b40.config(state=DISABLED)
+    b41.config(state=DISABLED)
+    b42.config(state=DISABLED)
+
+    b43.config(state=DISABLED)
+    b44.config(state=DISABLED)
+    b45.config(state=DISABLED)
+
+    # 6th tic tac toe
+    b46.config(state=DISABLED)
+    b47.config(state=DISABLED)
+    b48.config(state=DISABLED)
+
+    b49.config(state=DISABLED)
+    b50.config(state=DISABLED)
+    b51.config(state=DISABLED)
+
+    b52.config(state=DISABLED)
+    b53.config(state=DISABLED)
+    b54.config(state=DISABLED)
+
+    # 7th tic tac toe
+    b55.config(state=DISABLED)
+    b56.config(state=DISABLED)
+    b57.config(state=DISABLED)
+
+    b58.config(state=DISABLED)
+    b59.config(state=DISABLED)
+    b60.config(state=DISABLED)
+
+    b61.config(state=DISABLED)
+    b62.config(state=DISABLED)
+    b63.config(state=DISABLED)
+
+    # 9th tic tac toe
+    b73.config(state=DISABLED)
+    b74.config(state=DISABLED)
+    b75.config(state=DISABLED)
+
+    b76.config(state=DISABLED)
+    b77.config(state=DISABLED)
+    b78.config(state=DISABLED)
+
+    b79.config(state=DISABLED)
+    b80.config(state=DISABLED)
+    b81.config(state=DISABLED)
+
+
+#   SAME AS DISABLE_TIC_9
+def disable_tic_36():
+    # 1st tic tac toe
+    b1.config(state=DISABLED)
+    b2.config(state=DISABLED)
+    b3.config(state=DISABLED)
+
+    b4.config(state=DISABLED)
+    b5.config(state=DISABLED)
+    b6.config(state=DISABLED)
+
+    b7.config(state=DISABLED)
+    b8.config(state=DISABLED)
+    b9.config(state=DISABLED)
+
+    # 2nd tic tac toe
+    b10.config(state=DISABLED)
+    b11.config(state=DISABLED)
+    b12.config(state=DISABLED)
+
+    b13.config(state=DISABLED)
+    b14.config(state=DISABLED)
+    b15.config(state=DISABLED)
+
+    b16.config(state=DISABLED)
+    b17.config(state=DISABLED)
+    b18.config(state=DISABLED)
+
+    # 3rd tic tac toe
+    b19.config(state=DISABLED)
+    b20.config(state=DISABLED)
+    b21.config(state=DISABLED)
+
+    b22.config(state=DISABLED)
+    b23.config(state=DISABLED)
+    b24.config(state=DISABLED)
+
+    b25.config(state=DISABLED)
+    b26.config(state=DISABLED)
+    b27.config(state=DISABLED)
+
+    # 4th tic tac toe
+    b28.config(state=DISABLED)
+    b29.config(state=DISABLED)
+    b30.config(state=DISABLED)
+
+    b31.config(state=DISABLED)
+    b32.config(state=DISABLED)
+    b33.config(state=DISABLED)
+
+    b34.config(state=DISABLED)
+    b35.config(state=DISABLED)
+    b36.config(state=DISABLED)
+
+    # 5th tic tac toe
+    b37.config(state=DISABLED)
+    b38.config(state=DISABLED)
+    b39.config(state=DISABLED)
+
+    b40.config(state=DISABLED)
+    b41.config(state=DISABLED)
+    b42.config(state=DISABLED)
+
+    b43.config(state=DISABLED)
+    b44.config(state=DISABLED)
+    b45.config(state=DISABLED)
+
+    # 6th tic tac toe
+    b46.config(state=DISABLED)
+    b47.config(state=DISABLED)
+    b48.config(state=DISABLED)
+
+    b49.config(state=DISABLED)
+    b50.config(state=DISABLED)
+    b51.config(state=DISABLED)
+
+    b52.config(state=DISABLED)
+    b53.config(state=DISABLED)
+    b54.config(state=DISABLED)
+
+    # 7th tic tac toe
+    b55.config(state=DISABLED)
+    b56.config(state=DISABLED)
+    b57.config(state=DISABLED)
+
+    b58.config(state=DISABLED)
+    b59.config(state=DISABLED)
+    b60.config(state=DISABLED)
+
+    b61.config(state=DISABLED)
+    b62.config(state=DISABLED)
+    b63.config(state=DISABLED)
+
+    # 8th tic tac toe
+    b64.config(state=DISABLED)
+    b65.config(state=DISABLED)
+    b66.config(state=DISABLED)
+
+    b67.config(state=DISABLED)
+    b68.config(state=DISABLED)
+    b69.config(state=DISABLED)
+
+    b70.config(state=DISABLED)
+    b71.config(state=DISABLED)
+    b72.config(state=DISABLED)
+
+
+#  [ tic tac toe 5 ]  SAME AS DISABLE_TIC_ONE
+def disable_tic_37():
+    # 2nd tic tac toe
+    b10.config(state=DISABLED)
+    b11.config(state=DISABLED)
+    b12.config(state=DISABLED)
+
+    b13.config(state=DISABLED)
+    b14.config(state=DISABLED)
+    b15.config(state=DISABLED)
+
+    b16.config(state=DISABLED)
+    b17.config(state=DISABLED)
+    b18.config(state=DISABLED)
+
+    # 3rd tic tac toe
+    b19.config(state=DISABLED)
+    b20.config(state=DISABLED)
+    b21.config(state=DISABLED)
+
+    b22.config(state=DISABLED)
+    b23.config(state=DISABLED)
+    b24.config(state=DISABLED)
+
+    b25.config(state=DISABLED)
+    b26.config(state=DISABLED)
+    b27.config(state=DISABLED)
+
+    # 4th tic tac toe
+    b28.config(state=DISABLED)
+    b29.config(state=DISABLED)
+    b30.config(state=DISABLED)
+
+    b31.config(state=DISABLED)
+    b32.config(state=DISABLED)
+    b33.config(state=DISABLED)
+
+    b34.config(state=DISABLED)
+    b35.config(state=DISABLED)
+    b36.config(state=DISABLED)
+
+    # 5th tic tac toe
+    b37.config(state=DISABLED)
+    b38.config(state=DISABLED)
+    b39.config(state=DISABLED)
+
+    b40.config(state=DISABLED)
+    b41.config(state=DISABLED)
+    b42.config(state=DISABLED)
+
+    b43.config(state=DISABLED)
+    b44.config(state=DISABLED)
+    b45.config(state=DISABLED)
+
+    # 6th tic tac toe
+    b46.config(state=DISABLED)
+    b47.config(state=DISABLED)
+    b48.config(state=DISABLED)
+
+    b49.config(state=DISABLED)
+    b50.config(state=DISABLED)
+    b51.config(state=DISABLED)
+
+    b52.config(state=DISABLED)
+    b53.config(state=DISABLED)
+    b54.config(state=DISABLED)
+
+    # 7th tic tac toe
+    b55.config(state=DISABLED)
+    b56.config(state=DISABLED)
+    b57.config(state=DISABLED)
+
+    b58.config(state=DISABLED)
+    b59.config(state=DISABLED)
+    b60.config(state=DISABLED)
+
+    b61.config(state=DISABLED)
+    b62.config(state=DISABLED)
+    b63.config(state=DISABLED)
+
+    # 8th tic tac toe
+    b64.config(state=DISABLED)
+    b65.config(state=DISABLED)
+    b66.config(state=DISABLED)
+
+    b67.config(state=DISABLED)
+    b68.config(state=DISABLED)
+    b69.config(state=DISABLED)
+
+    b70.config(state=DISABLED)
+    b71.config(state=DISABLED)
+    b72.config(state=DISABLED)
+
+    # 9th tic tac toe
+    b73.config(state=DISABLED)
+    b74.config(state=DISABLED)
+    b75.config(state=DISABLED)
+
+    b76.config(state=DISABLED)
+    b77.config(state=DISABLED)
+    b78.config(state=DISABLED)
+
+    b79.config(state=DISABLED)
+    b80.config(state=DISABLED)
+    b81.config(state=DISABLED) #
+
+
+#   SAME AS DISABLE_TIC_TWO
+def disable_tic_38():
+    # 1st tic tac toe
+    b1.config(state=DISABLED)
+    b2.config(state=DISABLED)
+    b3.config(state=DISABLED)
+
+    b4.config(state=DISABLED)
+    b5.config(state=DISABLED)
+    b6.config(state=DISABLED)
+
+    b7.config(state=DISABLED)
+    b8.config(state=DISABLED)
+    b9.config(state=DISABLED)
+
+    # 3rd tic tac toe
+    b19.config(state=DISABLED)
+    b20.config(state=DISABLED)
+    b21.config(state=DISABLED)
+
+    b22.config(state=DISABLED)
+    b23.config(state=DISABLED)
+    b24.config(state=DISABLED)
+
+    b25.config(state=DISABLED)
+    b26.config(state=DISABLED)
+    b27.config(state=DISABLED)
+
+    # 4th tic tac toe
+    b28.config(state=DISABLED)
+    b29.config(state=DISABLED)
+    b30.config(state=DISABLED)
+
+    b31.config(state=DISABLED)
+    b32.config(state=DISABLED)
+    b33.config(state=DISABLED)
+
+    b34.config(state=DISABLED)
+    b35.config(state=DISABLED)
+    b36.config(state=DISABLED)
+
+    # 5th tic tac toe
+    b37.config(state=DISABLED)
+    b38.config(state=DISABLED)
+    b39.config(state=DISABLED)
+
+    b40.config(state=DISABLED)
+    b41.config(state=DISABLED)
+    b42.config(state=DISABLED)
+
+    b43.config(state=DISABLED)
+    b44.config(state=DISABLED)
+    b45.config(state=DISABLED)
+
+    # 6th tic tac toe
+    b46.config(state=DISABLED)
+    b47.config(state=DISABLED)
+    b48.config(state=DISABLED)
+
+    b49.config(state=DISABLED)
+    b50.config(state=DISABLED)
+    b51.config(state=DISABLED)
+
+    b52.config(state=DISABLED)
+    b53.config(state=DISABLED)
+    b54.config(state=DISABLED)
+
+    # 7th tic tac toe
+    b55.config(state=DISABLED)
+    b56.config(state=DISABLED)
+    b57.config(state=DISABLED)
+
+    b58.config(state=DISABLED)
+    b59.config(state=DISABLED)
+    b60.config(state=DISABLED)
+
+    b61.config(state=DISABLED)
+    b62.config(state=DISABLED)
+    b63.config(state=DISABLED)
+
+    # 8th tic tac toe
+    b64.config(state=DISABLED)
+    b65.config(state=DISABLED)
+    b66.config(state=DISABLED)
+
+    b67.config(state=DISABLED)
+    b68.config(state=DISABLED)
+    b69.config(state=DISABLED)
+
+    b70.config(state=DISABLED)
+    b71.config(state=DISABLED)
+    b72.config(state=DISABLED)
+
+    # 9th tic tac toe
+    b73.config(state=DISABLED)
+    b74.config(state=DISABLED)
+    b75.config(state=DISABLED)
+
+    b76.config(state=DISABLED)
+    b77.config(state=DISABLED)
+    b78.config(state=DISABLED)
+
+    b79.config(state=DISABLED)
+    b80.config(state=DISABLED)
+    b81.config(state=DISABLED)
+
+
+#   SAME AS DISABLE_TIC_3
+def disable_tic_39():
+    # 1st tic tac toe
+    b1.config(state=DISABLED)
+    b2.config(state=DISABLED)
+    b3.config(state=DISABLED)
+
+    b4.config(state=DISABLED)
+    b5.config(state=DISABLED)
+    b6.config(state=DISABLED)
+
+    b7.config(state=DISABLED)
+    b8.config(state=DISABLED)
+    b9.config(state=DISABLED)
+
+    # 2nd tic tac toe
+    b10.config(state=DISABLED)
+    b11.config(state=DISABLED)
+    b12.config(state=DISABLED)
+
+    b13.config(state=DISABLED)
+    b14.config(state=DISABLED)
+    b15.config(state=DISABLED)
+
+    b16.config(state=DISABLED)
+    b17.config(state=DISABLED)
+    b18.config(state=DISABLED)
+
+    # 4th tic tac toe
+    b28.config(state=DISABLED)
+    b29.config(state=DISABLED)
+    b30.config(state=DISABLED)
+
+    b31.config(state=DISABLED)
+    b32.config(state=DISABLED)
+    b33.config(state=DISABLED)
+
+    b34.config(state=DISABLED)
+    b35.config(state=DISABLED)
+    b36.config(state=DISABLED)
+
+    # 5th tic tac toe
+    b37.config(state=DISABLED)
+    b38.config(state=DISABLED)
+    b39.config(state=DISABLED)
+
+    b40.config(state=DISABLED)
+    b41.config(state=DISABLED)
+    b42.config(state=DISABLED)
+
+    b43.config(state=DISABLED)
+    b44.config(state=DISABLED)
+    b45.config(state=DISABLED)
+
+    # 6th tic tac toe
+    b46.config(state=DISABLED)
+    b47.config(state=DISABLED)
+    b48.config(state=DISABLED)
+
+    b49.config(state=DISABLED)
+    b50.config(state=DISABLED)
+    b51.config(state=DISABLED)
+
+    b52.config(state=DISABLED)
+    b53.config(state=DISABLED)
+    b54.config(state=DISABLED)
+
+    # 7th tic tac toe
+    b55.config(state=DISABLED)
+    b56.config(state=DISABLED)
+    b57.config(state=DISABLED)
+
+    b58.config(state=DISABLED)
+    b59.config(state=DISABLED)
+    b60.config(state=DISABLED)
+
+    b61.config(state=DISABLED)
+    b62.config(state=DISABLED)
+    b63.config(state=DISABLED)
+
+    # 8th tic tac toe
+    b64.config(state=DISABLED)
+    b65.config(state=DISABLED)
+    b66.config(state=DISABLED)
+
+    b67.config(state=DISABLED)
+    b68.config(state=DISABLED)
+    b69.config(state=DISABLED)
+
+    b70.config(state=DISABLED)
+    b71.config(state=DISABLED)
+    b72.config(state=DISABLED)
+
+    # 9th tic tac toe
+    b73.config(state=DISABLED)
+    b74.config(state=DISABLED)
+    b75.config(state=DISABLED)
+
+    b76.config(state=DISABLED)
+    b77.config(state=DISABLED)
+    b78.config(state=DISABLED)
+
+    b79.config(state=DISABLED)
+    b80.config(state=DISABLED)
+    b81.config(state=DISABLED)
+
+
+#   SAME AS DISABLE_TIC_4
+def disable_tic_40():
+    # 1st tic tac toe
+    b1.config(state=DISABLED)
+    b2.config(state=DISABLED)
+    b3.config(state=DISABLED)
+
+    b4.config(state=DISABLED)
+    b5.config(state=DISABLED)
+    b6.config(state=DISABLED)
+
+    b7.config(state=DISABLED)
+    b8.config(state=DISABLED)
+    b9.config(state=DISABLED)
+
+    # 2nd tic tac toe
+    b10.config(state=DISABLED)
+    b11.config(state=DISABLED)
+    b12.config(state=DISABLED)
+
+    b13.config(state=DISABLED)
+    b14.config(state=DISABLED)
+    b15.config(state=DISABLED)
+
+    b16.config(state=DISABLED)
+    b17.config(state=DISABLED)
+    b18.config(state=DISABLED)
+
+    # 3rd tic tac toe
+    b19.config(state=DISABLED)
+    b20.config(state=DISABLED)
+    b21.config(state=DISABLED)
+
+    b22.config(state=DISABLED)
+    b23.config(state=DISABLED)
+    b24.config(state=DISABLED)
+
+    b25.config(state=DISABLED)
+    b26.config(state=DISABLED)
+    b27.config(state=DISABLED)
+
+    # 5th tic tac toe
+    b37.config(state=DISABLED)
+    b38.config(state=DISABLED)
+    b39.config(state=DISABLED)
+
+    b40.config(state=DISABLED)
+    b41.config(state=DISABLED)
+    b42.config(state=DISABLED)
+
+    b43.config(state=DISABLED)
+    b44.config(state=DISABLED)
+    b45.config(state=DISABLED)
+
+    # 6th tic tac toe
+    b46.config(state=DISABLED)
+    b47.config(state=DISABLED)
+    b48.config(state=DISABLED)
+
+    b49.config(state=DISABLED)
+    b50.config(state=DISABLED)
+    b51.config(state=DISABLED)
+
+    b52.config(state=DISABLED)
+    b53.config(state=DISABLED)
+    b54.config(state=DISABLED)
+
+    # 7th tic tac toe
+    b55.config(state=DISABLED)
+    b56.config(state=DISABLED)
+    b57.config(state=DISABLED)
+
+    b58.config(state=DISABLED)
+    b59.config(state=DISABLED)
+    b60.config(state=DISABLED)
+
+    b61.config(state=DISABLED)
+    b62.config(state=DISABLED)
+    b63.config(state=DISABLED)
+
+    # 8th tic tac toe
+    b64.config(state=DISABLED)
+    b65.config(state=DISABLED)
+    b66.config(state=DISABLED)
+
+    b67.config(state=DISABLED)
+    b68.config(state=DISABLED)
+    b69.config(state=DISABLED)
+
+    b70.config(state=DISABLED)
+    b71.config(state=DISABLED)
+    b72.config(state=DISABLED)
+
+    # 9th tic tac toe
+    b73.config(state=DISABLED)
+    b74.config(state=DISABLED)
+    b75.config(state=DISABLED)
+
+    b76.config(state=DISABLED)
+    b77.config(state=DISABLED)
+    b78.config(state=DISABLED)
+
+    b79.config(state=DISABLED)
+    b80.config(state=DISABLED)
+    b81.config(state=DISABLED)
+
+
+#   SAME AS DISABLE_TIC_5
+def disable_tic_41():
+    # 1st tic tac toe
+    b1.config(state=DISABLED)
+    b2.config(state=DISABLED)
+    b3.config(state=DISABLED)
+
+    b4.config(state=DISABLED)
+    b5.config(state=DISABLED)
+    b6.config(state=DISABLED)
+
+    b7.config(state=DISABLED)
+    b8.config(state=DISABLED)
+    b9.config(state=DISABLED)
+
+    # 2nd tic tac toe
+    b10.config(state=DISABLED)
+    b11.config(state=DISABLED)
+    b12.config(state=DISABLED)
+
+    b13.config(state=DISABLED)
+    b14.config(state=DISABLED)
+    b15.config(state=DISABLED)
+
+    b16.config(state=DISABLED)
+    b17.config(state=DISABLED)
+    b18.config(state=DISABLED)
+
+    # 3rd tic tac toe
+    b19.config(state=DISABLED)
+    b20.config(state=DISABLED)
+    b21.config(state=DISABLED)
+
+    b22.config(state=DISABLED)
+    b23.config(state=DISABLED)
+    b24.config(state=DISABLED)
+
+    b25.config(state=DISABLED)
+    b26.config(state=DISABLED)
+    b27.config(state=DISABLED)
+
+    # 4th tic tac toe
+    b28.config(state=DISABLED)
+    b29.config(state=DISABLED)
+    b30.config(state=DISABLED)
+
+    b31.config(state=DISABLED)
+    b32.config(state=DISABLED)
+    b33.config(state=DISABLED)
+
+    b34.config(state=DISABLED)
+    b35.config(state=DISABLED)
+    b36.config(state=DISABLED)
+
+    # 6th tic tac toe
+    b46.config(state=DISABLED)
+    b47.config(state=DISABLED)
+    b48.config(state=DISABLED)
+
+    b49.config(state=DISABLED)
+    b50.config(state=DISABLED)
+    b51.config(state=DISABLED)
+
+    b52.config(state=DISABLED)
+    b53.config(state=DISABLED)
+    b54.config(state=DISABLED)
+
+    # 7th tic tac toe
+    b55.config(state=DISABLED)
+    b56.config(state=DISABLED)
+    b57.config(state=DISABLED)
+
+    b58.config(state=DISABLED)
+    b59.config(state=DISABLED)
+    b60.config(state=DISABLED)
+
+    b61.config(state=DISABLED)
+    b62.config(state=DISABLED)
+    b63.config(state=DISABLED)
+
+    # 8th tic tac toe
+    b64.config(state=DISABLED)
+    b65.config(state=DISABLED)
+    b66.config(state=DISABLED)
+
+    b67.config(state=DISABLED)
+    b68.config(state=DISABLED)
+    b69.config(state=DISABLED)
+
+    b70.config(state=DISABLED)
+    b71.config(state=DISABLED)
+    b72.config(state=DISABLED)
+
+    # 9th tic tac toe
+    b73.config(state=DISABLED)
+    b74.config(state=DISABLED)
+    b75.config(state=DISABLED)
+
+    b76.config(state=DISABLED)
+    b77.config(state=DISABLED)
+    b78.config(state=DISABLED)
+
+    b79.config(state=DISABLED)
+    b80.config(state=DISABLED)
+    b81.config(state=DISABLED)
+
+
+#   SAME AS DISABLE_TIC_6
+def disable_tic_42():
+    # 1st tic tac toe
+    b1.config(state=DISABLED)
+    b2.config(state=DISABLED)
+    b3.config(state=DISABLED)
+
+    b4.config(state=DISABLED)
+    b5.config(state=DISABLED)
+    b6.config(state=DISABLED)
+
+    b7.config(state=DISABLED)
+    b8.config(state=DISABLED)
+    b9.config(state=DISABLED)
+
+    # 2nd tic tac toe
+    b10.config(state=DISABLED)
+    b11.config(state=DISABLED)
+    b12.config(state=DISABLED)
+
+    b13.config(state=DISABLED)
+    b14.config(state=DISABLED)
+    b15.config(state=DISABLED)
+
+    b16.config(state=DISABLED)
+    b17.config(state=DISABLED)
+    b18.config(state=DISABLED)
+
+    # 3rd tic tac toe
+    b19.config(state=DISABLED)
+    b20.config(state=DISABLED)
+    b21.config(state=DISABLED)
+
+    b22.config(state=DISABLED)
+    b23.config(state=DISABLED)
+    b24.config(state=DISABLED)
+
+    b25.config(state=DISABLED)
+    b26.config(state=DISABLED)
+    b27.config(state=DISABLED)
+
+    # 4th tic tac toe
+    b28.config(state=DISABLED)
+    b29.config(state=DISABLED)
+    b30.config(state=DISABLED)
+
+    b31.config(state=DISABLED)
+    b32.config(state=DISABLED)
+    b33.config(state=DISABLED)
+
+    b34.config(state=DISABLED)
+    b35.config(state=DISABLED)
+    b36.config(state=DISABLED)
+
+    # 5th tic tac toe
+    b37.config(state=DISABLED)
+    b38.config(state=DISABLED)
+    b39.config(state=DISABLED)
+
+    b40.config(state=DISABLED)
+    b41.config(state=DISABLED)
+    b42.config(state=DISABLED)
+
+    b43.config(state=DISABLED)
+    b44.config(state=DISABLED)
+    b45.config(state=DISABLED)
+
+    # 7th tic tac toe
+    b55.config(state=DISABLED)
+    b56.config(state=DISABLED)
+    b57.config(state=DISABLED)
+
+    b58.config(state=DISABLED)
+    b59.config(state=DISABLED)
+    b60.config(state=DISABLED)
+
+    b61.config(state=DISABLED)
+    b62.config(state=DISABLED)
+    b63.config(state=DISABLED)
+
+    # 8th tic tac toe
+    b64.config(state=DISABLED)
+    b65.config(state=DISABLED)
+    b66.config(state=DISABLED)
+
+    b67.config(state=DISABLED)
+    b68.config(state=DISABLED)
+    b69.config(state=DISABLED)
+
+    b70.config(state=DISABLED)
+    b71.config(state=DISABLED)
+    b72.config(state=DISABLED)
+
+    # 9th tic tac toe
+    b73.config(state=DISABLED)
+    b74.config(state=DISABLED)
+    b75.config(state=DISABLED)
+
+    b76.config(state=DISABLED)
+    b77.config(state=DISABLED)
+    b78.config(state=DISABLED)
+
+    b79.config(state=DISABLED)
+    b80.config(state=DISABLED)
+    b81.config(state=DISABLED)
+
+
+#   SAME AS DISABLE_TIC_7
+def disable_tic_43():
+    # 1st tic tac toe
+    b1.config(state=DISABLED)
+    b2.config(state=DISABLED)
+    b3.config(state=DISABLED)
+
+    b4.config(state=DISABLED)
+    b5.config(state=DISABLED)
+    b6.config(state=DISABLED)
+
+    b7.config(state=DISABLED)
+    b8.config(state=DISABLED)
+    b9.config(state=DISABLED)
+
+    # 2nd tic tac toe
+    b10.config(state=DISABLED)
+    b11.config(state=DISABLED)
+    b12.config(state=DISABLED)
+
+    b13.config(state=DISABLED)
+    b14.config(state=DISABLED)
+    b15.config(state=DISABLED)
+
+    b16.config(state=DISABLED)
+    b17.config(state=DISABLED)
+    b18.config(state=DISABLED)
+
+    # 3rd tic tac toe
+    b19.config(state=DISABLED)
+    b20.config(state=DISABLED)
+    b21.config(state=DISABLED)
+
+    b22.config(state=DISABLED)
+    b23.config(state=DISABLED)
+    b24.config(state=DISABLED)
+
+    b25.config(state=DISABLED)
+    b26.config(state=DISABLED)
+    b27.config(state=DISABLED)
+
+    # 4th tic tac toe
+    b28.config(state=DISABLED)
+    b29.config(state=DISABLED)
+    b30.config(state=DISABLED)
+
+    b31.config(state=DISABLED)
+    b32.config(state=DISABLED)
+    b33.config(state=DISABLED)
+
+    b34.config(state=DISABLED)
+    b35.config(state=DISABLED)
+    b36.config(state=DISABLED)
+
+    # 5th tic tac toe
+    b37.config(state=DISABLED)
+    b38.config(state=DISABLED)
+    b39.config(state=DISABLED)
+
+    b40.config(state=DISABLED)
+    b41.config(state=DISABLED)
+    b42.config(state=DISABLED)
+
+    b43.config(state=DISABLED)
+    b44.config(state=DISABLED)
+    b45.config(state=DISABLED)
+
+    # 6th tic tac toe
+    b46.config(state=DISABLED)
+    b47.config(state=DISABLED)
+    b48.config(state=DISABLED)
+
+    b49.config(state=DISABLED)
+    b50.config(state=DISABLED)
+    b51.config(state=DISABLED)
+
+    b52.config(state=DISABLED)
+    b53.config(state=DISABLED)
+    b54.config(state=DISABLED)
+
+    # 8th tic tac toe
+    b64.config(state=DISABLED)
+    b65.config(state=DISABLED)
+    b66.config(state=DISABLED)
+
+    b67.config(state=DISABLED)
+    b68.config(state=DISABLED)
+    b69.config(state=DISABLED)
+
+    b70.config(state=DISABLED)
+    b71.config(state=DISABLED)
+    b72.config(state=DISABLED)
+
+    # 9th tic tac toe
+    b73.config(state=DISABLED)
+    b74.config(state=DISABLED)
+    b75.config(state=DISABLED)
+
+    b76.config(state=DISABLED)
+    b77.config(state=DISABLED)
+    b78.config(state=DISABLED)
+
+    b79.config(state=DISABLED)
+    b80.config(state=DISABLED)
+    b81.config(state=DISABLED)
+
+
+#   SAME AS DISABLE_TIC_8
+def disable_tic_44():
+    # 1st tic tac toe
+    b1.config(state=DISABLED)
+    b2.config(state=DISABLED)
+    b3.config(state=DISABLED)
+
+    b4.config(state=DISABLED)
+    b5.config(state=DISABLED)
+    b6.config(state=DISABLED)
+
+    b7.config(state=DISABLED)
+    b8.config(state=DISABLED)
+    b9.config(state=DISABLED)
+
+    # 2nd tic tac toe
+    b10.config(state=DISABLED)
+    b11.config(state=DISABLED)
+    b12.config(state=DISABLED)
+
+    b13.config(state=DISABLED)
+    b14.config(state=DISABLED)
+    b15.config(state=DISABLED)
+
+    b16.config(state=DISABLED)
+    b17.config(state=DISABLED)
+    b18.config(state=DISABLED)
+
+    # 3rd tic tac toe
+    b19.config(state=DISABLED)
+    b20.config(state=DISABLED)
+    b21.config(state=DISABLED)
+
+    b22.config(state=DISABLED)
+    b23.config(state=DISABLED)
+    b24.config(state=DISABLED)
+
+    b25.config(state=DISABLED)
+    b26.config(state=DISABLED)
+    b27.config(state=DISABLED)
+
+    # 4th tic tac toe
+    b28.config(state=DISABLED)
+    b29.config(state=DISABLED)
+    b30.config(state=DISABLED)
+
+    b31.config(state=DISABLED)
+    b32.config(state=DISABLED)
+    b33.config(state=DISABLED)
+
+    b34.config(state=DISABLED)
+    b35.config(state=DISABLED)
+    b36.config(state=DISABLED)
+
+    # 5th tic tac toe
+    b37.config(state=DISABLED)
+    b38.config(state=DISABLED)
+    b39.config(state=DISABLED)
+
+    b40.config(state=DISABLED)
+    b41.config(state=DISABLED)
+    b42.config(state=DISABLED)
+
+    b43.config(state=DISABLED)
+    b44.config(state=DISABLED)
+    b45.config(state=DISABLED)
+
+    # 6th tic tac toe
+    b46.config(state=DISABLED)
+    b47.config(state=DISABLED)
+    b48.config(state=DISABLED)
+
+    b49.config(state=DISABLED)
+    b50.config(state=DISABLED)
+    b51.config(state=DISABLED)
+
+    b52.config(state=DISABLED)
+    b53.config(state=DISABLED)
+    b54.config(state=DISABLED)
+
+    # 7th tic tac toe
+    b55.config(state=DISABLED)
+    b56.config(state=DISABLED)
+    b57.config(state=DISABLED)
+
+    b58.config(state=DISABLED)
+    b59.config(state=DISABLED)
+    b60.config(state=DISABLED)
+
+    b61.config(state=DISABLED)
+    b62.config(state=DISABLED)
+    b63.config(state=DISABLED)
+
+    # 9th tic tac toe
+    b73.config(state=DISABLED)
+    b74.config(state=DISABLED)
+    b75.config(state=DISABLED)
+
+    b76.config(state=DISABLED)
+    b77.config(state=DISABLED)
+    b78.config(state=DISABLED)
+
+    b79.config(state=DISABLED)
+    b80.config(state=DISABLED)
+    b81.config(state=DISABLED)
+
+
+#   SAME AS DISABLE_TIC_9
+def disable_tic_45():
+    # 1st tic tac toe
+    b1.config(state=DISABLED)
+    b2.config(state=DISABLED)
+    b3.config(state=DISABLED)
+
+    b4.config(state=DISABLED)
+    b5.config(state=DISABLED)
+    b6.config(state=DISABLED)
+
+    b7.config(state=DISABLED)
+    b8.config(state=DISABLED)
+    b9.config(state=DISABLED)
+
+    # 2nd tic tac toe
+    b10.config(state=DISABLED)
+    b11.config(state=DISABLED)
+    b12.config(state=DISABLED)
+
+    b13.config(state=DISABLED)
+    b14.config(state=DISABLED)
+    b15.config(state=DISABLED)
+
+    b16.config(state=DISABLED)
+    b17.config(state=DISABLED)
+    b18.config(state=DISABLED)
+
+    # 3rd tic tac toe
+    b19.config(state=DISABLED)
+    b20.config(state=DISABLED)
+    b21.config(state=DISABLED)
+
+    b22.config(state=DISABLED)
+    b23.config(state=DISABLED)
+    b24.config(state=DISABLED)
+
+    b25.config(state=DISABLED)
+    b26.config(state=DISABLED)
+    b27.config(state=DISABLED)
+
+    # 4th tic tac toe
+    b28.config(state=DISABLED)
+    b29.config(state=DISABLED)
+    b30.config(state=DISABLED)
+
+    b31.config(state=DISABLED)
+    b32.config(state=DISABLED)
+    b33.config(state=DISABLED)
+
+    b34.config(state=DISABLED)
+    b35.config(state=DISABLED)
+    b36.config(state=DISABLED)
+
+    # 5th tic tac toe
+    b37.config(state=DISABLED)
+    b38.config(state=DISABLED)
+    b39.config(state=DISABLED)
+
+    b40.config(state=DISABLED)
+    b41.config(state=DISABLED)
+    b42.config(state=DISABLED)
+
+    b43.config(state=DISABLED)
+    b44.config(state=DISABLED)
+    b45.config(state=DISABLED)
+
+    # 6th tic tac toe
+    b46.config(state=DISABLED)
+    b47.config(state=DISABLED)
+    b48.config(state=DISABLED)
+
+    b49.config(state=DISABLED)
+    b50.config(state=DISABLED)
+    b51.config(state=DISABLED)
+
+    b52.config(state=DISABLED)
+    b53.config(state=DISABLED)
+    b54.config(state=DISABLED)
+
+    # 7th tic tac toe
+    b55.config(state=DISABLED)
+    b56.config(state=DISABLED)
+    b57.config(state=DISABLED)
+
+    b58.config(state=DISABLED)
+    b59.config(state=DISABLED)
+    b60.config(state=DISABLED)
+
+    b61.config(state=DISABLED)
+    b62.config(state=DISABLED)
+    b63.config(state=DISABLED)
+
+    # 8th tic tac toe
+    b64.config(state=DISABLED)
+    b65.config(state=DISABLED)
+    b66.config(state=DISABLED)
+
+    b67.config(state=DISABLED)
+    b68.config(state=DISABLED)
+    b69.config(state=DISABLED)
+
+    b70.config(state=DISABLED)
+    b71.config(state=DISABLED)
+    b72.config(state=DISABLED)
+
+
+#  [ tic tac toe 6 ]  SAME AS DISABLE_TIC_ONE
+def disable_tic_46():
+    # 2nd tic tac toe
+    b10.config(state=DISABLED)
+    b11.config(state=DISABLED)
+    b12.config(state=DISABLED)
+
+    b13.config(state=DISABLED)
+    b14.config(state=DISABLED)
+    b15.config(state=DISABLED)
+
+    b16.config(state=DISABLED)
+    b17.config(state=DISABLED)
+    b18.config(state=DISABLED)
+
+    # 3rd tic tac toe
+    b19.config(state=DISABLED)
+    b20.config(state=DISABLED)
+    b21.config(state=DISABLED)
+
+    b22.config(state=DISABLED)
+    b23.config(state=DISABLED)
+    b24.config(state=DISABLED)
+
+    b25.config(state=DISABLED)
+    b26.config(state=DISABLED)
+    b27.config(state=DISABLED)
+
+    # 4th tic tac toe
+    b28.config(state=DISABLED)
+    b29.config(state=DISABLED)
+    b30.config(state=DISABLED)
+
+    b31.config(state=DISABLED)
+    b32.config(state=DISABLED)
+    b33.config(state=DISABLED)
+
+    b34.config(state=DISABLED)
+    b35.config(state=DISABLED)
+    b36.config(state=DISABLED)
+
+    # 5th tic tac toe
+    b37.config(state=DISABLED)
+    b38.config(state=DISABLED)
+    b39.config(state=DISABLED)
+
+    b40.config(state=DISABLED)
+    b41.config(state=DISABLED)
+    b42.config(state=DISABLED)
+
+    b43.config(state=DISABLED)
+    b44.config(state=DISABLED)
+    b45.config(state=DISABLED)
+
+    # 6th tic tac toe
+    b46.config(state=DISABLED)
+    b47.config(state=DISABLED)
+    b48.config(state=DISABLED)
+
+    b49.config(state=DISABLED)
+    b50.config(state=DISABLED)
+    b51.config(state=DISABLED)
+
+    b52.config(state=DISABLED)
+    b53.config(state=DISABLED)
+    b54.config(state=DISABLED)
+
+    # 7th tic tac toe
+    b55.config(state=DISABLED)
+    b56.config(state=DISABLED)
+    b57.config(state=DISABLED)
+
+    b58.config(state=DISABLED)
+    b59.config(state=DISABLED)
+    b60.config(state=DISABLED)
+
+    b61.config(state=DISABLED)
+    b62.config(state=DISABLED)
+    b63.config(state=DISABLED)
+
+    # 8th tic tac toe
+    b64.config(state=DISABLED)
+    b65.config(state=DISABLED)
+    b66.config(state=DISABLED)
+
+    b67.config(state=DISABLED)
+    b68.config(state=DISABLED)
+    b69.config(state=DISABLED)
+
+    b70.config(state=DISABLED)
+    b71.config(state=DISABLED)
+    b72.config(state=DISABLED)
+
+    # 9th tic tac toe
+    b73.config(state=DISABLED)
+    b74.config(state=DISABLED)
+    b75.config(state=DISABLED)
+
+    b76.config(state=DISABLED)
+    b77.config(state=DISABLED)
+    b78.config(state=DISABLED)
+
+    b79.config(state=DISABLED)
+    b80.config(state=DISABLED)
+    b81.config(state=DISABLED) #
+
+
+#   SAME AS DISABLE_TIC_TWO
+def disable_tic_47():
+    # 1st tic tac toe
+    b1.config(state=DISABLED)
+    b2.config(state=DISABLED)
+    b3.config(state=DISABLED)
+
+    b4.config(state=DISABLED)
+    b5.config(state=DISABLED)
+    b6.config(state=DISABLED)
+
+    b7.config(state=DISABLED)
+    b8.config(state=DISABLED)
+    b9.config(state=DISABLED)
+
+    # 3rd tic tac toe
+    b19.config(state=DISABLED)
+    b20.config(state=DISABLED)
+    b21.config(state=DISABLED)
+
+    b22.config(state=DISABLED)
+    b23.config(state=DISABLED)
+    b24.config(state=DISABLED)
+
+    b25.config(state=DISABLED)
+    b26.config(state=DISABLED)
+    b27.config(state=DISABLED)
+
+    # 4th tic tac toe
+    b28.config(state=DISABLED)
+    b29.config(state=DISABLED)
+    b30.config(state=DISABLED)
+
+    b31.config(state=DISABLED)
+    b32.config(state=DISABLED)
+    b33.config(state=DISABLED)
+
+    b34.config(state=DISABLED)
+    b35.config(state=DISABLED)
+    b36.config(state=DISABLED)
+
+    # 5th tic tac toe
+    b37.config(state=DISABLED)
+    b38.config(state=DISABLED)
+    b39.config(state=DISABLED)
+
+    b40.config(state=DISABLED)
+    b41.config(state=DISABLED)
+    b42.config(state=DISABLED)
+
+    b43.config(state=DISABLED)
+    b44.config(state=DISABLED)
+    b45.config(state=DISABLED)
+
+    # 6th tic tac toe
+    b46.config(state=DISABLED)
+    b47.config(state=DISABLED)
+    b48.config(state=DISABLED)
+
+    b49.config(state=DISABLED)
+    b50.config(state=DISABLED)
+    b51.config(state=DISABLED)
+
+    b52.config(state=DISABLED)
+    b53.config(state=DISABLED)
+    b54.config(state=DISABLED)
+
+    # 7th tic tac toe
+    b55.config(state=DISABLED)
+    b56.config(state=DISABLED)
+    b57.config(state=DISABLED)
+
+    b58.config(state=DISABLED)
+    b59.config(state=DISABLED)
+    b60.config(state=DISABLED)
+
+    b61.config(state=DISABLED)
+    b62.config(state=DISABLED)
+    b63.config(state=DISABLED)
+
+    # 8th tic tac toe
+    b64.config(state=DISABLED)
+    b65.config(state=DISABLED)
+    b66.config(state=DISABLED)
+
+    b67.config(state=DISABLED)
+    b68.config(state=DISABLED)
+    b69.config(state=DISABLED)
+
+    b70.config(state=DISABLED)
+    b71.config(state=DISABLED)
+    b72.config(state=DISABLED)
+
+    # 9th tic tac toe
+    b73.config(state=DISABLED)
+    b74.config(state=DISABLED)
+    b75.config(state=DISABLED)
+
+    b76.config(state=DISABLED)
+    b77.config(state=DISABLED)
+    b78.config(state=DISABLED)
+
+    b79.config(state=DISABLED)
+    b80.config(state=DISABLED)
+    b81.config(state=DISABLED)
+
+
+#   SAME AS DISABLE_TIC_3
+def disable_tic_48():
+    # 1st tic tac toe
+    b1.config(state=DISABLED)
+    b2.config(state=DISABLED)
+    b3.config(state=DISABLED)
+
+    b4.config(state=DISABLED)
+    b5.config(state=DISABLED)
+    b6.config(state=DISABLED)
+
+    b7.config(state=DISABLED)
+    b8.config(state=DISABLED)
+    b9.config(state=DISABLED)
+
+    # 2nd tic tac toe
+    b10.config(state=DISABLED)
+    b11.config(state=DISABLED)
+    b12.config(state=DISABLED)
+
+    b13.config(state=DISABLED)
+    b14.config(state=DISABLED)
+    b15.config(state=DISABLED)
+
+    b16.config(state=DISABLED)
+    b17.config(state=DISABLED)
+    b18.config(state=DISABLED)
+
+    # 4th tic tac toe
+    b28.config(state=DISABLED)
+    b29.config(state=DISABLED)
+    b30.config(state=DISABLED)
+
+    b31.config(state=DISABLED)
+    b32.config(state=DISABLED)
+    b33.config(state=DISABLED)
+
+    b34.config(state=DISABLED)
+    b35.config(state=DISABLED)
+    b36.config(state=DISABLED)
+
+    # 5th tic tac toe
+    b37.config(state=DISABLED)
+    b38.config(state=DISABLED)
+    b39.config(state=DISABLED)
+
+    b40.config(state=DISABLED)
+    b41.config(state=DISABLED)
+    b42.config(state=DISABLED)
+
+    b43.config(state=DISABLED)
+    b44.config(state=DISABLED)
+    b45.config(state=DISABLED)
+
+    # 6th tic tac toe
+    b46.config(state=DISABLED)
+    b47.config(state=DISABLED)
+    b48.config(state=DISABLED)
+
+    b49.config(state=DISABLED)
+    b50.config(state=DISABLED)
+    b51.config(state=DISABLED)
+
+    b52.config(state=DISABLED)
+    b53.config(state=DISABLED)
+    b54.config(state=DISABLED)
+
+    # 7th tic tac toe
+    b55.config(state=DISABLED)
+    b56.config(state=DISABLED)
+    b57.config(state=DISABLED)
+
+    b58.config(state=DISABLED)
+    b59.config(state=DISABLED)
+    b60.config(state=DISABLED)
+
+    b61.config(state=DISABLED)
+    b62.config(state=DISABLED)
+    b63.config(state=DISABLED)
+
+    # 8th tic tac toe
+    b64.config(state=DISABLED)
+    b65.config(state=DISABLED)
+    b66.config(state=DISABLED)
+
+    b67.config(state=DISABLED)
+    b68.config(state=DISABLED)
+    b69.config(state=DISABLED)
+
+    b70.config(state=DISABLED)
+    b71.config(state=DISABLED)
+    b72.config(state=DISABLED)
+
+    # 9th tic tac toe
+    b73.config(state=DISABLED)
+    b74.config(state=DISABLED)
+    b75.config(state=DISABLED)
+
+    b76.config(state=DISABLED)
+    b77.config(state=DISABLED)
+    b78.config(state=DISABLED)
+
+    b79.config(state=DISABLED)
+    b80.config(state=DISABLED)
+    b81.config(state=DISABLED)
+
+
+#   SAME AS DISABLE_TIC_4
+def disable_tic_49():
+    # 1st tic tac toe
+    b1.config(state=DISABLED)
+    b2.config(state=DISABLED)
+    b3.config(state=DISABLED)
+
+    b4.config(state=DISABLED)
+    b5.config(state=DISABLED)
+    b6.config(state=DISABLED)
+
+    b7.config(state=DISABLED)
+    b8.config(state=DISABLED)
+    b9.config(state=DISABLED)
+
+    # 2nd tic tac toe
+    b10.config(state=DISABLED)
+    b11.config(state=DISABLED)
+    b12.config(state=DISABLED)
+
+    b13.config(state=DISABLED)
+    b14.config(state=DISABLED)
+    b15.config(state=DISABLED)
+
+    b16.config(state=DISABLED)
+    b17.config(state=DISABLED)
+    b18.config(state=DISABLED)
+
+    # 3rd tic tac toe
+    b19.config(state=DISABLED)
+    b20.config(state=DISABLED)
+    b21.config(state=DISABLED)
+
+    b22.config(state=DISABLED)
+    b23.config(state=DISABLED)
+    b24.config(state=DISABLED)
+
+    b25.config(state=DISABLED)
+    b26.config(state=DISABLED)
+    b27.config(state=DISABLED)
+
+    # 5th tic tac toe
+    b37.config(state=DISABLED)
+    b38.config(state=DISABLED)
+    b39.config(state=DISABLED)
+
+    b40.config(state=DISABLED)
+    b41.config(state=DISABLED)
+    b42.config(state=DISABLED)
+
+    b43.config(state=DISABLED)
+    b44.config(state=DISABLED)
+    b45.config(state=DISABLED)
+
+    # 6th tic tac toe
+    b46.config(state=DISABLED)
+    b47.config(state=DISABLED)
+    b48.config(state=DISABLED)
+
+    b49.config(state=DISABLED)
+    b50.config(state=DISABLED)
+    b51.config(state=DISABLED)
+
+    b52.config(state=DISABLED)
+    b53.config(state=DISABLED)
+    b54.config(state=DISABLED)
+
+    # 7th tic tac toe
+    b55.config(state=DISABLED)
+    b56.config(state=DISABLED)
+    b57.config(state=DISABLED)
+
+    b58.config(state=DISABLED)
+    b59.config(state=DISABLED)
+    b60.config(state=DISABLED)
+
+    b61.config(state=DISABLED)
+    b62.config(state=DISABLED)
+    b63.config(state=DISABLED)
+
+    # 8th tic tac toe
+    b64.config(state=DISABLED)
+    b65.config(state=DISABLED)
+    b66.config(state=DISABLED)
+
+    b67.config(state=DISABLED)
+    b68.config(state=DISABLED)
+    b69.config(state=DISABLED)
+
+    b70.config(state=DISABLED)
+    b71.config(state=DISABLED)
+    b72.config(state=DISABLED)
+
+    # 9th tic tac toe
+    b73.config(state=DISABLED)
+    b74.config(state=DISABLED)
+    b75.config(state=DISABLED)
+
+    b76.config(state=DISABLED)
+    b77.config(state=DISABLED)
+    b78.config(state=DISABLED)
+
+    b79.config(state=DISABLED)
+    b80.config(state=DISABLED)
+    b81.config(state=DISABLED)
+
+
+#   SAME AS DISABLE_TIC_5
+def disable_tic_50():
+    # 1st tic tac toe
+    b1.config(state=DISABLED)
+    b2.config(state=DISABLED)
+    b3.config(state=DISABLED)
+
+    b4.config(state=DISABLED)
+    b5.config(state=DISABLED)
+    b6.config(state=DISABLED)
+
+    b7.config(state=DISABLED)
+    b8.config(state=DISABLED)
+    b9.config(state=DISABLED)
+
+    # 2nd tic tac toe
+    b10.config(state=DISABLED)
+    b11.config(state=DISABLED)
+    b12.config(state=DISABLED)
+
+    b13.config(state=DISABLED)
+    b14.config(state=DISABLED)
+    b15.config(state=DISABLED)
+
+    b16.config(state=DISABLED)
+    b17.config(state=DISABLED)
+    b18.config(state=DISABLED)
+
+    # 3rd tic tac toe
+    b19.config(state=DISABLED)
+    b20.config(state=DISABLED)
+    b21.config(state=DISABLED)
+
+    b22.config(state=DISABLED)
+    b23.config(state=DISABLED)
+    b24.config(state=DISABLED)
+
+    b25.config(state=DISABLED)
+    b26.config(state=DISABLED)
+    b27.config(state=DISABLED)
+
+    # 4th tic tac toe
+    b28.config(state=DISABLED)
+    b29.config(state=DISABLED)
+    b30.config(state=DISABLED)
+
+    b31.config(state=DISABLED)
+    b32.config(state=DISABLED)
+    b33.config(state=DISABLED)
+
+    b34.config(state=DISABLED)
+    b35.config(state=DISABLED)
+    b36.config(state=DISABLED)
+
+    # 6th tic tac toe
+    b46.config(state=DISABLED)
+    b47.config(state=DISABLED)
+    b48.config(state=DISABLED)
+
+    b49.config(state=DISABLED)
+    b50.config(state=DISABLED)
+    b51.config(state=DISABLED)
+
+    b52.config(state=DISABLED)
+    b53.config(state=DISABLED)
+    b54.config(state=DISABLED)
+
+    # 7th tic tac toe
+    b55.config(state=DISABLED)
+    b56.config(state=DISABLED)
+    b57.config(state=DISABLED)
+
+    b58.config(state=DISABLED)
+    b59.config(state=DISABLED)
+    b60.config(state=DISABLED)
+
+    b61.config(state=DISABLED)
+    b62.config(state=DISABLED)
+    b63.config(state=DISABLED)
+
+    # 8th tic tac toe
+    b64.config(state=DISABLED)
+    b65.config(state=DISABLED)
+    b66.config(state=DISABLED)
+
+    b67.config(state=DISABLED)
+    b68.config(state=DISABLED)
+    b69.config(state=DISABLED)
+
+    b70.config(state=DISABLED)
+    b71.config(state=DISABLED)
+    b72.config(state=DISABLED)
+
+    # 9th tic tac toe
+    b73.config(state=DISABLED)
+    b74.config(state=DISABLED)
+    b75.config(state=DISABLED)
+
+    b76.config(state=DISABLED)
+    b77.config(state=DISABLED)
+    b78.config(state=DISABLED)
+
+    b79.config(state=DISABLED)
+    b80.config(state=DISABLED)
+    b81.config(state=DISABLED)
+
+
+#   SAME AS DISABLE_TIC_6
+def disable_tic_51():
+    # 1st tic tac toe
+    b1.config(state=DISABLED)
+    b2.config(state=DISABLED)
+    b3.config(state=DISABLED)
+
+    b4.config(state=DISABLED)
+    b5.config(state=DISABLED)
+    b6.config(state=DISABLED)
+
+    b7.config(state=DISABLED)
+    b8.config(state=DISABLED)
+    b9.config(state=DISABLED)
+
+    # 2nd tic tac toe
+    b10.config(state=DISABLED)
+    b11.config(state=DISABLED)
+    b12.config(state=DISABLED)
+
+    b13.config(state=DISABLED)
+    b14.config(state=DISABLED)
+    b15.config(state=DISABLED)
+
+    b16.config(state=DISABLED)
+    b17.config(state=DISABLED)
+    b18.config(state=DISABLED)
+
+    # 3rd tic tac toe
+    b19.config(state=DISABLED)
+    b20.config(state=DISABLED)
+    b21.config(state=DISABLED)
+
+    b22.config(state=DISABLED)
+    b23.config(state=DISABLED)
+    b24.config(state=DISABLED)
+
+    b25.config(state=DISABLED)
+    b26.config(state=DISABLED)
+    b27.config(state=DISABLED)
+
+    # 4th tic tac toe
+    b28.config(state=DISABLED)
+    b29.config(state=DISABLED)
+    b30.config(state=DISABLED)
+
+    b31.config(state=DISABLED)
+    b32.config(state=DISABLED)
+    b33.config(state=DISABLED)
+
+    b34.config(state=DISABLED)
+    b35.config(state=DISABLED)
+    b36.config(state=DISABLED)
+
+    # 5th tic tac toe
+    b37.config(state=DISABLED)
+    b38.config(state=DISABLED)
+    b39.config(state=DISABLED)
+
+    b40.config(state=DISABLED)
+    b41.config(state=DISABLED)
+    b42.config(state=DISABLED)
+
+    b43.config(state=DISABLED)
+    b44.config(state=DISABLED)
+    b45.config(state=DISABLED)
+
+    # 7th tic tac toe
+    b55.config(state=DISABLED)
+    b56.config(state=DISABLED)
+    b57.config(state=DISABLED)
+
+    b58.config(state=DISABLED)
+    b59.config(state=DISABLED)
+    b60.config(state=DISABLED)
+
+    b61.config(state=DISABLED)
+    b62.config(state=DISABLED)
+    b63.config(state=DISABLED)
+
+    # 8th tic tac toe
+    b64.config(state=DISABLED)
+    b65.config(state=DISABLED)
+    b66.config(state=DISABLED)
+
+    b67.config(state=DISABLED)
+    b68.config(state=DISABLED)
+    b69.config(state=DISABLED)
+
+    b70.config(state=DISABLED)
+    b71.config(state=DISABLED)
+    b72.config(state=DISABLED)
+
+    # 9th tic tac toe
+    b73.config(state=DISABLED)
+    b74.config(state=DISABLED)
+    b75.config(state=DISABLED)
+
+    b76.config(state=DISABLED)
+    b77.config(state=DISABLED)
+    b78.config(state=DISABLED)
+
+    b79.config(state=DISABLED)
+    b80.config(state=DISABLED)
+    b81.config(state=DISABLED)
+
+
+#   SAME AS DISABLE_TIC_7
+def disable_tic_52():
+    # 1st tic tac toe
+    b1.config(state=DISABLED)
+    b2.config(state=DISABLED)
+    b3.config(state=DISABLED)
+
+    b4.config(state=DISABLED)
+    b5.config(state=DISABLED)
+    b6.config(state=DISABLED)
+
+    b7.config(state=DISABLED)
+    b8.config(state=DISABLED)
+    b9.config(state=DISABLED)
+
+    # 2nd tic tac toe
+    b10.config(state=DISABLED)
+    b11.config(state=DISABLED)
+    b12.config(state=DISABLED)
+
+    b13.config(state=DISABLED)
+    b14.config(state=DISABLED)
+    b15.config(state=DISABLED)
+
+    b16.config(state=DISABLED)
+    b17.config(state=DISABLED)
+    b18.config(state=DISABLED)
+
+    # 3rd tic tac toe
+    b19.config(state=DISABLED)
+    b20.config(state=DISABLED)
+    b21.config(state=DISABLED)
+
+    b22.config(state=DISABLED)
+    b23.config(state=DISABLED)
+    b24.config(state=DISABLED)
+
+    b25.config(state=DISABLED)
+    b26.config(state=DISABLED)
+    b27.config(state=DISABLED)
+
+    # 4th tic tac toe
+    b28.config(state=DISABLED)
+    b29.config(state=DISABLED)
+    b30.config(state=DISABLED)
+
+    b31.config(state=DISABLED)
+    b32.config(state=DISABLED)
+    b33.config(state=DISABLED)
+
+    b34.config(state=DISABLED)
+    b35.config(state=DISABLED)
+    b36.config(state=DISABLED)
+
+    # 5th tic tac toe
+    b37.config(state=DISABLED)
+    b38.config(state=DISABLED)
+    b39.config(state=DISABLED)
+
+    b40.config(state=DISABLED)
+    b41.config(state=DISABLED)
+    b42.config(state=DISABLED)
+
+    b43.config(state=DISABLED)
+    b44.config(state=DISABLED)
+    b45.config(state=DISABLED)
+
+    # 6th tic tac toe
+    b46.config(state=DISABLED)
+    b47.config(state=DISABLED)
+    b48.config(state=DISABLED)
+
+    b49.config(state=DISABLED)
+    b50.config(state=DISABLED)
+    b51.config(state=DISABLED)
+
+    b52.config(state=DISABLED)
+    b53.config(state=DISABLED)
+    b54.config(state=DISABLED)
+
+    # 8th tic tac toe
+    b64.config(state=DISABLED)
+    b65.config(state=DISABLED)
+    b66.config(state=DISABLED)
+
+    b67.config(state=DISABLED)
+    b68.config(state=DISABLED)
+    b69.config(state=DISABLED)
+
+    b70.config(state=DISABLED)
+    b71.config(state=DISABLED)
+    b72.config(state=DISABLED)
+
+    # 9th tic tac toe
+    b73.config(state=DISABLED)
+    b74.config(state=DISABLED)
+    b75.config(state=DISABLED)
+
+    b76.config(state=DISABLED)
+    b77.config(state=DISABLED)
+    b78.config(state=DISABLED)
+
+    b79.config(state=DISABLED)
+    b80.config(state=DISABLED)
+    b81.config(state=DISABLED)
+
+
+#   SAME AS DISABLE_TIC_8
+def disable_tic_53():
+    # 1st tic tac toe
+    b1.config(state=DISABLED)
+    b2.config(state=DISABLED)
+    b3.config(state=DISABLED)
+
+    b4.config(state=DISABLED)
+    b5.config(state=DISABLED)
+    b6.config(state=DISABLED)
+
+    b7.config(state=DISABLED)
+    b8.config(state=DISABLED)
+    b9.config(state=DISABLED)
+
+    # 2nd tic tac toe
+    b10.config(state=DISABLED)
+    b11.config(state=DISABLED)
+    b12.config(state=DISABLED)
+
+    b13.config(state=DISABLED)
+    b14.config(state=DISABLED)
+    b15.config(state=DISABLED)
+
+    b16.config(state=DISABLED)
+    b17.config(state=DISABLED)
+    b18.config(state=DISABLED)
+
+    # 3rd tic tac toe
+    b19.config(state=DISABLED)
+    b20.config(state=DISABLED)
+    b21.config(state=DISABLED)
+
+    b22.config(state=DISABLED)
+    b23.config(state=DISABLED)
+    b24.config(state=DISABLED)
+
+    b25.config(state=DISABLED)
+    b26.config(state=DISABLED)
+    b27.config(state=DISABLED)
+
+    # 4th tic tac toe
+    b28.config(state=DISABLED)
+    b29.config(state=DISABLED)
+    b30.config(state=DISABLED)
+
+    b31.config(state=DISABLED)
+    b32.config(state=DISABLED)
+    b33.config(state=DISABLED)
+
+    b34.config(state=DISABLED)
+    b35.config(state=DISABLED)
+    b36.config(state=DISABLED)
+
+    # 5th tic tac toe
+    b37.config(state=DISABLED)
+    b38.config(state=DISABLED)
+    b39.config(state=DISABLED)
+
+    b40.config(state=DISABLED)
+    b41.config(state=DISABLED)
+    b42.config(state=DISABLED)
+
+    b43.config(state=DISABLED)
+    b44.config(state=DISABLED)
+    b45.config(state=DISABLED)
+
+    # 6th tic tac toe
+    b46.config(state=DISABLED)
+    b47.config(state=DISABLED)
+    b48.config(state=DISABLED)
+
+    b49.config(state=DISABLED)
+    b50.config(state=DISABLED)
+    b51.config(state=DISABLED)
+
+    b52.config(state=DISABLED)
+    b53.config(state=DISABLED)
+    b54.config(state=DISABLED)
+
+    # 7th tic tac toe
+    b55.config(state=DISABLED)
+    b56.config(state=DISABLED)
+    b57.config(state=DISABLED)
+
+    b58.config(state=DISABLED)
+    b59.config(state=DISABLED)
+    b60.config(state=DISABLED)
+
+    b61.config(state=DISABLED)
+    b62.config(state=DISABLED)
+    b63.config(state=DISABLED)
+
+    # 9th tic tac toe
+    b73.config(state=DISABLED)
+    b74.config(state=DISABLED)
+    b75.config(state=DISABLED)
+
+    b76.config(state=DISABLED)
+    b77.config(state=DISABLED)
+    b78.config(state=DISABLED)
+
+    b79.config(state=DISABLED)
+    b80.config(state=DISABLED)
+    b81.config(state=DISABLED)
+
+
+#   SAME AS DISABLE_TIC_9
+def disable_tic_54():
+    # 1st tic tac toe
+    b1.config(state=DISABLED)
+    b2.config(state=DISABLED)
+    b3.config(state=DISABLED)
+
+    b4.config(state=DISABLED)
+    b5.config(state=DISABLED)
+    b6.config(state=DISABLED)
+
+    b7.config(state=DISABLED)
+    b8.config(state=DISABLED)
+    b9.config(state=DISABLED)
+
+    # 2nd tic tac toe
+    b10.config(state=DISABLED)
+    b11.config(state=DISABLED)
+    b12.config(state=DISABLED)
+
+    b13.config(state=DISABLED)
+    b14.config(state=DISABLED)
+    b15.config(state=DISABLED)
+
+    b16.config(state=DISABLED)
+    b17.config(state=DISABLED)
+    b18.config(state=DISABLED)
+
+    # 3rd tic tac toe
+    b19.config(state=DISABLED)
+    b20.config(state=DISABLED)
+    b21.config(state=DISABLED)
+
+    b22.config(state=DISABLED)
+    b23.config(state=DISABLED)
+    b24.config(state=DISABLED)
+
+    b25.config(state=DISABLED)
+    b26.config(state=DISABLED)
+    b27.config(state=DISABLED)
+
+    # 4th tic tac toe
+    b28.config(state=DISABLED)
+    b29.config(state=DISABLED)
+    b30.config(state=DISABLED)
+
+    b31.config(state=DISABLED)
+    b32.config(state=DISABLED)
+    b33.config(state=DISABLED)
+
+    b34.config(state=DISABLED)
+    b35.config(state=DISABLED)
+    b36.config(state=DISABLED)
+
+    # 5th tic tac toe
+    b37.config(state=DISABLED)
+    b38.config(state=DISABLED)
+    b39.config(state=DISABLED)
+
+    b40.config(state=DISABLED)
+    b41.config(state=DISABLED)
+    b42.config(state=DISABLED)
+
+    b43.config(state=DISABLED)
+    b44.config(state=DISABLED)
+    b45.config(state=DISABLED)
+
+    # 6th tic tac toe
+    b46.config(state=DISABLED)
+    b47.config(state=DISABLED)
+    b48.config(state=DISABLED)
+
+    b49.config(state=DISABLED)
+    b50.config(state=DISABLED)
+    b51.config(state=DISABLED)
+
+    b52.config(state=DISABLED)
+    b53.config(state=DISABLED)
+    b54.config(state=DISABLED)
+
+    # 7th tic tac toe
+    b55.config(state=DISABLED)
+    b56.config(state=DISABLED)
+    b57.config(state=DISABLED)
+
+    b58.config(state=DISABLED)
+    b59.config(state=DISABLED)
+    b60.config(state=DISABLED)
+
+    b61.config(state=DISABLED)
+    b62.config(state=DISABLED)
+    b63.config(state=DISABLED)
+
+    # 8th tic tac toe
+    b64.config(state=DISABLED)
+    b65.config(state=DISABLED)
+    b66.config(state=DISABLED)
+
+    b67.config(state=DISABLED)
+    b68.config(state=DISABLED)
+    b69.config(state=DISABLED)
+
+    b70.config(state=DISABLED)
+    b71.config(state=DISABLED)
+    b72.config(state=DISABLED)
+
+
+#  [ tic tac toe 7 ]  SAME AS DISABLE_TIC_ONE
+def disable_tic_55():
+    # 2nd tic tac toe
+    b10.config(state=DISABLED)
+    b11.config(state=DISABLED)
+    b12.config(state=DISABLED)
+
+    b13.config(state=DISABLED)
+    b14.config(state=DISABLED)
+    b15.config(state=DISABLED)
+
+    b16.config(state=DISABLED)
+    b17.config(state=DISABLED)
+    b18.config(state=DISABLED)
+
+    # 3rd tic tac toe
+    b19.config(state=DISABLED)
+    b20.config(state=DISABLED)
+    b21.config(state=DISABLED)
+
+    b22.config(state=DISABLED)
+    b23.config(state=DISABLED)
+    b24.config(state=DISABLED)
+
+    b25.config(state=DISABLED)
+    b26.config(state=DISABLED)
+    b27.config(state=DISABLED)
+
+    # 4th tic tac toe
+    b28.config(state=DISABLED)
+    b29.config(state=DISABLED)
+    b30.config(state=DISABLED)
+
+    b31.config(state=DISABLED)
+    b32.config(state=DISABLED)
+    b33.config(state=DISABLED)
+
+    b34.config(state=DISABLED)
+    b35.config(state=DISABLED)
+    b36.config(state=DISABLED)
+
+    # 5th tic tac toe
+    b37.config(state=DISABLED)
+    b38.config(state=DISABLED)
+    b39.config(state=DISABLED)
+
+    b40.config(state=DISABLED)
+    b41.config(state=DISABLED)
+    b42.config(state=DISABLED)
+
+    b43.config(state=DISABLED)
+    b44.config(state=DISABLED)
+    b45.config(state=DISABLED)
+
+    # 6th tic tac toe
+    b46.config(state=DISABLED)
+    b47.config(state=DISABLED)
+    b48.config(state=DISABLED)
+
+    b49.config(state=DISABLED)
+    b50.config(state=DISABLED)
+    b51.config(state=DISABLED)
+
+    b52.config(state=DISABLED)
+    b53.config(state=DISABLED)
+    b54.config(state=DISABLED)
+
+    # 7th tic tac toe
+    b55.config(state=DISABLED)
+    b56.config(state=DISABLED)
+    b57.config(state=DISABLED)
+
+    b58.config(state=DISABLED)
+    b59.config(state=DISABLED)
+    b60.config(state=DISABLED)
+
+    b61.config(state=DISABLED)
+    b62.config(state=DISABLED)
+    b63.config(state=DISABLED)
+
+    # 8th tic tac toe
+    b64.config(state=DISABLED)
+    b65.config(state=DISABLED)
+    b66.config(state=DISABLED)
+
+    b67.config(state=DISABLED)
+    b68.config(state=DISABLED)
+    b69.config(state=DISABLED)
+
+    b70.config(state=DISABLED)
+    b71.config(state=DISABLED)
+    b72.config(state=DISABLED)
+
+    # 9th tic tac toe
+    b73.config(state=DISABLED)
+    b74.config(state=DISABLED)
+    b75.config(state=DISABLED)
+
+    b76.config(state=DISABLED)
+    b77.config(state=DISABLED)
+    b78.config(state=DISABLED)
+
+    b79.config(state=DISABLED)
+    b80.config(state=DISABLED)
+    b81.config(state=DISABLED) #
+
+
+#   SAME AS DISABLE_TIC_TWO
+def disable_tic_56():
+    # 1st tic tac toe
+    b1.config(state=DISABLED)
+    b2.config(state=DISABLED)
+    b3.config(state=DISABLED)
+
+    b4.config(state=DISABLED)
+    b5.config(state=DISABLED)
+    b6.config(state=DISABLED)
+
+    b7.config(state=DISABLED)
+    b8.config(state=DISABLED)
+    b9.config(state=DISABLED)
+
+    # 3rd tic tac toe
+    b19.config(state=DISABLED)
+    b20.config(state=DISABLED)
+    b21.config(state=DISABLED)
+
+    b22.config(state=DISABLED)
+    b23.config(state=DISABLED)
+    b24.config(state=DISABLED)
+
+    b25.config(state=DISABLED)
+    b26.config(state=DISABLED)
+    b27.config(state=DISABLED)
+
+    # 4th tic tac toe
+    b28.config(state=DISABLED)
+    b29.config(state=DISABLED)
+    b30.config(state=DISABLED)
+
+    b31.config(state=DISABLED)
+    b32.config(state=DISABLED)
+    b33.config(state=DISABLED)
+
+    b34.config(state=DISABLED)
+    b35.config(state=DISABLED)
+    b36.config(state=DISABLED)
+
+    # 5th tic tac toe
+    b37.config(state=DISABLED)
+    b38.config(state=DISABLED)
+    b39.config(state=DISABLED)
+
+    b40.config(state=DISABLED)
+    b41.config(state=DISABLED)
+    b42.config(state=DISABLED)
+
+    b43.config(state=DISABLED)
+    b44.config(state=DISABLED)
+    b45.config(state=DISABLED)
+
+    # 6th tic tac toe
+    b46.config(state=DISABLED)
+    b47.config(state=DISABLED)
+    b48.config(state=DISABLED)
+
+    b49.config(state=DISABLED)
+    b50.config(state=DISABLED)
+    b51.config(state=DISABLED)
+
+    b52.config(state=DISABLED)
+    b53.config(state=DISABLED)
+    b54.config(state=DISABLED)
+
+    # 7th tic tac toe
+    b55.config(state=DISABLED)
+    b56.config(state=DISABLED)
+    b57.config(state=DISABLED)
+
+    b58.config(state=DISABLED)
+    b59.config(state=DISABLED)
+    b60.config(state=DISABLED)
+
+    b61.config(state=DISABLED)
+    b62.config(state=DISABLED)
+    b63.config(state=DISABLED)
+
+    # 8th tic tac toe
+    b64.config(state=DISABLED)
+    b65.config(state=DISABLED)
+    b66.config(state=DISABLED)
+
+    b67.config(state=DISABLED)
+    b68.config(state=DISABLED)
+    b69.config(state=DISABLED)
+
+    b70.config(state=DISABLED)
+    b71.config(state=DISABLED)
+    b72.config(state=DISABLED)
+
+    # 9th tic tac toe
+    b73.config(state=DISABLED)
+    b74.config(state=DISABLED)
+    b75.config(state=DISABLED)
+
+    b76.config(state=DISABLED)
+    b77.config(state=DISABLED)
+    b78.config(state=DISABLED)
+
+    b79.config(state=DISABLED)
+    b80.config(state=DISABLED)
+    b81.config(state=DISABLED)
+
+
+#   SAME AS DISABLE_TIC_3
+def disable_tic_57():
+    # 1st tic tac toe
+    b1.config(state=DISABLED)
+    b2.config(state=DISABLED)
+    b3.config(state=DISABLED)
+
+    b4.config(state=DISABLED)
+    b5.config(state=DISABLED)
+    b6.config(state=DISABLED)
+
+    b7.config(state=DISABLED)
+    b8.config(state=DISABLED)
+    b9.config(state=DISABLED)
+
+    # 2nd tic tac toe
+    b10.config(state=DISABLED)
+    b11.config(state=DISABLED)
+    b12.config(state=DISABLED)
+
+    b13.config(state=DISABLED)
+    b14.config(state=DISABLED)
+    b15.config(state=DISABLED)
+
+    b16.config(state=DISABLED)
+    b17.config(state=DISABLED)
+    b18.config(state=DISABLED)
+
+    # 4th tic tac toe
+    b28.config(state=DISABLED)
+    b29.config(state=DISABLED)
+    b30.config(state=DISABLED)
+
+    b31.config(state=DISABLED)
+    b32.config(state=DISABLED)
+    b33.config(state=DISABLED)
+
+    b34.config(state=DISABLED)
+    b35.config(state=DISABLED)
+    b36.config(state=DISABLED)
+
+    # 5th tic tac toe
+    b37.config(state=DISABLED)
+    b38.config(state=DISABLED)
+    b39.config(state=DISABLED)
+
+    b40.config(state=DISABLED)
+    b41.config(state=DISABLED)
+    b42.config(state=DISABLED)
+
+    b43.config(state=DISABLED)
+    b44.config(state=DISABLED)
+    b45.config(state=DISABLED)
+
+    # 6th tic tac toe
+    b46.config(state=DISABLED)
+    b47.config(state=DISABLED)
+    b48.config(state=DISABLED)
+
+    b49.config(state=DISABLED)
+    b50.config(state=DISABLED)
+    b51.config(state=DISABLED)
+
+    b52.config(state=DISABLED)
+    b53.config(state=DISABLED)
+    b54.config(state=DISABLED)
+
+    # 7th tic tac toe
+    b55.config(state=DISABLED)
+    b56.config(state=DISABLED)
+    b57.config(state=DISABLED)
+
+    b58.config(state=DISABLED)
+    b59.config(state=DISABLED)
+    b60.config(state=DISABLED)
+
+    b61.config(state=DISABLED)
+    b62.config(state=DISABLED)
+    b63.config(state=DISABLED)
+
+    # 8th tic tac toe
+    b64.config(state=DISABLED)
+    b65.config(state=DISABLED)
+    b66.config(state=DISABLED)
+
+    b67.config(state=DISABLED)
+    b68.config(state=DISABLED)
+    b69.config(state=DISABLED)
+
+    b70.config(state=DISABLED)
+    b71.config(state=DISABLED)
+    b72.config(state=DISABLED)
+
+    # 9th tic tac toe
+    b73.config(state=DISABLED)
+    b74.config(state=DISABLED)
+    b75.config(state=DISABLED)
+
+    b76.config(state=DISABLED)
+    b77.config(state=DISABLED)
+    b78.config(state=DISABLED)
+
+    b79.config(state=DISABLED)
+    b80.config(state=DISABLED)
+    b81.config(state=DISABLED)
+
+
+#   SAME AS DISABLE_TIC_4
+def disable_tic_58():
+    # 1st tic tac toe
+    b1.config(state=DISABLED)
+    b2.config(state=DISABLED)
+    b3.config(state=DISABLED)
+
+    b4.config(state=DISABLED)
+    b5.config(state=DISABLED)
+    b6.config(state=DISABLED)
+
+    b7.config(state=DISABLED)
+    b8.config(state=DISABLED)
+    b9.config(state=DISABLED)
+
+    # 2nd tic tac toe
+    b10.config(state=DISABLED)
+    b11.config(state=DISABLED)
+    b12.config(state=DISABLED)
+
+    b13.config(state=DISABLED)
+    b14.config(state=DISABLED)
+    b15.config(state=DISABLED)
+
+    b16.config(state=DISABLED)
+    b17.config(state=DISABLED)
+    b18.config(state=DISABLED)
+
+    # 3rd tic tac toe
+    b19.config(state=DISABLED)
+    b20.config(state=DISABLED)
+    b21.config(state=DISABLED)
+
+    b22.config(state=DISABLED)
+    b23.config(state=DISABLED)
+    b24.config(state=DISABLED)
+
+    b25.config(state=DISABLED)
+    b26.config(state=DISABLED)
+    b27.config(state=DISABLED)
+
+    # 5th tic tac toe
+    b37.config(state=DISABLED)
+    b38.config(state=DISABLED)
+    b39.config(state=DISABLED)
+
+    b40.config(state=DISABLED)
+    b41.config(state=DISABLED)
+    b42.config(state=DISABLED)
+
+    b43.config(state=DISABLED)
+    b44.config(state=DISABLED)
+    b45.config(state=DISABLED)
+
+    # 6th tic tac toe
+    b46.config(state=DISABLED)
+    b47.config(state=DISABLED)
+    b48.config(state=DISABLED)
+
+    b49.config(state=DISABLED)
+    b50.config(state=DISABLED)
+    b51.config(state=DISABLED)
+
+    b52.config(state=DISABLED)
+    b53.config(state=DISABLED)
+    b54.config(state=DISABLED)
+
+    # 7th tic tac toe
+    b55.config(state=DISABLED)
+    b56.config(state=DISABLED)
+    b57.config(state=DISABLED)
+
+    b58.config(state=DISABLED)
+    b59.config(state=DISABLED)
+    b60.config(state=DISABLED)
+
+    b61.config(state=DISABLED)
+    b62.config(state=DISABLED)
+    b63.config(state=DISABLED)
+
+    # 8th tic tac toe
+    b64.config(state=DISABLED)
+    b65.config(state=DISABLED)
+    b66.config(state=DISABLED)
+
+    b67.config(state=DISABLED)
+    b68.config(state=DISABLED)
+    b69.config(state=DISABLED)
+
+    b70.config(state=DISABLED)
+    b71.config(state=DISABLED)
+    b72.config(state=DISABLED)
+
+    # 9th tic tac toe
+    b73.config(state=DISABLED)
+    b74.config(state=DISABLED)
+    b75.config(state=DISABLED)
+
+    b76.config(state=DISABLED)
+    b77.config(state=DISABLED)
+    b78.config(state=DISABLED)
+
+    b79.config(state=DISABLED)
+    b80.config(state=DISABLED)
+    b81.config(state=DISABLED)
+
+
+#   SAME AS DISABLE_TIC_5
+def disable_tic_59():
+    # 1st tic tac toe
+    b1.config(state=DISABLED)
+    b2.config(state=DISABLED)
+    b3.config(state=DISABLED)
+
+    b4.config(state=DISABLED)
+    b5.config(state=DISABLED)
+    b6.config(state=DISABLED)
+
+    b7.config(state=DISABLED)
+    b8.config(state=DISABLED)
+    b9.config(state=DISABLED)
+
+    # 2nd tic tac toe
+    b10.config(state=DISABLED)
+    b11.config(state=DISABLED)
+    b12.config(state=DISABLED)
+
+    b13.config(state=DISABLED)
+    b14.config(state=DISABLED)
+    b15.config(state=DISABLED)
+
+    b16.config(state=DISABLED)
+    b17.config(state=DISABLED)
+    b18.config(state=DISABLED)
+
+    # 3rd tic tac toe
+    b19.config(state=DISABLED)
+    b20.config(state=DISABLED)
+    b21.config(state=DISABLED)
+
+    b22.config(state=DISABLED)
+    b23.config(state=DISABLED)
+    b24.config(state=DISABLED)
+
+    b25.config(state=DISABLED)
+    b26.config(state=DISABLED)
+    b27.config(state=DISABLED)
+
+    # 4th tic tac toe
+    b28.config(state=DISABLED)
+    b29.config(state=DISABLED)
+    b30.config(state=DISABLED)
+
+    b31.config(state=DISABLED)
+    b32.config(state=DISABLED)
+    b33.config(state=DISABLED)
+
+    b34.config(state=DISABLED)
+    b35.config(state=DISABLED)
+    b36.config(state=DISABLED)
+
+    # 6th tic tac toe
+    b46.config(state=DISABLED)
+    b47.config(state=DISABLED)
+    b48.config(state=DISABLED)
+
+    b49.config(state=DISABLED)
+    b50.config(state=DISABLED)
+    b51.config(state=DISABLED)
+
+    b52.config(state=DISABLED)
+    b53.config(state=DISABLED)
+    b54.config(state=DISABLED)
+
+    # 7th tic tac toe
+    b55.config(state=DISABLED)
+    b56.config(state=DISABLED)
+    b57.config(state=DISABLED)
+
+    b58.config(state=DISABLED)
+    b59.config(state=DISABLED)
+    b60.config(state=DISABLED)
+
+    b61.config(state=DISABLED)
+    b62.config(state=DISABLED)
+    b63.config(state=DISABLED)
+
+    # 8th tic tac toe
+    b64.config(state=DISABLED)
+    b65.config(state=DISABLED)
+    b66.config(state=DISABLED)
+
+    b67.config(state=DISABLED)
+    b68.config(state=DISABLED)
+    b69.config(state=DISABLED)
+
+    b70.config(state=DISABLED)
+    b71.config(state=DISABLED)
+    b72.config(state=DISABLED)
+
+    # 9th tic tac toe
+    b73.config(state=DISABLED)
+    b74.config(state=DISABLED)
+    b75.config(state=DISABLED)
+
+    b76.config(state=DISABLED)
+    b77.config(state=DISABLED)
+    b78.config(state=DISABLED)
+
+    b79.config(state=DISABLED)
+    b80.config(state=DISABLED)
+    b81.config(state=DISABLED)
+
+
+#   SAME AS DISABLE_TIC_6
+def disable_tic_60():
+    # 1st tic tac toe
+    b1.config(state=DISABLED)
+    b2.config(state=DISABLED)
+    b3.config(state=DISABLED)
+
+    b4.config(state=DISABLED)
+    b5.config(state=DISABLED)
+    b6.config(state=DISABLED)
+
+    b7.config(state=DISABLED)
+    b8.config(state=DISABLED)
+    b9.config(state=DISABLED)
+
+    # 2nd tic tac toe
+    b10.config(state=DISABLED)
+    b11.config(state=DISABLED)
+    b12.config(state=DISABLED)
+
+    b13.config(state=DISABLED)
+    b14.config(state=DISABLED)
+    b15.config(state=DISABLED)
+
+    b16.config(state=DISABLED)
+    b17.config(state=DISABLED)
+    b18.config(state=DISABLED)
+
+    # 3rd tic tac toe
+    b19.config(state=DISABLED)
+    b20.config(state=DISABLED)
+    b21.config(state=DISABLED)
+
+    b22.config(state=DISABLED)
+    b23.config(state=DISABLED)
+    b24.config(state=DISABLED)
+
+    b25.config(state=DISABLED)
+    b26.config(state=DISABLED)
+    b27.config(state=DISABLED)
+
+    # 4th tic tac toe
+    b28.config(state=DISABLED)
+    b29.config(state=DISABLED)
+    b30.config(state=DISABLED)
+
+    b31.config(state=DISABLED)
+    b32.config(state=DISABLED)
+    b33.config(state=DISABLED)
+
+    b34.config(state=DISABLED)
+    b35.config(state=DISABLED)
+    b36.config(state=DISABLED)
+
+    # 5th tic tac toe
+    b37.config(state=DISABLED)
+    b38.config(state=DISABLED)
+    b39.config(state=DISABLED)
+
+    b40.config(state=DISABLED)
+    b41.config(state=DISABLED)
+    b42.config(state=DISABLED)
+
+    b43.config(state=DISABLED)
+    b44.config(state=DISABLED)
+    b45.config(state=DISABLED)
+
+    # 7th tic tac toe
+    b55.config(state=DISABLED)
+    b56.config(state=DISABLED)
+    b57.config(state=DISABLED)
+
+    b58.config(state=DISABLED)
+    b59.config(state=DISABLED)
+    b60.config(state=DISABLED)
+
+    b61.config(state=DISABLED)
+    b62.config(state=DISABLED)
+    b63.config(state=DISABLED)
+
+    # 8th tic tac toe
+    b64.config(state=DISABLED)
+    b65.config(state=DISABLED)
+    b66.config(state=DISABLED)
+
+    b67.config(state=DISABLED)
+    b68.config(state=DISABLED)
+    b69.config(state=DISABLED)
+
+    b70.config(state=DISABLED)
+    b71.config(state=DISABLED)
+    b72.config(state=DISABLED)
+
+    # 9th tic tac toe
+    b73.config(state=DISABLED)
+    b74.config(state=DISABLED)
+    b75.config(state=DISABLED)
+
+    b76.config(state=DISABLED)
+    b77.config(state=DISABLED)
+    b78.config(state=DISABLED)
+
+    b79.config(state=DISABLED)
+    b80.config(state=DISABLED)
+    b81.config(state=DISABLED)
+
+
+#   SAME AS DISABLE_TIC_7
+def disable_tic_61():
+    # 1st tic tac toe
+    b1.config(state=DISABLED)
+    b2.config(state=DISABLED)
+    b3.config(state=DISABLED)
+
+    b4.config(state=DISABLED)
+    b5.config(state=DISABLED)
+    b6.config(state=DISABLED)
+
+    b7.config(state=DISABLED)
+    b8.config(state=DISABLED)
+    b9.config(state=DISABLED)
+
+    # 2nd tic tac toe
+    b10.config(state=DISABLED)
+    b11.config(state=DISABLED)
+    b12.config(state=DISABLED)
+
+    b13.config(state=DISABLED)
+    b14.config(state=DISABLED)
+    b15.config(state=DISABLED)
+
+    b16.config(state=DISABLED)
+    b17.config(state=DISABLED)
+    b18.config(state=DISABLED)
+
+    # 3rd tic tac toe
+    b19.config(state=DISABLED)
+    b20.config(state=DISABLED)
+    b21.config(state=DISABLED)
+
+    b22.config(state=DISABLED)
+    b23.config(state=DISABLED)
+    b24.config(state=DISABLED)
+
+    b25.config(state=DISABLED)
+    b26.config(state=DISABLED)
+    b27.config(state=DISABLED)
+
+    # 4th tic tac toe
+    b28.config(state=DISABLED)
+    b29.config(state=DISABLED)
+    b30.config(state=DISABLED)
+
+    b31.config(state=DISABLED)
+    b32.config(state=DISABLED)
+    b33.config(state=DISABLED)
+
+    b34.config(state=DISABLED)
+    b35.config(state=DISABLED)
+    b36.config(state=DISABLED)
+
+    # 5th tic tac toe
+    b37.config(state=DISABLED)
+    b38.config(state=DISABLED)
+    b39.config(state=DISABLED)
+
+    b40.config(state=DISABLED)
+    b41.config(state=DISABLED)
+    b42.config(state=DISABLED)
+
+    b43.config(state=DISABLED)
+    b44.config(state=DISABLED)
+    b45.config(state=DISABLED)
+
+    # 6th tic tac toe
+    b46.config(state=DISABLED)
+    b47.config(state=DISABLED)
+    b48.config(state=DISABLED)
+
+    b49.config(state=DISABLED)
+    b50.config(state=DISABLED)
+    b51.config(state=DISABLED)
+
+    b52.config(state=DISABLED)
+    b53.config(state=DISABLED)
+    b54.config(state=DISABLED)
+
+    # 8th tic tac toe
+    b64.config(state=DISABLED)
+    b65.config(state=DISABLED)
+    b66.config(state=DISABLED)
+
+    b67.config(state=DISABLED)
+    b68.config(state=DISABLED)
+    b69.config(state=DISABLED)
+
+    b70.config(state=DISABLED)
+    b71.config(state=DISABLED)
+    b72.config(state=DISABLED)
+
+    # 9th tic tac toe
+    b73.config(state=DISABLED)
+    b74.config(state=DISABLED)
+    b75.config(state=DISABLED)
+
+    b76.config(state=DISABLED)
+    b77.config(state=DISABLED)
+    b78.config(state=DISABLED)
+
+    b79.config(state=DISABLED)
+    b80.config(state=DISABLED)
+    b81.config(state=DISABLED)
+
+
+#   SAME AS DISABLE_TIC_8
+def disable_tic_62():
+    # 1st tic tac toe
+    b1.config(state=DISABLED)
+    b2.config(state=DISABLED)
+    b3.config(state=DISABLED)
+
+    b4.config(state=DISABLED)
+    b5.config(state=DISABLED)
+    b6.config(state=DISABLED)
+
+    b7.config(state=DISABLED)
+    b8.config(state=DISABLED)
+    b9.config(state=DISABLED)
+
+    # 2nd tic tac toe
+    b10.config(state=DISABLED)
+    b11.config(state=DISABLED)
+    b12.config(state=DISABLED)
+
+    b13.config(state=DISABLED)
+    b14.config(state=DISABLED)
+    b15.config(state=DISABLED)
+
+    b16.config(state=DISABLED)
+    b17.config(state=DISABLED)
+    b18.config(state=DISABLED)
+
+    # 3rd tic tac toe
+    b19.config(state=DISABLED)
+    b20.config(state=DISABLED)
+    b21.config(state=DISABLED)
+
+    b22.config(state=DISABLED)
+    b23.config(state=DISABLED)
+    b24.config(state=DISABLED)
+
+    b25.config(state=DISABLED)
+    b26.config(state=DISABLED)
+    b27.config(state=DISABLED)
+
+    # 4th tic tac toe
+    b28.config(state=DISABLED)
+    b29.config(state=DISABLED)
+    b30.config(state=DISABLED)
+
+    b31.config(state=DISABLED)
+    b32.config(state=DISABLED)
+    b33.config(state=DISABLED)
+
+    b34.config(state=DISABLED)
+    b35.config(state=DISABLED)
+    b36.config(state=DISABLED)
+
+    # 5th tic tac toe
+    b37.config(state=DISABLED)
+    b38.config(state=DISABLED)
+    b39.config(state=DISABLED)
+
+    b40.config(state=DISABLED)
+    b41.config(state=DISABLED)
+    b42.config(state=DISABLED)
+
+    b43.config(state=DISABLED)
+    b44.config(state=DISABLED)
+    b45.config(state=DISABLED)
+
+    # 6th tic tac toe
+    b46.config(state=DISABLED)
+    b47.config(state=DISABLED)
+    b48.config(state=DISABLED)
+
+    b49.config(state=DISABLED)
+    b50.config(state=DISABLED)
+    b51.config(state=DISABLED)
+
+    b52.config(state=DISABLED)
+    b53.config(state=DISABLED)
+    b54.config(state=DISABLED)
+
+    # 7th tic tac toe
+    b55.config(state=DISABLED)
+    b56.config(state=DISABLED)
+    b57.config(state=DISABLED)
+
+    b58.config(state=DISABLED)
+    b59.config(state=DISABLED)
+    b60.config(state=DISABLED)
+
+    b61.config(state=DISABLED)
+    b62.config(state=DISABLED)
+    b63.config(state=DISABLED)
+
+    # 9th tic tac toe
+    b73.config(state=DISABLED)
+    b74.config(state=DISABLED)
+    b75.config(state=DISABLED)
+
+    b76.config(state=DISABLED)
+    b77.config(state=DISABLED)
+    b78.config(state=DISABLED)
+
+    b79.config(state=DISABLED)
+    b80.config(state=DISABLED)
+    b81.config(state=DISABLED)
+
+
+#   SAME AS DISABLE_TIC_9
+def disable_tic_63():
+    # 1st tic tac toe
+    b1.config(state=DISABLED)
+    b2.config(state=DISABLED)
+    b3.config(state=DISABLED)
+
+    b4.config(state=DISABLED)
+    b5.config(state=DISABLED)
+    b6.config(state=DISABLED)
+
+    b7.config(state=DISABLED)
+    b8.config(state=DISABLED)
+    b9.config(state=DISABLED)
+
+    # 2nd tic tac toe
+    b10.config(state=DISABLED)
+    b11.config(state=DISABLED)
+    b12.config(state=DISABLED)
+
+    b13.config(state=DISABLED)
+    b14.config(state=DISABLED)
+    b15.config(state=DISABLED)
+
+    b16.config(state=DISABLED)
+    b17.config(state=DISABLED)
+    b18.config(state=DISABLED)
+
+    # 3rd tic tac toe
+    b19.config(state=DISABLED)
+    b20.config(state=DISABLED)
+    b21.config(state=DISABLED)
+
+    b22.config(state=DISABLED)
+    b23.config(state=DISABLED)
+    b24.config(state=DISABLED)
+
+    b25.config(state=DISABLED)
+    b26.config(state=DISABLED)
+    b27.config(state=DISABLED)
+
+    # 4th tic tac toe
+    b28.config(state=DISABLED)
+    b29.config(state=DISABLED)
+    b30.config(state=DISABLED)
+
+    b31.config(state=DISABLED)
+    b32.config(state=DISABLED)
+    b33.config(state=DISABLED)
+
+    b34.config(state=DISABLED)
+    b35.config(state=DISABLED)
+    b36.config(state=DISABLED)
+
+    # 5th tic tac toe
+    b37.config(state=DISABLED)
+    b38.config(state=DISABLED)
+    b39.config(state=DISABLED)
+
+    b40.config(state=DISABLED)
+    b41.config(state=DISABLED)
+    b42.config(state=DISABLED)
+
+    b43.config(state=DISABLED)
+    b44.config(state=DISABLED)
+    b45.config(state=DISABLED)
+
+    # 6th tic tac toe
+    b46.config(state=DISABLED)
+    b47.config(state=DISABLED)
+    b48.config(state=DISABLED)
+
+    b49.config(state=DISABLED)
+    b50.config(state=DISABLED)
+    b51.config(state=DISABLED)
+
+    b52.config(state=DISABLED)
+    b53.config(state=DISABLED)
+    b54.config(state=DISABLED)
+
+    # 7th tic tac toe
+    b55.config(state=DISABLED)
+    b56.config(state=DISABLED)
+    b57.config(state=DISABLED)
+
+    b58.config(state=DISABLED)
+    b59.config(state=DISABLED)
+    b60.config(state=DISABLED)
+
+    b61.config(state=DISABLED)
+    b62.config(state=DISABLED)
+    b63.config(state=DISABLED)
+
+    # 8th tic tac toe
+    b64.config(state=DISABLED)
+    b65.config(state=DISABLED)
+    b66.config(state=DISABLED)
+
+    b67.config(state=DISABLED)
+    b68.config(state=DISABLED)
+    b69.config(state=DISABLED)
+
+    b70.config(state=DISABLED)
+    b71.config(state=DISABLED)
+    b72.config(state=DISABLED)
+
+
+#  [ tic tac toe 8 ]  SAME AS DISABLE_TIC_ONE
+def disable_tic_64():
+    # 2nd tic tac toe
+    b10.config(state=DISABLED)
+    b11.config(state=DISABLED)
+    b12.config(state=DISABLED)
+
+    b13.config(state=DISABLED)
+    b14.config(state=DISABLED)
+    b15.config(state=DISABLED)
+
+    b16.config(state=DISABLED)
+    b17.config(state=DISABLED)
+    b18.config(state=DISABLED)
+
+    # 3rd tic tac toe
+    b19.config(state=DISABLED)
+    b20.config(state=DISABLED)
+    b21.config(state=DISABLED)
+
+    b22.config(state=DISABLED)
+    b23.config(state=DISABLED)
+    b24.config(state=DISABLED)
+
+    b25.config(state=DISABLED)
+    b26.config(state=DISABLED)
+    b27.config(state=DISABLED)
+
+    # 4th tic tac toe
+    b28.config(state=DISABLED)
+    b29.config(state=DISABLED)
+    b30.config(state=DISABLED)
+
+    b31.config(state=DISABLED)
+    b32.config(state=DISABLED)
+    b33.config(state=DISABLED)
+
+    b34.config(state=DISABLED)
+    b35.config(state=DISABLED)
+    b36.config(state=DISABLED)
+
+    # 5th tic tac toe
+    b37.config(state=DISABLED)
+    b38.config(state=DISABLED)
+    b39.config(state=DISABLED)
+
+    b40.config(state=DISABLED)
+    b41.config(state=DISABLED)
+    b42.config(state=DISABLED)
+
+    b43.config(state=DISABLED)
+    b44.config(state=DISABLED)
+    b45.config(state=DISABLED)
+
+    # 6th tic tac toe
+    b46.config(state=DISABLED)
+    b47.config(state=DISABLED)
+    b48.config(state=DISABLED)
+
+    b49.config(state=DISABLED)
+    b50.config(state=DISABLED)
+    b51.config(state=DISABLED)
+
+    b52.config(state=DISABLED)
+    b53.config(state=DISABLED)
+    b54.config(state=DISABLED)
+
+    # 7th tic tac toe
+    b55.config(state=DISABLED)
+    b56.config(state=DISABLED)
+    b57.config(state=DISABLED)
+
+    b58.config(state=DISABLED)
+    b59.config(state=DISABLED)
+    b60.config(state=DISABLED)
+
+    b61.config(state=DISABLED)
+    b62.config(state=DISABLED)
+    b63.config(state=DISABLED)
+
+    # 8th tic tac toe
+    b64.config(state=DISABLED)
+    b65.config(state=DISABLED)
+    b66.config(state=DISABLED)
+
+    b67.config(state=DISABLED)
+    b68.config(state=DISABLED)
+    b69.config(state=DISABLED)
+
+    b70.config(state=DISABLED)
+    b71.config(state=DISABLED)
+    b72.config(state=DISABLED)
+
+    # 9th tic tac toe
+    b73.config(state=DISABLED)
+    b74.config(state=DISABLED)
+    b75.config(state=DISABLED)
+
+    b76.config(state=DISABLED)
+    b77.config(state=DISABLED)
+    b78.config(state=DISABLED)
+
+    b79.config(state=DISABLED)
+    b80.config(state=DISABLED)
+    b81.config(state=DISABLED) #
+
+
+#   SAME AS DISABLE_TIC_TWO
+def disable_tic_65():
+    # 1st tic tac toe
+    b1.config(state=DISABLED)
+    b2.config(state=DISABLED)
+    b3.config(state=DISABLED)
+
+    b4.config(state=DISABLED)
+    b5.config(state=DISABLED)
+    b6.config(state=DISABLED)
+
+    b7.config(state=DISABLED)
+    b8.config(state=DISABLED)
+    b9.config(state=DISABLED)
+
+    # 3rd tic tac toe
+    b19.config(state=DISABLED)
+    b20.config(state=DISABLED)
+    b21.config(state=DISABLED)
+
+    b22.config(state=DISABLED)
+    b23.config(state=DISABLED)
+    b24.config(state=DISABLED)
+
+    b25.config(state=DISABLED)
+    b26.config(state=DISABLED)
+    b27.config(state=DISABLED)
+
+    # 4th tic tac toe
+    b28.config(state=DISABLED)
+    b29.config(state=DISABLED)
+    b30.config(state=DISABLED)
+
+    b31.config(state=DISABLED)
+    b32.config(state=DISABLED)
+    b33.config(state=DISABLED)
+
+    b34.config(state=DISABLED)
+    b35.config(state=DISABLED)
+    b36.config(state=DISABLED)
+
+    # 5th tic tac toe
+    b37.config(state=DISABLED)
+    b38.config(state=DISABLED)
+    b39.config(state=DISABLED)
+
+    b40.config(state=DISABLED)
+    b41.config(state=DISABLED)
+    b42.config(state=DISABLED)
+
+    b43.config(state=DISABLED)
+    b44.config(state=DISABLED)
+    b45.config(state=DISABLED)
+
+    # 6th tic tac toe
+    b46.config(state=DISABLED)
+    b47.config(state=DISABLED)
+    b48.config(state=DISABLED)
+
+    b49.config(state=DISABLED)
+    b50.config(state=DISABLED)
+    b51.config(state=DISABLED)
+
+    b52.config(state=DISABLED)
+    b53.config(state=DISABLED)
+    b54.config(state=DISABLED)
+
+    # 7th tic tac toe
+    b55.config(state=DISABLED)
+    b56.config(state=DISABLED)
+    b57.config(state=DISABLED)
+
+    b58.config(state=DISABLED)
+    b59.config(state=DISABLED)
+    b60.config(state=DISABLED)
+
+    b61.config(state=DISABLED)
+    b62.config(state=DISABLED)
+    b63.config(state=DISABLED)
+
+    # 8th tic tac toe
+    b64.config(state=DISABLED)
+    b65.config(state=DISABLED)
+    b66.config(state=DISABLED)
+
+    b67.config(state=DISABLED)
+    b68.config(state=DISABLED)
+    b69.config(state=DISABLED)
+
+    b70.config(state=DISABLED)
+    b71.config(state=DISABLED)
+    b72.config(state=DISABLED)
+
+    # 9th tic tac toe
+    b73.config(state=DISABLED)
+    b74.config(state=DISABLED)
+    b75.config(state=DISABLED)
+
+    b76.config(state=DISABLED)
+    b77.config(state=DISABLED)
+    b78.config(state=DISABLED)
+
+    b79.config(state=DISABLED)
+    b80.config(state=DISABLED)
+    b81.config(state=DISABLED)
+
+
+#   SAME AS DISABLE_TIC_3
+def disable_tic_66():
+    # 1st tic tac toe
+    b1.config(state=DISABLED)
+    b2.config(state=DISABLED)
+    b3.config(state=DISABLED)
+
+    b4.config(state=DISABLED)
+    b5.config(state=DISABLED)
+    b6.config(state=DISABLED)
+
+    b7.config(state=DISABLED)
+    b8.config(state=DISABLED)
+    b9.config(state=DISABLED)
+
+    # 2nd tic tac toe
+    b10.config(state=DISABLED)
+    b11.config(state=DISABLED)
+    b12.config(state=DISABLED)
+
+    b13.config(state=DISABLED)
+    b14.config(state=DISABLED)
+    b15.config(state=DISABLED)
+
+    b16.config(state=DISABLED)
+    b17.config(state=DISABLED)
+    b18.config(state=DISABLED)
+
+    # 4th tic tac toe
+    b28.config(state=DISABLED)
+    b29.config(state=DISABLED)
+    b30.config(state=DISABLED)
+
+    b31.config(state=DISABLED)
+    b32.config(state=DISABLED)
+    b33.config(state=DISABLED)
+
+    b34.config(state=DISABLED)
+    b35.config(state=DISABLED)
+    b36.config(state=DISABLED)
+
+    # 5th tic tac toe
+    b37.config(state=DISABLED)
+    b38.config(state=DISABLED)
+    b39.config(state=DISABLED)
+
+    b40.config(state=DISABLED)
+    b41.config(state=DISABLED)
+    b42.config(state=DISABLED)
+
+    b43.config(state=DISABLED)
+    b44.config(state=DISABLED)
+    b45.config(state=DISABLED)
+
+    # 6th tic tac toe
+    b46.config(state=DISABLED)
+    b47.config(state=DISABLED)
+    b48.config(state=DISABLED)
+
+    b49.config(state=DISABLED)
+    b50.config(state=DISABLED)
+    b51.config(state=DISABLED)
+
+    b52.config(state=DISABLED)
+    b53.config(state=DISABLED)
+    b54.config(state=DISABLED)
+
+    # 7th tic tac toe
+    b55.config(state=DISABLED)
+    b56.config(state=DISABLED)
+    b57.config(state=DISABLED)
+
+    b58.config(state=DISABLED)
+    b59.config(state=DISABLED)
+    b60.config(state=DISABLED)
+
+    b61.config(state=DISABLED)
+    b62.config(state=DISABLED)
+    b63.config(state=DISABLED)
+
+    # 8th tic tac toe
+    b64.config(state=DISABLED)
+    b65.config(state=DISABLED)
+    b66.config(state=DISABLED)
+
+    b67.config(state=DISABLED)
+    b68.config(state=DISABLED)
+    b69.config(state=DISABLED)
+
+    b70.config(state=DISABLED)
+    b71.config(state=DISABLED)
+    b72.config(state=DISABLED)
+
+    # 9th tic tac toe
+    b73.config(state=DISABLED)
+    b74.config(state=DISABLED)
+    b75.config(state=DISABLED)
+
+    b76.config(state=DISABLED)
+    b77.config(state=DISABLED)
+    b78.config(state=DISABLED)
+
+    b79.config(state=DISABLED)
+    b80.config(state=DISABLED)
+    b81.config(state=DISABLED)
+
+
+#   SAME AS DISABLE_TIC_4
+def disable_tic_67():
+    # 1st tic tac toe
+    b1.config(state=DISABLED)
+    b2.config(state=DISABLED)
+    b3.config(state=DISABLED)
+
+    b4.config(state=DISABLED)
+    b5.config(state=DISABLED)
+    b6.config(state=DISABLED)
+
+    b7.config(state=DISABLED)
+    b8.config(state=DISABLED)
+    b9.config(state=DISABLED)
+
+    # 2nd tic tac toe
+    b10.config(state=DISABLED)
+    b11.config(state=DISABLED)
+    b12.config(state=DISABLED)
+
+    b13.config(state=DISABLED)
+    b14.config(state=DISABLED)
+    b15.config(state=DISABLED)
+
+    b16.config(state=DISABLED)
+    b17.config(state=DISABLED)
+    b18.config(state=DISABLED)
+
+    # 3rd tic tac toe
+    b19.config(state=DISABLED)
+    b20.config(state=DISABLED)
+    b21.config(state=DISABLED)
+
+    b22.config(state=DISABLED)
+    b23.config(state=DISABLED)
+    b24.config(state=DISABLED)
+
+    b25.config(state=DISABLED)
+    b26.config(state=DISABLED)
+    b27.config(state=DISABLED)
+
+    # 5th tic tac toe
+    b37.config(state=DISABLED)
+    b38.config(state=DISABLED)
+    b39.config(state=DISABLED)
+
+    b40.config(state=DISABLED)
+    b41.config(state=DISABLED)
+    b42.config(state=DISABLED)
+
+    b43.config(state=DISABLED)
+    b44.config(state=DISABLED)
+    b45.config(state=DISABLED)
+
+    # 6th tic tac toe
+    b46.config(state=DISABLED)
+    b47.config(state=DISABLED)
+    b48.config(state=DISABLED)
+
+    b49.config(state=DISABLED)
+    b50.config(state=DISABLED)
+    b51.config(state=DISABLED)
+
+    b52.config(state=DISABLED)
+    b53.config(state=DISABLED)
+    b54.config(state=DISABLED)
+
+    # 7th tic tac toe
+    b55.config(state=DISABLED)
+    b56.config(state=DISABLED)
+    b57.config(state=DISABLED)
+
+    b58.config(state=DISABLED)
+    b59.config(state=DISABLED)
+    b60.config(state=DISABLED)
+
+    b61.config(state=DISABLED)
+    b62.config(state=DISABLED)
+    b63.config(state=DISABLED)
+
+    # 8th tic tac toe
+    b64.config(state=DISABLED)
+    b65.config(state=DISABLED)
+    b66.config(state=DISABLED)
+
+    b67.config(state=DISABLED)
+    b68.config(state=DISABLED)
+    b69.config(state=DISABLED)
+
+    b70.config(state=DISABLED)
+    b71.config(state=DISABLED)
+    b72.config(state=DISABLED)
+
+    # 9th tic tac toe
+    b73.config(state=DISABLED)
+    b74.config(state=DISABLED)
+    b75.config(state=DISABLED)
+
+    b76.config(state=DISABLED)
+    b77.config(state=DISABLED)
+    b78.config(state=DISABLED)
+
+    b79.config(state=DISABLED)
+    b80.config(state=DISABLED)
+    b81.config(state=DISABLED)
+
+
+#   SAME AS DISABLE_TIC_5
+def disable_tic_68():
+    # 1st tic tac toe
+    b1.config(state=DISABLED)
+    b2.config(state=DISABLED)
+    b3.config(state=DISABLED)
+
+    b4.config(state=DISABLED)
+    b5.config(state=DISABLED)
+    b6.config(state=DISABLED)
+
+    b7.config(state=DISABLED)
+    b8.config(state=DISABLED)
+    b9.config(state=DISABLED)
+
+    # 2nd tic tac toe
+    b10.config(state=DISABLED)
+    b11.config(state=DISABLED)
+    b12.config(state=DISABLED)
+
+    b13.config(state=DISABLED)
+    b14.config(state=DISABLED)
+    b15.config(state=DISABLED)
+
+    b16.config(state=DISABLED)
+    b17.config(state=DISABLED)
+    b18.config(state=DISABLED)
+
+    # 3rd tic tac toe
+    b19.config(state=DISABLED)
+    b20.config(state=DISABLED)
+    b21.config(state=DISABLED)
+
+    b22.config(state=DISABLED)
+    b23.config(state=DISABLED)
+    b24.config(state=DISABLED)
+
+    b25.config(state=DISABLED)
+    b26.config(state=DISABLED)
+    b27.config(state=DISABLED)
+
+    # 4th tic tac toe
+    b28.config(state=DISABLED)
+    b29.config(state=DISABLED)
+    b30.config(state=DISABLED)
+
+    b31.config(state=DISABLED)
+    b32.config(state=DISABLED)
+    b33.config(state=DISABLED)
+
+    b34.config(state=DISABLED)
+    b35.config(state=DISABLED)
+    b36.config(state=DISABLED)
+
+    # 6th tic tac toe
+    b46.config(state=DISABLED)
+    b47.config(state=DISABLED)
+    b48.config(state=DISABLED)
+
+    b49.config(state=DISABLED)
+    b50.config(state=DISABLED)
+    b51.config(state=DISABLED)
+
+    b52.config(state=DISABLED)
+    b53.config(state=DISABLED)
+    b54.config(state=DISABLED)
+
+    # 7th tic tac toe
+    b55.config(state=DISABLED)
+    b56.config(state=DISABLED)
+    b57.config(state=DISABLED)
+
+    b58.config(state=DISABLED)
+    b59.config(state=DISABLED)
+    b60.config(state=DISABLED)
+
+    b61.config(state=DISABLED)
+    b62.config(state=DISABLED)
+    b63.config(state=DISABLED)
+
+    # 8th tic tac toe
+    b64.config(state=DISABLED)
+    b65.config(state=DISABLED)
+    b66.config(state=DISABLED)
+
+    b67.config(state=DISABLED)
+    b68.config(state=DISABLED)
+    b69.config(state=DISABLED)
+
+    b70.config(state=DISABLED)
+    b71.config(state=DISABLED)
+    b72.config(state=DISABLED)
+
+    # 9th tic tac toe
+    b73.config(state=DISABLED)
+    b74.config(state=DISABLED)
+    b75.config(state=DISABLED)
+
+    b76.config(state=DISABLED)
+    b77.config(state=DISABLED)
+    b78.config(state=DISABLED)
+
+    b79.config(state=DISABLED)
+    b80.config(state=DISABLED)
+    b81.config(state=DISABLED)
+
+
+#   SAME AS DISABLE_TIC_6
+def disable_tic_69():
+    # 1st tic tac toe
+    b1.config(state=DISABLED)
+    b2.config(state=DISABLED)
+    b3.config(state=DISABLED)
+
+    b4.config(state=DISABLED)
+    b5.config(state=DISABLED)
+    b6.config(state=DISABLED)
+
+    b7.config(state=DISABLED)
+    b8.config(state=DISABLED)
+    b9.config(state=DISABLED)
+
+    # 2nd tic tac toe
+    b10.config(state=DISABLED)
+    b11.config(state=DISABLED)
+    b12.config(state=DISABLED)
+
+    b13.config(state=DISABLED)
+    b14.config(state=DISABLED)
+    b15.config(state=DISABLED)
+
+    b16.config(state=DISABLED)
+    b17.config(state=DISABLED)
+    b18.config(state=DISABLED)
+
+    # 3rd tic tac toe
+    b19.config(state=DISABLED)
+    b20.config(state=DISABLED)
+    b21.config(state=DISABLED)
+
+    b22.config(state=DISABLED)
+    b23.config(state=DISABLED)
+    b24.config(state=DISABLED)
+
+    b25.config(state=DISABLED)
+    b26.config(state=DISABLED)
+    b27.config(state=DISABLED)
+
+    # 4th tic tac toe
+    b28.config(state=DISABLED)
+    b29.config(state=DISABLED)
+    b30.config(state=DISABLED)
+
+    b31.config(state=DISABLED)
+    b32.config(state=DISABLED)
+    b33.config(state=DISABLED)
+
+    b34.config(state=DISABLED)
+    b35.config(state=DISABLED)
+    b36.config(state=DISABLED)
+
+    # 5th tic tac toe
+    b37.config(state=DISABLED)
+    b38.config(state=DISABLED)
+    b39.config(state=DISABLED)
+
+    b40.config(state=DISABLED)
+    b41.config(state=DISABLED)
+    b42.config(state=DISABLED)
+
+    b43.config(state=DISABLED)
+    b44.config(state=DISABLED)
+    b45.config(state=DISABLED)
+
+    # 7th tic tac toe
+    b55.config(state=DISABLED)
+    b56.config(state=DISABLED)
+    b57.config(state=DISABLED)
+
+    b58.config(state=DISABLED)
+    b59.config(state=DISABLED)
+    b60.config(state=DISABLED)
+
+    b61.config(state=DISABLED)
+    b62.config(state=DISABLED)
+    b63.config(state=DISABLED)
+
+    # 8th tic tac toe
+    b64.config(state=DISABLED)
+    b65.config(state=DISABLED)
+    b66.config(state=DISABLED)
+
+    b67.config(state=DISABLED)
+    b68.config(state=DISABLED)
+    b69.config(state=DISABLED)
+
+    b70.config(state=DISABLED)
+    b71.config(state=DISABLED)
+    b72.config(state=DISABLED)
+
+    # 9th tic tac toe
+    b73.config(state=DISABLED)
+    b74.config(state=DISABLED)
+    b75.config(state=DISABLED)
+
+    b76.config(state=DISABLED)
+    b77.config(state=DISABLED)
+    b78.config(state=DISABLED)
+
+    b79.config(state=DISABLED)
+    b80.config(state=DISABLED)
+    b81.config(state=DISABLED)
+
+
+#   SAME AS DISABLE_TIC_7
+def disable_tic_70():
+    # 1st tic tac toe
+    b1.config(state=DISABLED)
+    b2.config(state=DISABLED)
+    b3.config(state=DISABLED)
+
+    b4.config(state=DISABLED)
+    b5.config(state=DISABLED)
+    b6.config(state=DISABLED)
+
+    b7.config(state=DISABLED)
+    b8.config(state=DISABLED)
+    b9.config(state=DISABLED)
+
+    # 2nd tic tac toe
+    b10.config(state=DISABLED)
+    b11.config(state=DISABLED)
+    b12.config(state=DISABLED)
+
+    b13.config(state=DISABLED)
+    b14.config(state=DISABLED)
+    b15.config(state=DISABLED)
+
+    b16.config(state=DISABLED)
+    b17.config(state=DISABLED)
+    b18.config(state=DISABLED)
+
+    # 3rd tic tac toe
+    b19.config(state=DISABLED)
+    b20.config(state=DISABLED)
+    b21.config(state=DISABLED)
+
+    b22.config(state=DISABLED)
+    b23.config(state=DISABLED)
+    b24.config(state=DISABLED)
+
+    b25.config(state=DISABLED)
+    b26.config(state=DISABLED)
+    b27.config(state=DISABLED)
+
+    # 4th tic tac toe
+    b28.config(state=DISABLED)
+    b29.config(state=DISABLED)
+    b30.config(state=DISABLED)
+
+    b31.config(state=DISABLED)
+    b32.config(state=DISABLED)
+    b33.config(state=DISABLED)
+
+    b34.config(state=DISABLED)
+    b35.config(state=DISABLED)
+    b36.config(state=DISABLED)
+
+    # 5th tic tac toe
+    b37.config(state=DISABLED)
+    b38.config(state=DISABLED)
+    b39.config(state=DISABLED)
+
+    b40.config(state=DISABLED)
+    b41.config(state=DISABLED)
+    b42.config(state=DISABLED)
+
+    b43.config(state=DISABLED)
+    b44.config(state=DISABLED)
+    b45.config(state=DISABLED)
+
+    # 6th tic tac toe
+    b46.config(state=DISABLED)
+    b47.config(state=DISABLED)
+    b48.config(state=DISABLED)
+
+    b49.config(state=DISABLED)
+    b50.config(state=DISABLED)
+    b51.config(state=DISABLED)
+
+    b52.config(state=DISABLED)
+    b53.config(state=DISABLED)
+    b54.config(state=DISABLED)
+
+    # 8th tic tac toe
+    b64.config(state=DISABLED)
+    b65.config(state=DISABLED)
+    b66.config(state=DISABLED)
+
+    b67.config(state=DISABLED)
+    b68.config(state=DISABLED)
+    b69.config(state=DISABLED)
+
+    b70.config(state=DISABLED)
+    b71.config(state=DISABLED)
+    b72.config(state=DISABLED)
+
+    # 9th tic tac toe
+    b73.config(state=DISABLED)
+    b74.config(state=DISABLED)
+    b75.config(state=DISABLED)
+
+    b76.config(state=DISABLED)
+    b77.config(state=DISABLED)
+    b78.config(state=DISABLED)
+
+    b79.config(state=DISABLED)
+    b80.config(state=DISABLED)
+    b81.config(state=DISABLED)
+
+
+#   SAME AS DISABLE_TIC_8
+def disable_tic_71():
+    # 1st tic tac toe
+    b1.config(state=DISABLED)
+    b2.config(state=DISABLED)
+    b3.config(state=DISABLED)
+
+    b4.config(state=DISABLED)
+    b5.config(state=DISABLED)
+    b6.config(state=DISABLED)
+
+    b7.config(state=DISABLED)
+    b8.config(state=DISABLED)
+    b9.config(state=DISABLED)
+
+    # 2nd tic tac toe
+    b10.config(state=DISABLED)
+    b11.config(state=DISABLED)
+    b12.config(state=DISABLED)
+
+    b13.config(state=DISABLED)
+    b14.config(state=DISABLED)
+    b15.config(state=DISABLED)
+
+    b16.config(state=DISABLED)
+    b17.config(state=DISABLED)
+    b18.config(state=DISABLED)
+
+    # 3rd tic tac toe
+    b19.config(state=DISABLED)
+    b20.config(state=DISABLED)
+    b21.config(state=DISABLED)
+
+    b22.config(state=DISABLED)
+    b23.config(state=DISABLED)
+    b24.config(state=DISABLED)
+
+    b25.config(state=DISABLED)
+    b26.config(state=DISABLED)
+    b27.config(state=DISABLED)
+
+    # 4th tic tac toe
+    b28.config(state=DISABLED)
+    b29.config(state=DISABLED)
+    b30.config(state=DISABLED)
+
+    b31.config(state=DISABLED)
+    b32.config(state=DISABLED)
+    b33.config(state=DISABLED)
+
+    b34.config(state=DISABLED)
+    b35.config(state=DISABLED)
+    b36.config(state=DISABLED)
+
+    # 5th tic tac toe
+    b37.config(state=DISABLED)
+    b38.config(state=DISABLED)
+    b39.config(state=DISABLED)
+
+    b40.config(state=DISABLED)
+    b41.config(state=DISABLED)
+    b42.config(state=DISABLED)
+
+    b43.config(state=DISABLED)
+    b44.config(state=DISABLED)
+    b45.config(state=DISABLED)
+
+    # 6th tic tac toe
+    b46.config(state=DISABLED)
+    b47.config(state=DISABLED)
+    b48.config(state=DISABLED)
+
+    b49.config(state=DISABLED)
+    b50.config(state=DISABLED)
+    b51.config(state=DISABLED)
+
+    b52.config(state=DISABLED)
+    b53.config(state=DISABLED)
+    b54.config(state=DISABLED)
+
+    # 7th tic tac toe
+    b55.config(state=DISABLED)
+    b56.config(state=DISABLED)
+    b57.config(state=DISABLED)
+
+    b58.config(state=DISABLED)
+    b59.config(state=DISABLED)
+    b60.config(state=DISABLED)
+
+    b61.config(state=DISABLED)
+    b62.config(state=DISABLED)
+    b63.config(state=DISABLED)
+
+    # 9th tic tac toe
+    b73.config(state=DISABLED)
+    b74.config(state=DISABLED)
+    b75.config(state=DISABLED)
+
+    b76.config(state=DISABLED)
+    b77.config(state=DISABLED)
+    b78.config(state=DISABLED)
+
+    b79.config(state=DISABLED)
+    b80.config(state=DISABLED)
+    b81.config(state=DISABLED)
+
+
+#   SAME AS DISABLE_TIC_9
+def disable_tic_72():
+    # 1st tic tac toe
+    b1.config(state=DISABLED)
+    b2.config(state=DISABLED)
+    b3.config(state=DISABLED)
+
+    b4.config(state=DISABLED)
+    b5.config(state=DISABLED)
+    b6.config(state=DISABLED)
+
+    b7.config(state=DISABLED)
+    b8.config(state=DISABLED)
+    b9.config(state=DISABLED)
+
+    # 2nd tic tac toe
+    b10.config(state=DISABLED)
+    b11.config(state=DISABLED)
+    b12.config(state=DISABLED)
+
+    b13.config(state=DISABLED)
+    b14.config(state=DISABLED)
+    b15.config(state=DISABLED)
+
+    b16.config(state=DISABLED)
+    b17.config(state=DISABLED)
+    b18.config(state=DISABLED)
+
+    # 3rd tic tac toe
+    b19.config(state=DISABLED)
+    b20.config(state=DISABLED)
+    b21.config(state=DISABLED)
+
+    b22.config(state=DISABLED)
+    b23.config(state=DISABLED)
+    b24.config(state=DISABLED)
+
+    b25.config(state=DISABLED)
+    b26.config(state=DISABLED)
+    b27.config(state=DISABLED)
+
+    # 4th tic tac toe
+    b28.config(state=DISABLED)
+    b29.config(state=DISABLED)
+    b30.config(state=DISABLED)
+
+    b31.config(state=DISABLED)
+    b32.config(state=DISABLED)
+    b33.config(state=DISABLED)
+
+    b34.config(state=DISABLED)
+    b35.config(state=DISABLED)
+    b36.config(state=DISABLED)
+
+    # 5th tic tac toe
+    b37.config(state=DISABLED)
+    b38.config(state=DISABLED)
+    b39.config(state=DISABLED)
+
+    b40.config(state=DISABLED)
+    b41.config(state=DISABLED)
+    b42.config(state=DISABLED)
+
+    b43.config(state=DISABLED)
+    b44.config(state=DISABLED)
+    b45.config(state=DISABLED)
+
+    # 6th tic tac toe
+    b46.config(state=DISABLED)
+    b47.config(state=DISABLED)
+    b48.config(state=DISABLED)
+
+    b49.config(state=DISABLED)
+    b50.config(state=DISABLED)
+    b51.config(state=DISABLED)
+
+    b52.config(state=DISABLED)
+    b53.config(state=DISABLED)
+    b54.config(state=DISABLED)
+
+    # 7th tic tac toe
+    b55.config(state=DISABLED)
+    b56.config(state=DISABLED)
+    b57.config(state=DISABLED)
+
+    b58.config(state=DISABLED)
+    b59.config(state=DISABLED)
+    b60.config(state=DISABLED)
+
+    b61.config(state=DISABLED)
+    b62.config(state=DISABLED)
+    b63.config(state=DISABLED)
+
+    # 8th tic tac toe
+    b64.config(state=DISABLED)
+    b65.config(state=DISABLED)
+    b66.config(state=DISABLED)
+
+    b67.config(state=DISABLED)
+    b68.config(state=DISABLED)
+    b69.config(state=DISABLED)
+
+    b70.config(state=DISABLED)
+    b71.config(state=DISABLED)
+    b72.config(state=DISABLED)
+
+#  [ tic tac toe 9 ]  SAME AS DISABLE_TIC_ONE
+def disable_tic_73():
+    # 2nd tic tac toe
+    b10.config(state=DISABLED)
+    b11.config(state=DISABLED)
+    b12.config(state=DISABLED)
+
+    b13.config(state=DISABLED)
+    b14.config(state=DISABLED)
+    b15.config(state=DISABLED)
+
+    b16.config(state=DISABLED)
+    b17.config(state=DISABLED)
+    b18.config(state=DISABLED)
+
+    # 3rd tic tac toe
+    b19.config(state=DISABLED)
+    b20.config(state=DISABLED)
+    b21.config(state=DISABLED)
+
+    b22.config(state=DISABLED)
+    b23.config(state=DISABLED)
+    b24.config(state=DISABLED)
+
+    b25.config(state=DISABLED)
+    b26.config(state=DISABLED)
+    b27.config(state=DISABLED)
+
+    # 4th tic tac toe
+    b28.config(state=DISABLED)
+    b29.config(state=DISABLED)
+    b30.config(state=DISABLED)
+
+    b31.config(state=DISABLED)
+    b32.config(state=DISABLED)
+    b33.config(state=DISABLED)
+
+    b34.config(state=DISABLED)
+    b35.config(state=DISABLED)
+    b36.config(state=DISABLED)
+
+    # 5th tic tac toe
+    b37.config(state=DISABLED)
+    b38.config(state=DISABLED)
+    b39.config(state=DISABLED)
+
+    b40.config(state=DISABLED)
+    b41.config(state=DISABLED)
+    b42.config(state=DISABLED)
+
+    b43.config(state=DISABLED)
+    b44.config(state=DISABLED)
+    b45.config(state=DISABLED)
+
+    # 6th tic tac toe
+    b46.config(state=DISABLED)
+    b47.config(state=DISABLED)
+    b48.config(state=DISABLED)
+
+    b49.config(state=DISABLED)
+    b50.config(state=DISABLED)
+    b51.config(state=DISABLED)
+
+    b52.config(state=DISABLED)
+    b53.config(state=DISABLED)
+    b54.config(state=DISABLED)
+
+    # 7th tic tac toe
+    b55.config(state=DISABLED)
+    b56.config(state=DISABLED)
+    b57.config(state=DISABLED)
+
+    b58.config(state=DISABLED)
+    b59.config(state=DISABLED)
+    b60.config(state=DISABLED)
+
+    b61.config(state=DISABLED)
+    b62.config(state=DISABLED)
+    b63.config(state=DISABLED)
+
+    # 8th tic tac toe
+    b64.config(state=DISABLED)
+    b65.config(state=DISABLED)
+    b66.config(state=DISABLED)
+
+    b67.config(state=DISABLED)
+    b68.config(state=DISABLED)
+    b69.config(state=DISABLED)
+
+    b70.config(state=DISABLED)
+    b71.config(state=DISABLED)
+    b72.config(state=DISABLED)
+
+    # 9th tic tac toe
+    b73.config(state=DISABLED)
+    b74.config(state=DISABLED)
+    b75.config(state=DISABLED)
+
+    b76.config(state=DISABLED)
+    b77.config(state=DISABLED)
+    b78.config(state=DISABLED)
+
+    b79.config(state=DISABLED)
+    b80.config(state=DISABLED)
+    b81.config(state=DISABLED) #
+
+
+#   SAME AS DISABLE_TIC_TWO
+def disable_tic_74():
+    # 1st tic tac toe
+    b1.config(state=DISABLED)
+    b2.config(state=DISABLED)
+    b3.config(state=DISABLED)
+
+    b4.config(state=DISABLED)
+    b5.config(state=DISABLED)
+    b6.config(state=DISABLED)
+
+    b7.config(state=DISABLED)
+    b8.config(state=DISABLED)
+    b9.config(state=DISABLED)
+
+    # 3rd tic tac toe
+    b19.config(state=DISABLED)
+    b20.config(state=DISABLED)
+    b21.config(state=DISABLED)
+
+    b22.config(state=DISABLED)
+    b23.config(state=DISABLED)
+    b24.config(state=DISABLED)
+
+    b25.config(state=DISABLED)
+    b26.config(state=DISABLED)
+    b27.config(state=DISABLED)
+
+    # 4th tic tac toe
+    b28.config(state=DISABLED)
+    b29.config(state=DISABLED)
+    b30.config(state=DISABLED)
+
+    b31.config(state=DISABLED)
+    b32.config(state=DISABLED)
+    b33.config(state=DISABLED)
+
+    b34.config(state=DISABLED)
+    b35.config(state=DISABLED)
+    b36.config(state=DISABLED)
+
+    # 5th tic tac toe
+    b37.config(state=DISABLED)
+    b38.config(state=DISABLED)
+    b39.config(state=DISABLED)
+
+    b40.config(state=DISABLED)
+    b41.config(state=DISABLED)
+    b42.config(state=DISABLED)
+
+    b43.config(state=DISABLED)
+    b44.config(state=DISABLED)
+    b45.config(state=DISABLED)
+
+    # 6th tic tac toe
+    b46.config(state=DISABLED)
+    b47.config(state=DISABLED)
+    b48.config(state=DISABLED)
+
+    b49.config(state=DISABLED)
+    b50.config(state=DISABLED)
+    b51.config(state=DISABLED)
+
+    b52.config(state=DISABLED)
+    b53.config(state=DISABLED)
+    b54.config(state=DISABLED)
+
+    # 7th tic tac toe
+    b55.config(state=DISABLED)
+    b56.config(state=DISABLED)
+    b57.config(state=DISABLED)
+
+    b58.config(state=DISABLED)
+    b59.config(state=DISABLED)
+    b60.config(state=DISABLED)
+
+    b61.config(state=DISABLED)
+    b62.config(state=DISABLED)
+    b63.config(state=DISABLED)
+
+    # 8th tic tac toe
+    b64.config(state=DISABLED)
+    b65.config(state=DISABLED)
+    b66.config(state=DISABLED)
+
+    b67.config(state=DISABLED)
+    b68.config(state=DISABLED)
+    b69.config(state=DISABLED)
+
+    b70.config(state=DISABLED)
+    b71.config(state=DISABLED)
+    b72.config(state=DISABLED)
+
+    # 9th tic tac toe
+    b73.config(state=DISABLED)
+    b74.config(state=DISABLED)
+    b75.config(state=DISABLED)
+
+    b76.config(state=DISABLED)
+    b77.config(state=DISABLED)
+    b78.config(state=DISABLED)
+
+    b79.config(state=DISABLED)
+    b80.config(state=DISABLED)
+    b81.config(state=DISABLED)
+
+
+#   SAME AS DISABLE_TIC_3
+def disable_tic_75():
+    # 1st tic tac toe
+    b1.config(state=DISABLED)
+    b2.config(state=DISABLED)
+    b3.config(state=DISABLED)
+
+    b4.config(state=DISABLED)
+    b5.config(state=DISABLED)
+    b6.config(state=DISABLED)
+
+    b7.config(state=DISABLED)
+    b8.config(state=DISABLED)
+    b9.config(state=DISABLED)
+
+    # 2nd tic tac toe
+    b10.config(state=DISABLED)
+    b11.config(state=DISABLED)
+    b12.config(state=DISABLED)
+
+    b13.config(state=DISABLED)
+    b14.config(state=DISABLED)
+    b15.config(state=DISABLED)
+
+    b16.config(state=DISABLED)
+    b17.config(state=DISABLED)
+    b18.config(state=DISABLED)
+
+    # 4th tic tac toe
+    b28.config(state=DISABLED)
+    b29.config(state=DISABLED)
+    b30.config(state=DISABLED)
+
+    b31.config(state=DISABLED)
+    b32.config(state=DISABLED)
+    b33.config(state=DISABLED)
+
+    b34.config(state=DISABLED)
+    b35.config(state=DISABLED)
+    b36.config(state=DISABLED)
+
+    # 5th tic tac toe
+    b37.config(state=DISABLED)
+    b38.config(state=DISABLED)
+    b39.config(state=DISABLED)
+
+    b40.config(state=DISABLED)
+    b41.config(state=DISABLED)
+    b42.config(state=DISABLED)
+
+    b43.config(state=DISABLED)
+    b44.config(state=DISABLED)
+    b45.config(state=DISABLED)
+
+    # 6th tic tac toe
+    b46.config(state=DISABLED)
+    b47.config(state=DISABLED)
+    b48.config(state=DISABLED)
+
+    b49.config(state=DISABLED)
+    b50.config(state=DISABLED)
+    b51.config(state=DISABLED)
+
+    b52.config(state=DISABLED)
+    b53.config(state=DISABLED)
+    b54.config(state=DISABLED)
+
+    # 7th tic tac toe
+    b55.config(state=DISABLED)
+    b56.config(state=DISABLED)
+    b57.config(state=DISABLED)
+
+    b58.config(state=DISABLED)
+    b59.config(state=DISABLED)
+    b60.config(state=DISABLED)
+
+    b61.config(state=DISABLED)
+    b62.config(state=DISABLED)
+    b63.config(state=DISABLED)
+
+    # 8th tic tac toe
+    b64.config(state=DISABLED)
+    b65.config(state=DISABLED)
+    b66.config(state=DISABLED)
+
+    b67.config(state=DISABLED)
+    b68.config(state=DISABLED)
+    b69.config(state=DISABLED)
+
+    b70.config(state=DISABLED)
+    b71.config(state=DISABLED)
+    b72.config(state=DISABLED)
+
+    # 9th tic tac toe
+    b73.config(state=DISABLED)
+    b74.config(state=DISABLED)
+    b75.config(state=DISABLED)
+
+    b76.config(state=DISABLED)
+    b77.config(state=DISABLED)
+    b78.config(state=DISABLED)
+
+    b79.config(state=DISABLED)
+    b80.config(state=DISABLED)
+    b81.config(state=DISABLED)
+
+
+#   SAME AS DISABLE_TIC_4
+def disable_tic_76():
+    # 1st tic tac toe
+    b1.config(state=DISABLED)
+    b2.config(state=DISABLED)
+    b3.config(state=DISABLED)
+
+    b4.config(state=DISABLED)
+    b5.config(state=DISABLED)
+    b6.config(state=DISABLED)
+
+    b7.config(state=DISABLED)
+    b8.config(state=DISABLED)
+    b9.config(state=DISABLED)
+
+    # 2nd tic tac toe
+    b10.config(state=DISABLED)
+    b11.config(state=DISABLED)
+    b12.config(state=DISABLED)
+
+    b13.config(state=DISABLED)
+    b14.config(state=DISABLED)
+    b15.config(state=DISABLED)
+
+    b16.config(state=DISABLED)
+    b17.config(state=DISABLED)
+    b18.config(state=DISABLED)
+
+    # 3rd tic tac toe
+    b19.config(state=DISABLED)
+    b20.config(state=DISABLED)
+    b21.config(state=DISABLED)
+
+    b22.config(state=DISABLED)
+    b23.config(state=DISABLED)
+    b24.config(state=DISABLED)
+
+    b25.config(state=DISABLED)
+    b26.config(state=DISABLED)
+    b27.config(state=DISABLED)
+
+    # 5th tic tac toe
+    b37.config(state=DISABLED)
+    b38.config(state=DISABLED)
+    b39.config(state=DISABLED)
+
+    b40.config(state=DISABLED)
+    b41.config(state=DISABLED)
+    b42.config(state=DISABLED)
+
+    b43.config(state=DISABLED)
+    b44.config(state=DISABLED)
+    b45.config(state=DISABLED)
+
+    # 6th tic tac toe
+    b46.config(state=DISABLED)
+    b47.config(state=DISABLED)
+    b48.config(state=DISABLED)
+
+    b49.config(state=DISABLED)
+    b50.config(state=DISABLED)
+    b51.config(state=DISABLED)
+
+    b52.config(state=DISABLED)
+    b53.config(state=DISABLED)
+    b54.config(state=DISABLED)
+
+    # 7th tic tac toe
+    b55.config(state=DISABLED)
+    b56.config(state=DISABLED)
+    b57.config(state=DISABLED)
+
+    b58.config(state=DISABLED)
+    b59.config(state=DISABLED)
+    b60.config(state=DISABLED)
+
+    b61.config(state=DISABLED)
+    b62.config(state=DISABLED)
+    b63.config(state=DISABLED)
+
+    # 8th tic tac toe
+    b64.config(state=DISABLED)
+    b65.config(state=DISABLED)
+    b66.config(state=DISABLED)
+
+    b67.config(state=DISABLED)
+    b68.config(state=DISABLED)
+    b69.config(state=DISABLED)
+
+    b70.config(state=DISABLED)
+    b71.config(state=DISABLED)
+    b72.config(state=DISABLED)
+
+    # 9th tic tac toe
+    b73.config(state=DISABLED)
+    b74.config(state=DISABLED)
+    b75.config(state=DISABLED)
+
+    b76.config(state=DISABLED)
+    b77.config(state=DISABLED)
+    b78.config(state=DISABLED)
+
+    b79.config(state=DISABLED)
+    b80.config(state=DISABLED)
+    b81.config(state=DISABLED)
+
+
+#   SAME AS DISABLE_TIC_5
+def disable_tic_77():
+    # 1st tic tac toe
+    b1.config(state=DISABLED)
+    b2.config(state=DISABLED)
+    b3.config(state=DISABLED)
+
+    b4.config(state=DISABLED)
+    b5.config(state=DISABLED)
+    b6.config(state=DISABLED)
+
+    b7.config(state=DISABLED)
+    b8.config(state=DISABLED)
+    b9.config(state=DISABLED)
+
+    # 2nd tic tac toe
+    b10.config(state=DISABLED)
+    b11.config(state=DISABLED)
+    b12.config(state=DISABLED)
+
+    b13.config(state=DISABLED)
+    b14.config(state=DISABLED)
+    b15.config(state=DISABLED)
+
+    b16.config(state=DISABLED)
+    b17.config(state=DISABLED)
+    b18.config(state=DISABLED)
+
+    # 3rd tic tac toe
+    b19.config(state=DISABLED)
+    b20.config(state=DISABLED)
+    b21.config(state=DISABLED)
+
+    b22.config(state=DISABLED)
+    b23.config(state=DISABLED)
+    b24.config(state=DISABLED)
+
+    b25.config(state=DISABLED)
+    b26.config(state=DISABLED)
+    b27.config(state=DISABLED)
+
+    # 4th tic tac toe
+    b28.config(state=DISABLED)
+    b29.config(state=DISABLED)
+    b30.config(state=DISABLED)
+
+    b31.config(state=DISABLED)
+    b32.config(state=DISABLED)
+    b33.config(state=DISABLED)
+
+    b34.config(state=DISABLED)
+    b35.config(state=DISABLED)
+    b36.config(state=DISABLED)
+
+    # 6th tic tac toe
+    b46.config(state=DISABLED)
+    b47.config(state=DISABLED)
+    b48.config(state=DISABLED)
+
+    b49.config(state=DISABLED)
+    b50.config(state=DISABLED)
+    b51.config(state=DISABLED)
+
+    b52.config(state=DISABLED)
+    b53.config(state=DISABLED)
+    b54.config(state=DISABLED)
+
+    # 7th tic tac toe
+    b55.config(state=DISABLED)
+    b56.config(state=DISABLED)
+    b57.config(state=DISABLED)
+
+    b58.config(state=DISABLED)
+    b59.config(state=DISABLED)
+    b60.config(state=DISABLED)
+
+    b61.config(state=DISABLED)
+    b62.config(state=DISABLED)
+    b63.config(state=DISABLED)
+
+    # 8th tic tac toe
+    b64.config(state=DISABLED)
+    b65.config(state=DISABLED)
+    b66.config(state=DISABLED)
+
+    b67.config(state=DISABLED)
+    b68.config(state=DISABLED)
+    b69.config(state=DISABLED)
+
+    b70.config(state=DISABLED)
+    b71.config(state=DISABLED)
+    b72.config(state=DISABLED)
+
+    # 9th tic tac toe
+    b73.config(state=DISABLED)
+    b74.config(state=DISABLED)
+    b75.config(state=DISABLED)
+
+    b76.config(state=DISABLED)
+    b77.config(state=DISABLED)
+    b78.config(state=DISABLED)
+
+    b79.config(state=DISABLED)
+    b80.config(state=DISABLED)
+    b81.config(state=DISABLED)
+
+
+#   SAME AS DISABLE_TIC_6
+def disable_tic_78():
+    # 1st tic tac toe
+    b1.config(state=DISABLED)
+    b2.config(state=DISABLED)
+    b3.config(state=DISABLED)
+
+    b4.config(state=DISABLED)
+    b5.config(state=DISABLED)
+    b6.config(state=DISABLED)
+
+    b7.config(state=DISABLED)
+    b8.config(state=DISABLED)
+    b9.config(state=DISABLED)
+
+    # 2nd tic tac toe
+    b10.config(state=DISABLED)
+    b11.config(state=DISABLED)
+    b12.config(state=DISABLED)
+
+    b13.config(state=DISABLED)
+    b14.config(state=DISABLED)
+    b15.config(state=DISABLED)
+
+    b16.config(state=DISABLED)
+    b17.config(state=DISABLED)
+    b18.config(state=DISABLED)
+
+    # 3rd tic tac toe
+    b19.config(state=DISABLED)
+    b20.config(state=DISABLED)
+    b21.config(state=DISABLED)
+
+    b22.config(state=DISABLED)
+    b23.config(state=DISABLED)
+    b24.config(state=DISABLED)
+
+    b25.config(state=DISABLED)
+    b26.config(state=DISABLED)
+    b27.config(state=DISABLED)
+
+    # 4th tic tac toe
+    b28.config(state=DISABLED)
+    b29.config(state=DISABLED)
+    b30.config(state=DISABLED)
+
+    b31.config(state=DISABLED)
+    b32.config(state=DISABLED)
+    b33.config(state=DISABLED)
+
+    b34.config(state=DISABLED)
+    b35.config(state=DISABLED)
+    b36.config(state=DISABLED)
+
+    # 5th tic tac toe
+    b37.config(state=DISABLED)
+    b38.config(state=DISABLED)
+    b39.config(state=DISABLED)
+
+    b40.config(state=DISABLED)
+    b41.config(state=DISABLED)
+    b42.config(state=DISABLED)
+
+    b43.config(state=DISABLED)
+    b44.config(state=DISABLED)
+    b45.config(state=DISABLED)
+
+    # 7th tic tac toe
+    b55.config(state=DISABLED)
+    b56.config(state=DISABLED)
+    b57.config(state=DISABLED)
+
+    b58.config(state=DISABLED)
+    b59.config(state=DISABLED)
+    b60.config(state=DISABLED)
+
+    b61.config(state=DISABLED)
+    b62.config(state=DISABLED)
+    b63.config(state=DISABLED)
+
+    # 8th tic tac toe
+    b64.config(state=DISABLED)
+    b65.config(state=DISABLED)
+    b66.config(state=DISABLED)
+
+    b67.config(state=DISABLED)
+    b68.config(state=DISABLED)
+    b69.config(state=DISABLED)
+
+    b70.config(state=DISABLED)
+    b71.config(state=DISABLED)
+    b72.config(state=DISABLED)
+
+    # 9th tic tac toe
+    b73.config(state=DISABLED)
+    b74.config(state=DISABLED)
+    b75.config(state=DISABLED)
+
+    b76.config(state=DISABLED)
+    b77.config(state=DISABLED)
+    b78.config(state=DISABLED)
+
+    b79.config(state=DISABLED)
+    b80.config(state=DISABLED)
+    b81.config(state=DISABLED)
+
+
+#   SAME AS DISABLE_TIC_7
+def disable_tic_79():
+    # 1st tic tac toe
+    b1.config(state=DISABLED)
+    b2.config(state=DISABLED)
+    b3.config(state=DISABLED)
+
+    b4.config(state=DISABLED)
+    b5.config(state=DISABLED)
+    b6.config(state=DISABLED)
+
+    b7.config(state=DISABLED)
+    b8.config(state=DISABLED)
+    b9.config(state=DISABLED)
+
+    # 2nd tic tac toe
+    b10.config(state=DISABLED)
+    b11.config(state=DISABLED)
+    b12.config(state=DISABLED)
+
+    b13.config(state=DISABLED)
+    b14.config(state=DISABLED)
+    b15.config(state=DISABLED)
+
+    b16.config(state=DISABLED)
+    b17.config(state=DISABLED)
+    b18.config(state=DISABLED)
+
+    # 3rd tic tac toe
+    b19.config(state=DISABLED)
+    b20.config(state=DISABLED)
+    b21.config(state=DISABLED)
+
+    b22.config(state=DISABLED)
+    b23.config(state=DISABLED)
+    b24.config(state=DISABLED)
+
+    b25.config(state=DISABLED)
+    b26.config(state=DISABLED)
+    b27.config(state=DISABLED)
+
+    # 4th tic tac toe
+    b28.config(state=DISABLED)
+    b29.config(state=DISABLED)
+    b30.config(state=DISABLED)
+
+    b31.config(state=DISABLED)
+    b32.config(state=DISABLED)
+    b33.config(state=DISABLED)
+
+    b34.config(state=DISABLED)
+    b35.config(state=DISABLED)
+    b36.config(state=DISABLED)
+
+    # 5th tic tac toe
+    b37.config(state=DISABLED)
+    b38.config(state=DISABLED)
+    b39.config(state=DISABLED)
+
+    b40.config(state=DISABLED)
+    b41.config(state=DISABLED)
+    b42.config(state=DISABLED)
+
+    b43.config(state=DISABLED)
+    b44.config(state=DISABLED)
+    b45.config(state=DISABLED)
+
+    # 6th tic tac toe
+    b46.config(state=DISABLED)
+    b47.config(state=DISABLED)
+    b48.config(state=DISABLED)
+
+    b49.config(state=DISABLED)
+    b50.config(state=DISABLED)
+    b51.config(state=DISABLED)
+
+    b52.config(state=DISABLED)
+    b53.config(state=DISABLED)
+    b54.config(state=DISABLED)
+
+    # 8th tic tac toe
+    b64.config(state=DISABLED)
+    b65.config(state=DISABLED)
+    b66.config(state=DISABLED)
+
+    b67.config(state=DISABLED)
+    b68.config(state=DISABLED)
+    b69.config(state=DISABLED)
+
+    b70.config(state=DISABLED)
+    b71.config(state=DISABLED)
+    b72.config(state=DISABLED)
+
+    # 9th tic tac toe
+    b73.config(state=DISABLED)
+    b74.config(state=DISABLED)
+    b75.config(state=DISABLED)
+
+    b76.config(state=DISABLED)
+    b77.config(state=DISABLED)
+    b78.config(state=DISABLED)
+
+    b79.config(state=DISABLED)
+    b80.config(state=DISABLED)
+    b81.config(state=DISABLED)
+
+
+#   SAME AS DISABLE_TIC_8
+def disable_tic_80():
+    # 1st tic tac toe
+    b1.config(state=DISABLED)
+    b2.config(state=DISABLED)
+    b3.config(state=DISABLED)
+
+    b4.config(state=DISABLED)
+    b5.config(state=DISABLED)
+    b6.config(state=DISABLED)
+
+    b7.config(state=DISABLED)
+    b8.config(state=DISABLED)
+    b9.config(state=DISABLED)
+
+    # 2nd tic tac toe
+    b10.config(state=DISABLED)
+    b11.config(state=DISABLED)
+    b12.config(state=DISABLED)
+
+    b13.config(state=DISABLED)
+    b14.config(state=DISABLED)
+    b15.config(state=DISABLED)
+
+    b16.config(state=DISABLED)
+    b17.config(state=DISABLED)
+    b18.config(state=DISABLED)
+
+    # 3rd tic tac toe
+    b19.config(state=DISABLED)
+    b20.config(state=DISABLED)
+    b21.config(state=DISABLED)
+
+    b22.config(state=DISABLED)
+    b23.config(state=DISABLED)
+    b24.config(state=DISABLED)
+
+    b25.config(state=DISABLED)
+    b26.config(state=DISABLED)
+    b27.config(state=DISABLED)
+
+    # 4th tic tac toe
+    b28.config(state=DISABLED)
+    b29.config(state=DISABLED)
+    b30.config(state=DISABLED)
+
+    b31.config(state=DISABLED)
+    b32.config(state=DISABLED)
+    b33.config(state=DISABLED)
+
+    b34.config(state=DISABLED)
+    b35.config(state=DISABLED)
+    b36.config(state=DISABLED)
+
+    # 5th tic tac toe
+    b37.config(state=DISABLED)
+    b38.config(state=DISABLED)
+    b39.config(state=DISABLED)
+
+    b40.config(state=DISABLED)
+    b41.config(state=DISABLED)
+    b42.config(state=DISABLED)
+
+    b43.config(state=DISABLED)
+    b44.config(state=DISABLED)
+    b45.config(state=DISABLED)
+
+    # 6th tic tac toe
+    b46.config(state=DISABLED)
+    b47.config(state=DISABLED)
+    b48.config(state=DISABLED)
+
+    b49.config(state=DISABLED)
+    b50.config(state=DISABLED)
+    b51.config(state=DISABLED)
+
+    b52.config(state=DISABLED)
+    b53.config(state=DISABLED)
+    b54.config(state=DISABLED)
+
+    # 7th tic tac toe
+    b55.config(state=DISABLED)
+    b56.config(state=DISABLED)
+    b57.config(state=DISABLED)
+
+    b58.config(state=DISABLED)
+    b59.config(state=DISABLED)
+    b60.config(state=DISABLED)
+
+    b61.config(state=DISABLED)
+    b62.config(state=DISABLED)
+    b63.config(state=DISABLED)
+
+    # 9th tic tac toe
+    b73.config(state=DISABLED)
+    b74.config(state=DISABLED)
+    b75.config(state=DISABLED)
+
+    b76.config(state=DISABLED)
+    b77.config(state=DISABLED)
+    b78.config(state=DISABLED)
+
+    b79.config(state=DISABLED)
+    b80.config(state=DISABLED)
+    b81.config(state=DISABLED)
+
+
+#   SAME AS DISABLE_TIC_9
+def disable_tic_81():
+    # 1st tic tac toe
+    b1.config(state=DISABLED)
+    b2.config(state=DISABLED)
+    b3.config(state=DISABLED)
+
+    b4.config(state=DISABLED)
+    b5.config(state=DISABLED)
+    b6.config(state=DISABLED)
+
+    b7.config(state=DISABLED)
+    b8.config(state=DISABLED)
+    b9.config(state=DISABLED)
+
+    # 2nd tic tac toe
+    b10.config(state=DISABLED)
+    b11.config(state=DISABLED)
+    b12.config(state=DISABLED)
+
+    b13.config(state=DISABLED)
+    b14.config(state=DISABLED)
+    b15.config(state=DISABLED)
+
+    b16.config(state=DISABLED)
+    b17.config(state=DISABLED)
+    b18.config(state=DISABLED)
+
+    # 3rd tic tac toe
+    b19.config(state=DISABLED)
+    b20.config(state=DISABLED)
+    b21.config(state=DISABLED)
+
+    b22.config(state=DISABLED)
+    b23.config(state=DISABLED)
+    b24.config(state=DISABLED)
+
+    b25.config(state=DISABLED)
+    b26.config(state=DISABLED)
+    b27.config(state=DISABLED)
+
+    # 4th tic tac toe
+    b28.config(state=DISABLED)
+    b29.config(state=DISABLED)
+    b30.config(state=DISABLED)
+
+    b31.config(state=DISABLED)
+    b32.config(state=DISABLED)
+    b33.config(state=DISABLED)
+
+    b34.config(state=DISABLED)
+    b35.config(state=DISABLED)
+    b36.config(state=DISABLED)
+
+    # 5th tic tac toe
+    b37.config(state=DISABLED)
+    b38.config(state=DISABLED)
+    b39.config(state=DISABLED)
+
+    b40.config(state=DISABLED)
+    b41.config(state=DISABLED)
+    b42.config(state=DISABLED)
+
+    b43.config(state=DISABLED)
+    b44.config(state=DISABLED)
+    b45.config(state=DISABLED)
+
+    # 6th tic tac toe
+    b46.config(state=DISABLED)
+    b47.config(state=DISABLED)
+    b48.config(state=DISABLED)
+
+    b49.config(state=DISABLED)
+    b50.config(state=DISABLED)
+    b51.config(state=DISABLED)
+
+    b52.config(state=DISABLED)
+    b53.config(state=DISABLED)
+    b54.config(state=DISABLED)
+
+    # 7th tic tac toe
+    b55.config(state=DISABLED)
+    b56.config(state=DISABLED)
+    b57.config(state=DISABLED)
+
+    b58.config(state=DISABLED)
+    b59.config(state=DISABLED)
+    b60.config(state=DISABLED)
+
+    b61.config(state=DISABLED)
+    b62.config(state=DISABLED)
+    b63.config(state=DISABLED)
+
+    # 8th tic tac toe
+    b64.config(state=DISABLED)
+    b65.config(state=DISABLED)
+    b66.config(state=DISABLED)
+
+    b67.config(state=DISABLED)
+    b68.config(state=DISABLED)
+    b69.config(state=DISABLED)
+
+    b70.config(state=DISABLED)
+    b71.config(state=DISABLED)
+    b72.config(state=DISABLED)
+
+
 # to enable all buttons again
 def enable_all_buttons():
     # 1st tic tac toe
@@ -1348,6 +9051,7 @@ def check_winner():
 
 
 # build function for when button 1 is clicked [ note: it has to mark area for next move ]
+# [ TIC TAC TOE 1 ]
 def b1_clicked(b):
     global clicked, count
     enable_all_buttons()
@@ -1367,7 +9071,6 @@ def b1_clicked(b):
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
 
 
-# build function for when button 1 is clicked [ note: it has to mark area for next move ]
 def b2_clicked(b):
     global clicked, count
     # first I need to set the buttons to normal, otherwise it'd cause a bug
@@ -1433,7 +9136,7 @@ def b4_clicked(b):
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
 
 
-# function when button 3 is clicked
+# function when button 5 is clicked
 def b5_clicked(b):
     global clicked, count
     # first I need to set the buttons to normal, otherwise it'd cause a bug
@@ -1539,45 +9242,1531 @@ def b9_clicked(b):
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
 
 
+# [ TIC TAC TOE 2 ]
 def b10_clicked(b):
-    pass
+    global clicked, count
+    # first I need to set the buttons to normal, otherwise it'd cause a bug
+    enable_all_buttons()
+    # secondly disable all areas except the one I need to play in
+    disable_tic_10()
+
+    if b["text"] == " " and clicked == True:
+        b["text"] = "X"
+        clicked = False
+        count += 1
+        check_winner()
+    elif b["text"] == " " and clicked == False:
+        b["text"] = "O"
+        clicked = True
+        count += 1
+        check_winner()
+    else:
+        messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
 
 
 def b11_clicked(b):
-    pass
+    global clicked, count
+    # first I need to set the buttons to normal, otherwise it'd cause a bug
+    enable_all_buttons()
+    # secondly disable all areas except the one I need to play in
+    disable_tic_11()
+
+    if b["text"] == " " and clicked == True:
+        b["text"] = "X"
+        clicked = False
+        count += 1
+        check_winner()
+    elif b["text"] == " " and clicked == False:
+        b["text"] = "O"
+        clicked = True
+        count += 1
+        check_winner()
+    else:
+        messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
 
 
 def b12_clicked(b):
-    pass
+    global clicked, count
+    # first I need to set the buttons to normal, otherwise it'd cause a bug
+    enable_all_buttons()
+    # secondly disable all areas except the one I need to play in
+    disable_tic_12()
+
+    if b["text"] == " " and clicked == True:
+        b["text"] = "X"
+        clicked = False
+        count += 1
+        check_winner()
+    elif b["text"] == " " and clicked == False:
+        b["text"] = "O"
+        clicked = True
+        count += 1
+        check_winner()
+    else:
+        messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
 
 
 def b13_clicked(b):
-    pass
+    global clicked, count
+    # first I need to set the buttons to normal, otherwise it'd cause a bug
+    enable_all_buttons()
+    # secondly disable all areas except the one I need to play in
+    disable_tic_13()
+
+    if b["text"] == " " and clicked == True:
+        b["text"] = "X"
+        clicked = False
+        count += 1
+        check_winner()
+    elif b["text"] == " " and clicked == False:
+        b["text"] = "O"
+        clicked = True
+        count += 1
+        check_winner()
+    else:
+        messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
 
 
 def b14_clicked(b):
-    pass
+    global clicked, count
+    # first I need to set the buttons to normal, otherwise it'd cause a bug
+    enable_all_buttons()
+    # secondly disable all areas except the one I need to play in
+    disable_tic_14()
+
+    if b["text"] == " " and clicked == True:
+        b["text"] = "X"
+        clicked = False
+        count += 1
+        check_winner()
+    elif b["text"] == " " and clicked == False:
+        b["text"] = "O"
+        clicked = True
+        count += 1
+        check_winner()
+    else:
+        messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
 
 
 def b15_clicked(b):
-    pass
+    global clicked, count
+    # first I need to set the buttons to normal, otherwise it'd cause a bug
+    enable_all_buttons()
+    # secondly disable all areas except the one I need to play in
+    disable_tic_15()
+
+    if b["text"] == " " and clicked == True:
+        b["text"] = "X"
+        clicked = False
+        count += 1
+        check_winner()
+    elif b["text"] == " " and clicked == False:
+        b["text"] = "O"
+        clicked = True
+        count += 1
+        check_winner()
+    else:
+        messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
 
 
 def b16_clicked(b):
-    pass
+    global clicked, count
+    # first I need to set the buttons to normal, otherwise it'd cause a bug
+    enable_all_buttons()
+    # secondly disable all areas except the one I need to play in
+    disable_tic_16()
+
+    if b["text"] == " " and clicked == True:
+        b["text"] = "X"
+        clicked = False
+        count += 1
+        check_winner()
+    elif b["text"] == " " and clicked == False:
+        b["text"] = "O"
+        clicked = True
+        count += 1
+        check_winner()
+    else:
+        messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
 
 
 def b17_clicked(b):
-    pass
+    global clicked, count
+    # first I need to set the buttons to normal, otherwise it'd cause a bug
+    enable_all_buttons()
+    # secondly disable all areas except the one I need to play in
+    disable_tic_17()
+
+    if b["text"] == " " and clicked == True:
+        b["text"] = "X"
+        clicked = False
+        count += 1
+        check_winner()
+    elif b["text"] == " " and clicked == False:
+        b["text"] = "O"
+        clicked = True
+        count += 1
+        check_winner()
+    else:
+        messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
 
 
 def b18_clicked(b):
-    pass
+    global clicked, count
+    # first I need to set the buttons to normal, otherwise it'd cause a bug
+    enable_all_buttons()
+    # secondly disable all areas except the one I need to play in
+    disable_tic_18()
+
+    if b["text"] == " " and clicked == True:
+        b["text"] = "X"
+        clicked = False
+        count += 1
+        check_winner()
+    elif b["text"] == " " and clicked == False:
+        b["text"] = "O"
+        clicked = True
+        count += 1
+        check_winner()
+    else:
+        messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
 
 
+# [ TIC TAC TOE 3 ]
 def b19_clicked(b):
-    pass
-    # [ CONTINUE THE NEXT 60 BUTTONS! :( ]
+    global clicked, count
+    # first I need to set the buttons to normal, otherwise it'd cause a bug
+    enable_all_buttons()
+    # secondly disable all areas except the one I need to play in
+    disable_tic_19()
+
+    if b["text"] == " " and clicked == True:
+        b["text"] = "X"
+        clicked = False
+        count += 1
+        check_winner()
+    elif b["text"] == " " and clicked == False:
+        b["text"] = "O"
+        clicked = True
+        count += 1
+        check_winner()
+    else:
+        messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+
+
+def b20_clicked(b):
+    global clicked, count
+    # first I need to set the buttons to normal, otherwise it'd cause a bug
+    enable_all_buttons()
+    # secondly disable all areas except the one I need to play in
+    disable_tic_20()
+
+    if b["text"] == " " and clicked == True:
+        b["text"] = "X"
+        clicked = False
+        count += 1
+        check_winner()
+    elif b["text"] == " " and clicked == False:
+        b["text"] = "O"
+        clicked = True
+        count += 1
+        check_winner()
+    else:
+        messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+
+
+def b21_clicked(b):
+    global clicked, count
+    # first I need to set the buttons to normal, otherwise it'd cause a bug
+    enable_all_buttons()
+    # secondly disable all areas except the one I need to play in
+    disable_tic_21()
+
+    if b["text"] == " " and clicked == True:
+        b["text"] = "X"
+        clicked = False
+        count += 1
+        check_winner()
+    elif b["text"] == " " and clicked == False:
+        b["text"] = "O"
+        clicked = True
+        count += 1
+        check_winner()
+    else:
+        messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+
+
+def b22_clicked(b):
+    global clicked, count
+    # first I need to set the buttons to normal, otherwise it'd cause a bug
+    enable_all_buttons()
+    # secondly disable all areas except the one I need to play in
+    disable_tic_22()
+
+    if b["text"] == " " and clicked == True:
+        b["text"] = "X"
+        clicked = False
+        count += 1
+        check_winner()
+    elif b["text"] == " " and clicked == False:
+        b["text"] = "O"
+        clicked = True
+        count += 1
+        check_winner()
+    else:
+        messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+
+
+def b23_clicked(b):
+    global clicked, count
+    # first I need to set the buttons to normal, otherwise it'd cause a bug
+    enable_all_buttons()
+    # secondly disable all areas except the one I need to play in
+    disable_tic_23()
+
+    if b["text"] == " " and clicked == True:
+        b["text"] = "X"
+        clicked = False
+        count += 1
+        check_winner()
+    elif b["text"] == " " and clicked == False:
+        b["text"] = "O"
+        clicked = True
+        count += 1
+        check_winner()
+    else:
+        messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+
+
+def b24_clicked(b):
+    global clicked, count
+    # first I need to set the buttons to normal, otherwise it'd cause a bug
+    enable_all_buttons()
+    # secondly disable all areas except the one I need to play in
+    disable_tic_24()
+
+    if b["text"] == " " and clicked == True:
+        b["text"] = "X"
+        clicked = False
+        count += 1
+        check_winner()
+    elif b["text"] == " " and clicked == False:
+        b["text"] = "O"
+        clicked = True
+        count += 1
+        check_winner()
+    else:
+        messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+
+
+def b25_clicked(b):
+    global clicked, count
+    # first I need to set the buttons to normal, otherwise it'd cause a bug
+    enable_all_buttons()
+    # secondly disable all areas except the one I need to play in
+    disable_tic_25()
+
+    if b["text"] == " " and clicked == True:
+        b["text"] = "X"
+        clicked = False
+        count += 1
+        check_winner()
+    elif b["text"] == " " and clicked == False:
+        b["text"] = "O"
+        clicked = True
+        count += 1
+        check_winner()
+    else:
+        messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+
+
+def b26_clicked(b):
+    global clicked, count
+    # first I need to set the buttons to normal, otherwise it'd cause a bug
+    enable_all_buttons()
+    # secondly disable all areas except the one I need to play in
+    disable_tic_26()
+
+    if b["text"] == " " and clicked == True:
+        b["text"] = "X"
+        clicked = False
+        count += 1
+        check_winner()
+    elif b["text"] == " " and clicked == False:
+        b["text"] = "O"
+        clicked = True
+        count += 1
+        check_winner()
+    else:
+        messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+
+
+def b27_clicked(b):
+    global clicked, count
+    # first I need to set the buttons to normal, otherwise it'd cause a bug
+    enable_all_buttons()
+    # secondly disable all areas except the one I need to play in
+    disable_tic_27()
+
+    if b["text"] == " " and clicked == True:
+        b["text"] = "X"
+        clicked = False
+        count += 1
+        check_winner()
+    elif b["text"] == " " and clicked == False:
+        b["text"] = "O"
+        clicked = True
+        count += 1
+        check_winner()
+    else:
+        messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+
+
+# [ TIC TAC TOE 4 ]
+def b28_clicked(b):
+    global clicked, count
+    # first I need to set the buttons to normal, otherwise it'd cause a bug
+    enable_all_buttons()
+    # secondly disable all areas except the one I need to play in
+    disable_tic_28()
+
+    if b["text"] == " " and clicked == True:
+        b["text"] = "X"
+        clicked = False
+        count += 1
+        check_winner()
+    elif b["text"] == " " and clicked == False:
+        b["text"] = "O"
+        clicked = True
+        count += 1
+        check_winner()
+    else:
+        messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+
+
+def b29_clicked(b):
+    global clicked, count
+    # first I need to set the buttons to normal, otherwise it'd cause a bug
+    enable_all_buttons()
+    # secondly disable all areas except the one I need to play in
+    disable_tic_29()
+
+    if b["text"] == " " and clicked == True:
+        b["text"] = "X"
+        clicked = False
+        count += 1
+        check_winner()
+    elif b["text"] == " " and clicked == False:
+        b["text"] = "O"
+        clicked = True
+        count += 1
+        check_winner()
+    else:
+        messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+
+
+def b30_clicked(b):
+    global clicked, count
+    # first I need to set the buttons to normal, otherwise it'd cause a bug
+    enable_all_buttons()
+    # secondly disable all areas except the one I need to play in
+    disable_tic_30()
+
+    if b["text"] == " " and clicked == True:
+        b["text"] = "X"
+        clicked = False
+        count += 1
+        check_winner()
+    elif b["text"] == " " and clicked == False:
+        b["text"] = "O"
+        clicked = True
+        count += 1
+        check_winner()
+    else:
+        messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+
+
+def b31_clicked(b):
+    global clicked, count
+    # first I need to set the buttons to normal, otherwise it'd cause a bug
+    enable_all_buttons()
+    # secondly disable all areas except the one I need to play in
+    disable_tic_31()
+
+    if b["text"] == " " and clicked == True:
+        b["text"] = "X"
+        clicked = False
+        count += 1
+        check_winner()
+    elif b["text"] == " " and clicked == False:
+        b["text"] = "O"
+        clicked = True
+        count += 1
+        check_winner()
+    else:
+        messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+
+
+def b32_clicked(b):
+    global clicked, count
+    # first I need to set the buttons to normal, otherwise it'd cause a bug
+    enable_all_buttons()
+    # secondly disable all areas except the one I need to play in
+    disable_tic_32()
+
+    if b["text"] == " " and clicked == True:
+        b["text"] = "X"
+        clicked = False
+        count += 1
+        check_winner()
+    elif b["text"] == " " and clicked == False:
+        b["text"] = "O"
+        clicked = True
+        count += 1
+        check_winner()
+    else:
+        messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+
+
+def b33_clicked(b):
+    global clicked, count
+    # first I need to set the buttons to normal, otherwise it'd cause a bug
+    enable_all_buttons()
+    # secondly disable all areas except the one I need to play in
+    disable_tic_33()
+
+    if b["text"] == " " and clicked == True:
+        b["text"] = "X"
+        clicked = False
+        count += 1
+        check_winner()
+    elif b["text"] == " " and clicked == False:
+        b["text"] = "O"
+        clicked = True
+        count += 1
+        check_winner()
+    else:
+        messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+
+
+def b34_clicked(b):
+    global clicked, count
+    # first I need to set the buttons to normal, otherwise it'd cause a bug
+    enable_all_buttons()
+    # secondly disable all areas except the one I need to play in
+    disable_tic_34()
+
+    if b["text"] == " " and clicked == True:
+        b["text"] = "X"
+        clicked = False
+        count += 1
+        check_winner()
+    elif b["text"] == " " and clicked == False:
+        b["text"] = "O"
+        clicked = True
+        count += 1
+        check_winner()
+    else:
+        messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+
+
+def b35_clicked(b):
+    global clicked, count
+    # first I need to set the buttons to normal, otherwise it'd cause a bug
+    enable_all_buttons()
+    # secondly disable all areas except the one I need to play in
+    disable_tic_35()
+
+    if b["text"] == " " and clicked == True:
+        b["text"] = "X"
+        clicked = False
+        count += 1
+        check_winner()
+    elif b["text"] == " " and clicked == False:
+        b["text"] = "O"
+        clicked = True
+        count += 1
+        check_winner()
+    else:
+        messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+
+
+def b36_clicked(b):
+    global clicked, count
+    # first I need to set the buttons to normal, otherwise it'd cause a bug
+    enable_all_buttons()
+    # secondly disable all areas except the one I need to play in
+    disable_tic_36()
+
+    if b["text"] == " " and clicked == True:
+        b["text"] = "X"
+        clicked = False
+        count += 1
+        check_winner()
+    elif b["text"] == " " and clicked == False:
+        b["text"] = "O"
+        clicked = True
+        count += 1
+        check_winner()
+    else:
+        messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+
+
+# [ TIC TAC TOE 5 ]
+
+def b37_clicked(b):
+    global clicked, count
+    # first I need to set the buttons to normal, otherwise it'd cause a bug
+    enable_all_buttons()
+    # secondly disable all areas except the one I need to play in
+    disable_tic_37()
+
+    if b["text"] == " " and clicked == True:
+        b["text"] = "X"
+        clicked = False
+        count += 1
+        check_winner()
+    elif b["text"] == " " and clicked == False:
+        b["text"] = "O"
+        clicked = True
+        count += 1
+        check_winner()
+    else:
+        messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+
+
+def b38_clicked(b):
+    global clicked, count
+    # first I need to set the buttons to normal, otherwise it'd cause a bug
+    enable_all_buttons()
+    # secondly disable all areas except the one I need to play in
+    disable_tic_38()
+
+    if b["text"] == " " and clicked == True:
+        b["text"] = "X"
+        clicked = False
+        count += 1
+        check_winner()
+    elif b["text"] == " " and clicked == False:
+        b["text"] = "O"
+        clicked = True
+        count += 1
+        check_winner()
+    else:
+        messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+
+
+def b39_clicked(b):
+    global clicked, count
+    # first I need to set the buttons to normal, otherwise it'd cause a bug
+    enable_all_buttons()
+    # secondly disable all areas except the one I need to play in
+    disable_tic_39()
+
+    if b["text"] == " " and clicked == True:
+        b["text"] = "X"
+        clicked = False
+        count += 1
+        check_winner()
+    elif b["text"] == " " and clicked == False:
+        b["text"] = "O"
+        clicked = True
+        count += 1
+        check_winner()
+    else:
+        messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+
+
+def b40_clicked(b):
+    global clicked, count
+    # first I need to set the buttons to normal, otherwise it'd cause a bug
+    enable_all_buttons()
+    # secondly disable all areas except the one I need to play in
+    disable_tic_40()
+
+    if b["text"] == " " and clicked == True:
+        b["text"] = "X"
+        clicked = False
+        count += 1
+        check_winner()
+    elif b["text"] == " " and clicked == False:
+        b["text"] = "O"
+        clicked = True
+        count += 1
+        check_winner()
+    else:
+        messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+
+
+def b41_clicked(b):
+    global clicked, count
+    # first I need to set the buttons to normal, otherwise it'd cause a bug
+    enable_all_buttons()
+    # secondly disable all areas except the one I need to play in
+    disable_tic_41()
+
+    if b["text"] == " " and clicked == True:
+        b["text"] = "X"
+        clicked = False
+        count += 1
+        check_winner()
+    elif b["text"] == " " and clicked == False:
+        b["text"] = "O"
+        clicked = True
+        count += 1
+        check_winner()
+    else:
+        messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+
+
+def b42_clicked(b):
+    global clicked, count
+    # first I need to set the buttons to normal, otherwise it'd cause a bug
+    enable_all_buttons()
+    # secondly disable all areas except the one I need to play in
+    disable_tic_42()
+
+    if b["text"] == " " and clicked == True:
+        b["text"] = "X"
+        clicked = False
+        count += 1
+        check_winner()
+    elif b["text"] == " " and clicked == False:
+        b["text"] = "O"
+        clicked = True
+        count += 1
+        check_winner()
+    else:
+        messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+
+
+def b43_clicked(b):
+    global clicked, count
+    # first I need to set the buttons to normal, otherwise it'd cause a bug
+    enable_all_buttons()
+    # secondly disable all areas except the one I need to play in
+    disable_tic_43()
+
+    if b["text"] == " " and clicked == True:
+        b["text"] = "X"
+        clicked = False
+        count += 1
+        check_winner()
+    elif b["text"] == " " and clicked == False:
+        b["text"] = "O"
+        clicked = True
+        count += 1
+        check_winner()
+    else:
+        messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+
+
+def b44_clicked(b):
+    global clicked, count
+    # first I need to set the buttons to normal, otherwise it'd cause a bug
+    enable_all_buttons()
+    # secondly disable all areas except the one I need to play in
+    disable_tic_44()
+
+    if b["text"] == " " and clicked == True:
+        b["text"] = "X"
+        clicked = False
+        count += 1
+        check_winner()
+    elif b["text"] == " " and clicked == False:
+        b["text"] = "O"
+        clicked = True
+        count += 1
+        check_winner()
+    else:
+        messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+
+
+def b45_clicked(b):
+    global clicked, count
+    # first I need to set the buttons to normal, otherwise it'd cause a bug
+    enable_all_buttons()
+    # secondly disable all areas except the one I need to play in
+    disable_tic_45()
+
+    if b["text"] == " " and clicked == True:
+        b["text"] = "X"
+        clicked = False
+        count += 1
+        check_winner()
+    elif b["text"] == " " and clicked == False:
+        b["text"] = "O"
+        clicked = True
+        count += 1
+        check_winner()
+    else:
+        messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+
+
+# [ TIC TAC TOE 6 ]
+
+def b46_clicked(b):
+    global clicked, count
+    # first I need to set the buttons to normal, otherwise it'd cause a bug
+    enable_all_buttons()
+    # secondly disable all areas except the one I need to play in
+    disable_tic_46()
+
+    if b["text"] == " " and clicked == True:
+        b["text"] = "X"
+        clicked = False
+        count += 1
+        check_winner()
+    elif b["text"] == " " and clicked == False:
+        b["text"] = "O"
+        clicked = True
+        count += 1
+        check_winner()
+    else:
+        messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+
+
+def b47_clicked(b):
+    global clicked, count
+    # first I need to set the buttons to normal, otherwise it'd cause a bug
+    enable_all_buttons()
+    # secondly disable all areas except the one I need to play in
+    disable_tic_47()
+
+    if b["text"] == " " and clicked == True:
+        b["text"] = "X"
+        clicked = False
+        count += 1
+        check_winner()
+    elif b["text"] == " " and clicked == False:
+        b["text"] = "O"
+        clicked = True
+        count += 1
+        check_winner()
+    else:
+        messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+
+
+def b48_clicked(b):
+    global clicked, count
+    # first I need to set the buttons to normal, otherwise it'd cause a bug
+    enable_all_buttons()
+    # secondly disable all areas except the one I need to play in
+    disable_tic_48()
+
+    if b["text"] == " " and clicked == True:
+        b["text"] = "X"
+        clicked = False
+        count += 1
+        check_winner()
+    elif b["text"] == " " and clicked == False:
+        b["text"] = "O"
+        clicked = True
+        count += 1
+        check_winner()
+    else:
+        messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+
+
+def b49_clicked(b):
+    global clicked, count
+    # first I need to set the buttons to normal, otherwise it'd cause a bug
+    enable_all_buttons()
+    # secondly disable all areas except the one I need to play in
+    disable_tic_49()
+
+    if b["text"] == " " and clicked == True:
+        b["text"] = "X"
+        clicked = False
+        count += 1
+        check_winner()
+    elif b["text"] == " " and clicked == False:
+        b["text"] = "O"
+        clicked = True
+        count += 1
+        check_winner()
+    else:
+        messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+
+
+def b50_clicked(b):
+    global clicked, count
+    # first I need to set the buttons to normal, otherwise it'd cause a bug
+    enable_all_buttons()
+    # secondly disable all areas except the one I need to play in
+    disable_tic_50()
+
+    if b["text"] == " " and clicked == True:
+        b["text"] = "X"
+        clicked = False
+        count += 1
+        check_winner()
+    elif b["text"] == " " and clicked == False:
+        b["text"] = "O"
+        clicked = True
+        count += 1
+        check_winner()
+    else:
+        messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+
+
+def b51_clicked(b):
+    global clicked, count
+    # first I need to set the buttons to normal, otherwise it'd cause a bug
+    enable_all_buttons()
+    # secondly disable all areas except the one I need to play in
+    disable_tic_51()
+
+    if b["text"] == " " and clicked == True:
+        b["text"] = "X"
+        clicked = False
+        count += 1
+        check_winner()
+    elif b["text"] == " " and clicked == False:
+        b["text"] = "O"
+        clicked = True
+        count += 1
+        check_winner()
+    else:
+        messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+
+
+def b52_clicked(b):
+    global clicked, count
+    # first I need to set the buttons to normal, otherwise it'd cause a bug
+    enable_all_buttons()
+    # secondly disable all areas except the one I need to play in
+    disable_tic_52()
+
+    if b["text"] == " " and clicked == True:
+        b["text"] = "X"
+        clicked = False
+        count += 1
+        check_winner()
+    elif b["text"] == " " and clicked == False:
+        b["text"] = "O"
+        clicked = True
+        count += 1
+        check_winner()
+    else:
+        messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+
+
+def b53_clicked(b):
+    global clicked, count
+    # first I need to set the buttons to normal, otherwise it'd cause a bug
+    enable_all_buttons()
+    # secondly disable all areas except the one I need to play in
+    disable_tic_53()
+
+    if b["text"] == " " and clicked == True:
+        b["text"] = "X"
+        clicked = False
+        count += 1
+        check_winner()
+    elif b["text"] == " " and clicked == False:
+        b["text"] = "O"
+        clicked = True
+        count += 1
+        check_winner()
+    else:
+        messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+
+
+def b54_clicked(b):
+    global clicked, count
+    # first I need to set the buttons to normal, otherwise it'd cause a bug
+    enable_all_buttons()
+    # secondly disable all areas except the one I need to play in
+    disable_tic_54()
+
+    if b["text"] == " " and clicked == True:
+        b["text"] = "X"
+        clicked = False
+        count += 1
+        check_winner()
+    elif b["text"] == " " and clicked == False:
+        b["text"] = "O"
+        clicked = True
+        count += 1
+        check_winner()
+    else:
+        messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+
+
+# [ TIC TAC TOE 7 ]
+
+def b55_clicked(b):
+    global clicked, count
+    # first I need to set the buttons to normal, otherwise it'd cause a bug
+    enable_all_buttons()
+    # secondly disable all areas except the one I need to play in
+    disable_tic_55()
+
+    if b["text"] == " " and clicked == True:
+        b["text"] = "X"
+        clicked = False
+        count += 1
+        check_winner()
+    elif b["text"] == " " and clicked == False:
+        b["text"] = "O"
+        clicked = True
+        count += 1
+        check_winner()
+    else:
+        messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+
+
+def b56_clicked(b):
+    global clicked, count
+    # first I need to set the buttons to normal, otherwise it'd cause a bug
+    enable_all_buttons()
+    # secondly disable all areas except the one I need to play in
+    disable_tic_56()
+
+    if b["text"] == " " and clicked == True:
+        b["text"] = "X"
+        clicked = False
+        count += 1
+        check_winner()
+    elif b["text"] == " " and clicked == False:
+        b["text"] = "O"
+        clicked = True
+        count += 1
+        check_winner()
+    else:
+        messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+
+
+def b57_clicked(b):
+    global clicked, count
+    # first I need to set the buttons to normal, otherwise it'd cause a bug
+    enable_all_buttons()
+    # secondly disable all areas except the one I need to play in
+    disable_tic_57()
+
+    if b["text"] == " " and clicked == True:
+        b["text"] = "X"
+        clicked = False
+        count += 1
+        check_winner()
+    elif b["text"] == " " and clicked == False:
+        b["text"] = "O"
+        clicked = True
+        count += 1
+        check_winner()
+    else:
+        messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+
+
+def b58_clicked(b):
+    global clicked, count
+    # first I need to set the buttons to normal, otherwise it'd cause a bug
+    enable_all_buttons()
+    # secondly disable all areas except the one I need to play in
+    disable_tic_58()
+
+    if b["text"] == " " and clicked == True:
+        b["text"] = "X"
+        clicked = False
+        count += 1
+        check_winner()
+    elif b["text"] == " " and clicked == False:
+        b["text"] = "O"
+        clicked = True
+        count += 1
+        check_winner()
+    else:
+        messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+
+
+def b59_clicked(b):
+    global clicked, count
+    # first I need to set the buttons to normal, otherwise it'd cause a bug
+    enable_all_buttons()
+    # secondly disable all areas except the one I need to play in
+    disable_tic_59()
+
+    if b["text"] == " " and clicked == True:
+        b["text"] = "X"
+        clicked = False
+        count += 1
+        check_winner()
+    elif b["text"] == " " and clicked == False:
+        b["text"] = "O"
+        clicked = True
+        count += 1
+        check_winner()
+    else:
+        messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+
+
+def b60_clicked(b):
+    global clicked, count
+    # first I need to set the buttons to normal, otherwise it'd cause a bug
+    enable_all_buttons()
+    # secondly disable all areas except the one I need to play in
+    disable_tic_60()
+
+    if b["text"] == " " and clicked == True:
+        b["text"] = "X"
+        clicked = False
+        count += 1
+        check_winner()
+    elif b["text"] == " " and clicked == False:
+        b["text"] = "O"
+        clicked = True
+        count += 1
+        check_winner()
+    else:
+        messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+
+
+def b61_clicked(b):
+    global clicked, count
+    # first I need to set the buttons to normal, otherwise it'd cause a bug
+    enable_all_buttons()
+    # secondly disable all areas except the one I need to play in
+    disable_tic_61()
+
+    if b["text"] == " " and clicked == True:
+        b["text"] = "X"
+        clicked = False
+        count += 1
+        check_winner()
+    elif b["text"] == " " and clicked == False:
+        b["text"] = "O"
+        clicked = True
+        count += 1
+        check_winner()
+    else:
+        messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+
+
+def b62_clicked(b):
+    global clicked, count
+    # first I need to set the buttons to normal, otherwise it'd cause a bug
+    enable_all_buttons()
+    # secondly disable all areas except the one I need to play in
+    disable_tic_62()
+
+    if b["text"] == " " and clicked == True:
+        b["text"] = "X"
+        clicked = False
+        count += 1
+        check_winner()
+    elif b["text"] == " " and clicked == False:
+        b["text"] = "O"
+        clicked = True
+        count += 1
+        check_winner()
+    else:
+        messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+
+
+def b63_clicked(b):
+    global clicked, count
+    # first I need to set the buttons to normal, otherwise it'd cause a bug
+    enable_all_buttons()
+    # secondly disable all areas except the one I need to play in
+    disable_tic_63()
+
+    if b["text"] == " " and clicked == True:
+        b["text"] = "X"
+        clicked = False
+        count += 1
+        check_winner()
+    elif b["text"] == " " and clicked == False:
+        b["text"] = "O"
+        clicked = True
+        count += 1
+        check_winner()
+    else:
+        messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+
+
+# [ TIC TAC TOE 8 ]
+
+def b64_clicked(b):
+    global clicked, count
+    # first I need to set the buttons to normal, otherwise it'd cause a bug
+    enable_all_buttons()
+    # secondly disable all areas except the one I need to play in
+    disable_tic_64()
+
+    if b["text"] == " " and clicked == True:
+        b["text"] = "X"
+        clicked = False
+        count += 1
+        check_winner()
+    elif b["text"] == " " and clicked == False:
+        b["text"] = "O"
+        clicked = True
+        count += 1
+        check_winner()
+    else:
+        messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+
+
+def b65_clicked(b):
+    global clicked, count
+    # first I need to set the buttons to normal, otherwise it'd cause a bug
+    enable_all_buttons()
+    # secondly disable all areas except the one I need to play in
+    disable_tic_65()
+
+    if b["text"] == " " and clicked == True:
+        b["text"] = "X"
+        clicked = False
+        count += 1
+        check_winner()
+    elif b["text"] == " " and clicked == False:
+        b["text"] = "O"
+        clicked = True
+        count += 1
+        check_winner()
+    else:
+        messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+
+
+def b66_clicked(b):
+    global clicked, count
+    # first I need to set the buttons to normal, otherwise it'd cause a bug
+    enable_all_buttons()
+    # secondly disable all areas except the one I need to play in
+    disable_tic_66()
+
+    if b["text"] == " " and clicked == True:
+        b["text"] = "X"
+        clicked = False
+        count += 1
+        check_winner()
+    elif b["text"] == " " and clicked == False:
+        b["text"] = "O"
+        clicked = True
+        count += 1
+        check_winner()
+    else:
+        messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+
+
+def b67_clicked(b):
+    global clicked, count
+    # first I need to set the buttons to normal, otherwise it'd cause a bug
+    enable_all_buttons()
+    # secondly disable all areas except the one I need to play in
+    disable_tic_67()
+
+    if b["text"] == " " and clicked == True:
+        b["text"] = "X"
+        clicked = False
+        count += 1
+        check_winner()
+    elif b["text"] == " " and clicked == False:
+        b["text"] = "O"
+        clicked = True
+        count += 1
+        check_winner()
+    else:
+        messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+
+
+def b68_clicked(b):
+    global clicked, count
+    # first I need to set the buttons to normal, otherwise it'd cause a bug
+    enable_all_buttons()
+    # secondly disable all areas except the one I need to play in
+    disable_tic_68()
+
+    if b["text"] == " " and clicked == True:
+        b["text"] = "X"
+        clicked = False
+        count += 1
+        check_winner()
+    elif b["text"] == " " and clicked == False:
+        b["text"] = "O"
+        clicked = True
+        count += 1
+        check_winner()
+    else:
+        messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+
+
+def b69_clicked(b):
+    global clicked, count
+    # first I need to set the buttons to normal, otherwise it'd cause a bug
+    enable_all_buttons()
+    # secondly disable all areas except the one I need to play in
+    disable_tic_69()
+
+    if b["text"] == " " and clicked == True:
+        b["text"] = "X"
+        clicked = False
+        count += 1
+        check_winner()
+    elif b["text"] == " " and clicked == False:
+        b["text"] = "O"
+        clicked = True
+        count += 1
+        check_winner()
+    else:
+        messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+
+
+def b70_clicked(b):
+    global clicked, count
+    # first I need to set the buttons to normal, otherwise it'd cause a bug
+    enable_all_buttons()
+    # secondly disable all areas except the one I need to play in
+    disable_tic_70()
+
+    if b["text"] == " " and clicked == True:
+        b["text"] = "X"
+        clicked = False
+        count += 1
+        check_winner()
+    elif b["text"] == " " and clicked == False:
+        b["text"] = "O"
+        clicked = True
+        count += 1
+        check_winner()
+    else:
+        messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+
+
+def b71_clicked(b):
+    global clicked, count
+    # first I need to set the buttons to normal, otherwise it'd cause a bug
+    enable_all_buttons()
+    # secondly disable all areas except the one I need to play in
+    disable_tic_71()
+
+    if b["text"] == " " and clicked == True:
+        b["text"] = "X"
+        clicked = False
+        count += 1
+        check_winner()
+    elif b["text"] == " " and clicked == False:
+        b["text"] = "O"
+        clicked = True
+        count += 1
+        check_winner()
+    else:
+        messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+
+
+def b72_clicked(b):
+    global clicked, count
+    # first I need to set the buttons to normal, otherwise it'd cause a bug
+    enable_all_buttons()
+    # secondly disable all areas except the one I need to play in
+    disable_tic_72()
+
+    if b["text"] == " " and clicked == True:
+        b["text"] = "X"
+        clicked = False
+        count += 1
+        check_winner()
+    elif b["text"] == " " and clicked == False:
+        b["text"] = "O"
+        clicked = True
+        count += 1
+        check_winner()
+    else:
+        messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+
+
+# [ TIC TAC TOE 9 ]
+
+def b73_clicked(b):
+    global clicked, count
+    # first I need to set the buttons to normal, otherwise it'd cause a bug
+    enable_all_buttons()
+    # secondly disable all areas except the one I need to play in
+    disable_tic_73()
+
+    if b["text"] == " " and clicked == True:
+        b["text"] = "X"
+        clicked = False
+        count += 1
+        check_winner()
+    elif b["text"] == " " and clicked == False:
+        b["text"] = "O"
+        clicked = True
+        count += 1
+        check_winner()
+    else:
+        messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+
+
+def b74_clicked(b):
+    global clicked, count
+    # first I need to set the buttons to normal, otherwise it'd cause a bug
+    enable_all_buttons()
+    # secondly disable all areas except the one I need to play in
+    disable_tic_74()
+
+    if b["text"] == " " and clicked == True:
+        b["text"] = "X"
+        clicked = False
+        count += 1
+        check_winner()
+    elif b["text"] == " " and clicked == False:
+        b["text"] = "O"
+        clicked = True
+        count += 1
+        check_winner()
+    else:
+        messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+
+
+def b75_clicked(b):
+    global clicked, count
+    # first I need to set the buttons to normal, otherwise it'd cause a bug
+    enable_all_buttons()
+    # secondly disable all areas except the one I need to play in
+    disable_tic_75()
+
+    if b["text"] == " " and clicked == True:
+        b["text"] = "X"
+        clicked = False
+        count += 1
+        check_winner()
+    elif b["text"] == " " and clicked == False:
+        b["text"] = "O"
+        clicked = True
+        count += 1
+        check_winner()
+    else:
+        messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+
+
+def b76_clicked(b):
+    global clicked, count
+    # first I need to set the buttons to normal, otherwise it'd cause a bug
+    enable_all_buttons()
+    # secondly disable all areas except the one I need to play in
+    disable_tic_76()
+
+    if b["text"] == " " and clicked == True:
+        b["text"] = "X"
+        clicked = False
+        count += 1
+        check_winner()
+    elif b["text"] == " " and clicked == False:
+        b["text"] = "O"
+        clicked = True
+        count += 1
+        check_winner()
+    else:
+        messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+
+
+def b77_clicked(b):
+    global clicked, count
+    # first I need to set the buttons to normal, otherwise it'd cause a bug
+    enable_all_buttons()
+    # secondly disable all areas except the one I need to play in
+    disable_tic_77()
+
+    if b["text"] == " " and clicked == True:
+        b["text"] = "X"
+        clicked = False
+        count += 1
+        check_winner()
+    elif b["text"] == " " and clicked == False:
+        b["text"] = "O"
+        clicked = True
+        count += 1
+        check_winner()
+    else:
+        messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+
+
+def b78_clicked(b):
+    global clicked, count
+    # first I need to set the buttons to normal, otherwise it'd cause a bug
+    enable_all_buttons()
+    # secondly disable all areas except the one I need to play in
+    disable_tic_78()
+
+    if b["text"] == " " and clicked == True:
+        b["text"] = "X"
+        clicked = False
+        count += 1
+        check_winner()
+    elif b["text"] == " " and clicked == False:
+        b["text"] = "O"
+        clicked = True
+        count += 1
+        check_winner()
+    else:
+        messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+
+
+def b79_clicked(b):
+    global clicked, count
+    # first I need to set the buttons to normal, otherwise it'd cause a bug
+    enable_all_buttons()
+    # secondly disable all areas except the one I need to play in
+    disable_tic_79()
+
+    if b["text"] == " " and clicked == True:
+        b["text"] = "X"
+        clicked = False
+        count += 1
+        check_winner()
+    elif b["text"] == " " and clicked == False:
+        b["text"] = "O"
+        clicked = True
+        count += 1
+        check_winner()
+    else:
+        messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+
+
+def b80_clicked(b):
+    global clicked, count
+    # first I need to set the buttons to normal, otherwise it'd cause a bug
+    enable_all_buttons()
+    # secondly disable all areas except the one I need to play in
+    disable_tic_80()
+
+    if b["text"] == " " and clicked == True:
+        b["text"] = "X"
+        clicked = False
+        count += 1
+        check_winner()
+    elif b["text"] == " " and clicked == False:
+        b["text"] = "O"
+        clicked = True
+        count += 1
+        check_winner()
+    else:
+        messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+
+
+def b81_clicked(b):
+    global clicked, count
+    # first I need to set the buttons to normal, otherwise it'd cause a bug
+    enable_all_buttons()
+    # secondly disable all areas except the one I need to play in
+    disable_tic_81()
+
+    if b["text"] == " " and clicked == True:
+        b["text"] = "X"
+        clicked = False
+        count += 1
+        check_winner()
+    elif b["text"] == " " and clicked == False:
+        b["text"] = "O"
+        clicked = True
+        count += 1
+        check_winner()
+    else:
+        messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+
+# [ CONTINUE THE NEXT 60 BUTTONS! :( ]
 
 
 # button click function
@@ -1625,181 +10814,181 @@ def reset():
 
     # building buttons for 2nd tic tac toe
     b10 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="#bdbdbd",
-                command=lambda: b_click(b10))
+                command=lambda: b10_clicked(b10))
     b11 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="#bdbdbd",
-                command=lambda: b_click(b11))
+                command=lambda: b11_clicked(b11))
     b12 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="#bdbdbd",
-                command=lambda: b_click(b12))
+                command=lambda: b12_clicked(b12))
 
     b13 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="#bdbdbd",
-                command=lambda: b_click(b13))
+                command=lambda: b13_clicked(b13))
     b14 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="#bdbdbd",
-                command=lambda: b_click(b14))
+                command=lambda: b14_clicked(b14))
     b15 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="#bdbdbd",
-                command=lambda: b_click(b15))
+                command=lambda: b15_clicked(b15))
 
     b16 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="#bdbdbd",
-                command=lambda: b_click(b16))
+                command=lambda: b16_clicked(b16))
     b17 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="#bdbdbd",
-                command=lambda: b_click(b17))
+                command=lambda: b17_clicked(b17))
     b18 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="#bdbdbd",
-                command=lambda: b_click(b18))
+                command=lambda: b18_clicked(b18))
 
     # building buttons for 3rd tic tac toe
     b19 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="SystemButtonFace",
-                 command=lambda: b_click(b19))
+                 command=lambda: b19_clicked(b19))
     b20 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="SystemButtonFace",
-                 command=lambda: b_click(b20))
+                 command=lambda: b20_clicked(b20))
     b21 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="SystemButtonFace",
-                 command=lambda: b_click(b21))
+                 command=lambda: b21_clicked(b21))
 
     b22 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="SystemButtonFace",
-                 command=lambda: b_click(b22))
+                 command=lambda: b22_clicked(b22))
     b23 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="SystemButtonFace",
-                 command=lambda: b_click(b23))
+                 command=lambda: b23_clicked(b23))
     b24 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="SystemButtonFace",
-                 command=lambda: b_click(b24))
+                 command=lambda: b24_clicked(b24))
 
     b25 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="SystemButtonFace",
-                 command=lambda: b_click(b25))
+                 command=lambda: b25_clicked(b25))
     b26 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="SystemButtonFace",
-                 command=lambda: b_click(b26))
+                 command=lambda: b26_clicked(b26))
     b27 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="SystemButtonFace",
-                 command=lambda: b_click(b27))
+                 command=lambda: b27_clicked(b27))
 
     # building buttons for 4th tic tac toe
     b28 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="#bdbdbd",
-                 command=lambda: b_click(b28))
+                 command=lambda: b28_clicked(b28))
     b29 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="#bdbdbd",
-                 command=lambda: b_click(b29))
+                 command=lambda: b29_clicked(b29))
     b30 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="#bdbdbd",
-                 command=lambda: b_click(b30))
+                 command=lambda: b30_clicked(b30))
 
     b31 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="#bdbdbd",
-                 command=lambda: b_click(b31))
+                 command=lambda: b31_clicked(b31))
     b32 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="#bdbdbd",
-                 command=lambda: b_click(b32))
+                 command=lambda: b32_clicked(b32))
     b33 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="#bdbdbd",
-                 command=lambda: b_click(b33))
+                 command=lambda: b33_clicked(b33))
 
     b34 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="#bdbdbd",
-                 command=lambda: b_click(b34))
+                 command=lambda: b34_clicked(b34))
     b35 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="#bdbdbd",
-                 command=lambda: b_click(b35))
+                 command=lambda: b35_clicked(b35))
     b36 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="#bdbdbd",
-                 command=lambda: b_click(b36))
+                 command=lambda: b36_clicked(b36))
 
     # building buttons for 5th tic tac toe
     b37 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="SystemButtonFace",
-                 command=lambda: b_click(b37))
+                 command=lambda: b37_clicked(b37))
     b38 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="SystemButtonFace",
-                 command=lambda: b_click(b38))
+                 command=lambda: b38_clicked(b38))
     b39 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="SystemButtonFace",
-                 command=lambda: b_click(b39))
+                 command=lambda: b39_clicked(b39))
 
     b40 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="SystemButtonFace",
-                 command=lambda: b_click(b40))
+                 command=lambda: b40_clicked(b40))
     b41 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="SystemButtonFace",
-                 command=lambda: b_click(b41))
+                 command=lambda: b41_clicked(b41))
     b42 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="SystemButtonFace",
-                 command=lambda: b_click(b42))
+                 command=lambda: b42_clicked(b42))
 
     b43 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="SystemButtonFace",
-                 command=lambda: b_click(b43))
+                 command=lambda: b43_clicked(b43))
     b44 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="SystemButtonFace",
-                 command=lambda: b_click(b44))
+                 command=lambda: b44_clicked(b44))
     b45 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="SystemButtonFace",
-                 command=lambda: b_click(b45))
+                 command=lambda: b45_clicked(b45))
 
     # building buttons for 6th tic tac toe
     b46 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="#bdbdbd",
-                 command=lambda: b_click(b46))
+                 command=lambda: b46_clicked(b46))
     b47 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="#bdbdbd",
-                 command=lambda: b_click(b47))
+                 command=lambda: b47_clicked(b47))
     b48 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="#bdbdbd",
-                 command=lambda: b_click(b48))
+                 command=lambda: b48_clicked(b48))
 
     b49 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="#bdbdbd",
-                 command=lambda: b_click(b49))
+                 command=lambda: b49_clicked(b49))
     b50 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="#bdbdbd",
-                 command=lambda: b_click(b50))
+                 command=lambda: b50_clicked(b50))
     b51 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="#bdbdbd",
-                 command=lambda: b_click(b51))
+                 command=lambda: b51_clicked(b51))
 
     b52 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="#bdbdbd",
-                 command=lambda: b_click(b52))
+                 command=lambda: b52_clicked(b52))
     b53 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="#bdbdbd",
-                 command=lambda: b_click(b53))
+                 command=lambda: b53_clicked(b53))
     b54 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="#bdbdbd",
-                 command=lambda: b_click(b54))
+                 command=lambda: b54_clicked(b54))
 
     # [ CONTINUE NEXT 3 TIC TAC TOE]
 
     # building buttons for 7th tic tac toe
     b55 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="SystemButtonFace",
-                 command=lambda: b_click(b55))
+                 command=lambda: b55_clicked(b55))
     b56 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="SystemButtonFace",
-                 command=lambda: b_click(b56))
+                 command=lambda: b56_clicked(b56))
     b57 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="SystemButtonFace",
-                 command=lambda: b_click(b57))
+                 command=lambda: b57_clicked(b57))
 
     b58 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="SystemButtonFace",
-                 command=lambda: b_click(b58))
+                 command=lambda: b58_clicked(b58))
     b59 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="SystemButtonFace",
-                 command=lambda: b_click(b59))
+                 command=lambda: b59_clicked(b59))
     b60 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="SystemButtonFace",
-                 command=lambda: b_click(b60))
+                 command=lambda: b60_clicked(b60))
 
     b61 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="SystemButtonFace",
-                 command=lambda: b_click(b61))
+                 command=lambda: b61_clicked(b61))
     b62 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="SystemButtonFace",
-                 command=lambda: b_click(b62))
+                 command=lambda: b62_clicked(b62))
     b63 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="SystemButtonFace",
-                 command=lambda: b_click(b63))
+                 command=lambda: b63_clicked(b63))
 
     # building buttons for 8th tic tac toe
     b64 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="#bdbdbd",
-                 command=lambda: b_click(b64))
+                 command=lambda: b64_clicked(b64))
     b65 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="#bdbdbd",
-                 command=lambda: b_click(b65))
+                 command=lambda: b65_clicked(b65))
     b66 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="#bdbdbd",
-                 command=lambda: b_click(b66))
+                 command=lambda: b66_clicked(b66))
 
     b67 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="#bdbdbd",
-                 command=lambda: b_click(b67))
+                 command=lambda: b67_clicked(b67))
     b68 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="#bdbdbd",
-                 command=lambda: b_click(b68))
+                 command=lambda: b68_clicked(b68))
     b69 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="#bdbdbd",
-                 command=lambda: b_click(b69))
+                 command=lambda: b69_clicked(b69))
 
     b70 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="#bdbdbd",
-                 command=lambda: b_click(b70))
+                 command=lambda: b70_clicked(b70))
     b71 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="#bdbdbd",
-                 command=lambda: b_click(b71))
+                 command=lambda: b71_clicked(b71))
     b72 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="#bdbdbd",
-                 command=lambda: b_click(b72))
+                 command=lambda: b72_clicked(b72))
 
     # building buttons for 9th tic tac toe
     b73 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="SystemButtonFace",
-                 command=lambda: b_click(b73))
+                 command=lambda: b73_clicked(b73))
     b74 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="SystemButtonFace",
-                 command=lambda: b_click(b74))
+                 command=lambda: b74_clicked(b74))
     b75 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="SystemButtonFace",
-                 command=lambda: b_click(b75))
+                 command=lambda: b75_clicked(b75))
 
     b76 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="SystemButtonFace",
-                 command=lambda: b_click(b76))
+                 command=lambda: b76_clicked(b76))
     b77 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="SystemButtonFace",
-                 command=lambda: b_click(b77))
+                 command=lambda: b77_clicked(b77))
     b78 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="SystemButtonFace",
-                 command=lambda: b_click(b78))
+                 command=lambda: b78_clicked(b78))
 
     b79 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="SystemButtonFace",
-                 command=lambda: b_click(b79))
+                 command=lambda: b79_clicked(b79))
     b80 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="SystemButtonFace",
-                 command=lambda: b_click(b80))
+                 command=lambda: b80_clicked(b80))
     b81 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="SystemButtonFace",
-                 command=lambda: b_click(b81))
+                 command=lambda: b81_clicked(b81))
 
     # grid/position buttons for 1st tic tac toe [ 1st row of ultimate tic tac toe ]
     b1.grid(row=0, column=0)
@@ -1917,6 +11106,7 @@ def reset():
     b79.grid(row=8, column=6)
     b80.grid(row=8, column=7)
     b81.grid(row=8, column=8)
+
 
 # create menu
 my_menu = Menu(root)
