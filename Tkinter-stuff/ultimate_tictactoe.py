@@ -8913,7 +8913,7 @@ def check_winner():
     global winner
     winner = False
 
-    # CHECK IF X HAS WON
+    # CHECK IF X HAS WON [ on tic tac toe 1 ]
     if b1["text"] == "X" and b2["text"] == "X" and b3["text"] == "X":
         b1.config(bg="blue")
         b2.config(bg="blue")
@@ -9069,6 +9069,8 @@ def b1_clicked(b):
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+        enable_all_buttons()
+        disable_tic_one()
 
 
 def b2_clicked(b):
@@ -9090,6 +9092,8 @@ def b2_clicked(b):
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+        enable_all_buttons()
+        disable_tic_two()
 
 
 # function when button 3 is clicked
@@ -9112,6 +9116,8 @@ def b3_clicked(b):
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+        enable_all_buttons()
+        disable_tic_3()
 
 
 # function when button 4 is clicked
@@ -9134,6 +9140,8 @@ def b4_clicked(b):
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+        enable_all_buttons()
+        disable_tic_4()
 
 
 # function when button 5 is clicked
@@ -9156,6 +9164,8 @@ def b5_clicked(b):
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+        enable_all_buttons()
+        disable_tic_5()
 
 
 def b6_clicked(b):
@@ -9177,6 +9187,8 @@ def b6_clicked(b):
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+        enable_all_buttons()
+        disable_tic_6()
 
 
 def b7_clicked(b):
@@ -9198,6 +9210,8 @@ def b7_clicked(b):
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+        enable_all_buttons()
+        disable_tic_7()
 
 
 def b8_clicked(b):
@@ -9219,6 +9233,8 @@ def b8_clicked(b):
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+        enable_all_buttons()
+        disable_tic_8()
 
 
 def b9_clicked(b):
@@ -9240,6 +9256,8 @@ def b9_clicked(b):
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+        enable_all_buttons()
+        disable_tic_9()
 
 
 # [ TIC TAC TOE 2 ]
@@ -9262,6 +9280,8 @@ def b10_clicked(b):
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+        enable_all_buttons()
+        disable_tic_10()
 
 
 def b11_clicked(b):
@@ -9283,6 +9303,8 @@ def b11_clicked(b):
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+        enable_all_buttons()
+        disable_tic_11()
 
 
 def b12_clicked(b):
@@ -9304,6 +9326,8 @@ def b12_clicked(b):
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+        enable_all_buttons()
+        disable_tic_12()
 
 
 def b13_clicked(b):
@@ -9325,6 +9349,8 @@ def b13_clicked(b):
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+        enable_all_buttons()
+        disable_tic_13()
 
 
 def b14_clicked(b):
@@ -9346,6 +9372,8 @@ def b14_clicked(b):
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+        enable_all_buttons()
+        disable_tic_14()
 
 
 def b15_clicked(b):
@@ -9367,6 +9395,8 @@ def b15_clicked(b):
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+        enable_all_buttons()
+        disable_tic_15()
 
 
 def b16_clicked(b):
@@ -9388,6 +9418,8 @@ def b16_clicked(b):
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+        enable_all_buttons()
+        disable_tic_16()
 
 
 def b17_clicked(b):
@@ -9409,6 +9441,8 @@ def b17_clicked(b):
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+        enable_all_buttons()
+        disable_tic_17()
 
 
 def b18_clicked(b):
@@ -9430,6 +9464,8 @@ def b18_clicked(b):
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+        enable_all_buttons()
+        disable_tic_18()
 
 
 # [ TIC TAC TOE 3 ]
@@ -9452,6 +9488,8 @@ def b19_clicked(b):
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+        enable_all_buttons()
+        disable_tic_19()
 
 
 def b20_clicked(b):
@@ -9473,6 +9511,8 @@ def b20_clicked(b):
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+        enable_all_buttons()
+        disable_tic_20()
 
 
 def b21_clicked(b):
@@ -9494,6 +9534,8 @@ def b21_clicked(b):
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+        enable_all_buttons()
+        disable_tic_21()
 
 
 def b22_clicked(b):
@@ -9515,6 +9557,8 @@ def b22_clicked(b):
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+        enable_all_buttons()
+        disable_tic_22()
 
 
 def b23_clicked(b):
@@ -9536,6 +9580,8 @@ def b23_clicked(b):
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+        enable_all_buttons()
+        disable_tic_23()
 
 
 def b24_clicked(b):
@@ -9557,6 +9603,8 @@ def b24_clicked(b):
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+        enable_all_buttons()
+        disable_tic_24()
 
 
 def b25_clicked(b):
@@ -9578,6 +9626,8 @@ def b25_clicked(b):
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+        enable_all_buttons()
+        disable_tic_25()
 
 
 def b26_clicked(b):
@@ -9599,6 +9649,8 @@ def b26_clicked(b):
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+        enable_all_buttons()
+        disable_tic_26()
 
 
 def b27_clicked(b):
@@ -9620,6 +9672,8 @@ def b27_clicked(b):
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+        enable_all_buttons()
+        disable_tic_27()
 
 
 # [ TIC TAC TOE 4 ]
@@ -9642,6 +9696,8 @@ def b28_clicked(b):
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+        enable_all_buttons()
+        disable_tic_28()
 
 
 def b29_clicked(b):
@@ -9663,6 +9719,8 @@ def b29_clicked(b):
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+        enable_all_buttons()
+        disable_tic_29()
 
 
 def b30_clicked(b):
@@ -9684,6 +9742,8 @@ def b30_clicked(b):
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+        enable_all_buttons()
+        disable_tic_30()
 
 
 def b31_clicked(b):
@@ -9705,6 +9765,8 @@ def b31_clicked(b):
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+        enable_all_buttons()
+        disable_tic_31()
 
 
 def b32_clicked(b):
@@ -9726,6 +9788,8 @@ def b32_clicked(b):
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+        enable_all_buttons()
+        disable_tic_32()
 
 
 def b33_clicked(b):
@@ -9747,6 +9811,8 @@ def b33_clicked(b):
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+        enable_all_buttons()
+        disable_tic_33()
 
 
 def b34_clicked(b):
@@ -9768,6 +9834,8 @@ def b34_clicked(b):
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+        enable_all_buttons()
+        disable_tic_34()
 
 
 def b35_clicked(b):
@@ -9789,6 +9857,8 @@ def b35_clicked(b):
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+        enable_all_buttons()
+        disable_tic_35()
 
 
 def b36_clicked(b):
@@ -9810,6 +9880,8 @@ def b36_clicked(b):
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+        enable_all_buttons()
+        disable_tic_36()
 
 
 # [ TIC TAC TOE 5 ]
@@ -9833,6 +9905,8 @@ def b37_clicked(b):
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+        enable_all_buttons()
+        disable_tic_37()
 
 
 def b38_clicked(b):
@@ -9854,6 +9928,8 @@ def b38_clicked(b):
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+        enable_all_buttons()
+        disable_tic_38()
 
 
 def b39_clicked(b):
@@ -9875,6 +9951,8 @@ def b39_clicked(b):
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+        enable_all_buttons()
+        disable_tic_39()
 
 
 def b40_clicked(b):
@@ -9896,6 +9974,8 @@ def b40_clicked(b):
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+        enable_all_buttons()
+        disable_tic_40()
 
 
 def b41_clicked(b):
@@ -9917,6 +9997,8 @@ def b41_clicked(b):
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+        enable_all_buttons()
+        disable_tic_41()
 
 
 def b42_clicked(b):
@@ -9938,6 +10020,8 @@ def b42_clicked(b):
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+        enable_all_buttons()
+        disable_tic_42()
 
 
 def b43_clicked(b):
@@ -9959,6 +10043,8 @@ def b43_clicked(b):
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+        enable_all_buttons()
+        disable_tic_43()
 
 
 def b44_clicked(b):
@@ -9980,6 +10066,8 @@ def b44_clicked(b):
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+        enable_all_buttons()
+        disable_tic_44()
 
 
 def b45_clicked(b):
@@ -10001,6 +10089,8 @@ def b45_clicked(b):
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+        enable_all_buttons()
+        disable_tic_45()
 
 
 # [ TIC TAC TOE 6 ]
@@ -10024,6 +10114,8 @@ def b46_clicked(b):
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+        enable_all_buttons()
+        disable_tic_46()
 
 
 def b47_clicked(b):
@@ -10045,6 +10137,8 @@ def b47_clicked(b):
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+        enable_all_buttons()
+        disable_tic_47()
 
 
 def b48_clicked(b):
@@ -10066,6 +10160,8 @@ def b48_clicked(b):
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+        enable_all_buttons()
+        disable_tic_48()
 
 
 def b49_clicked(b):
@@ -10087,6 +10183,8 @@ def b49_clicked(b):
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+        enable_all_buttons()
+        disable_tic_49()
 
 
 def b50_clicked(b):
@@ -10108,6 +10206,8 @@ def b50_clicked(b):
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+        enable_all_buttons()
+        disable_tic_50()
 
 
 def b51_clicked(b):
@@ -10129,6 +10229,8 @@ def b51_clicked(b):
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+        enable_all_buttons()
+        disable_tic_51()
 
 
 def b52_clicked(b):
@@ -10150,6 +10252,8 @@ def b52_clicked(b):
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+        enable_all_buttons()
+        disable_tic_52()
 
 
 def b53_clicked(b):
@@ -10171,6 +10275,8 @@ def b53_clicked(b):
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+        enable_all_buttons()
+        disable_tic_53()
 
 
 def b54_clicked(b):
@@ -10192,6 +10298,8 @@ def b54_clicked(b):
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+        enable_all_buttons()
+        disable_tic_54()
 
 
 # [ TIC TAC TOE 7 ]
@@ -10215,6 +10323,8 @@ def b55_clicked(b):
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+        enable_all_buttons()
+        disable_tic_55()
 
 
 def b56_clicked(b):
@@ -10236,6 +10346,8 @@ def b56_clicked(b):
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+        enable_all_buttons()
+        disable_tic_56()
 
 
 def b57_clicked(b):
@@ -10257,6 +10369,8 @@ def b57_clicked(b):
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+        enable_all_buttons()
+        disable_tic_57()
 
 
 def b58_clicked(b):
@@ -10278,6 +10392,8 @@ def b58_clicked(b):
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+        enable_all_buttons()
+        disable_tic_58()
 
 
 def b59_clicked(b):
@@ -10299,6 +10415,8 @@ def b59_clicked(b):
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+        enable_all_buttons()
+        disable_tic_59()
 
 
 def b60_clicked(b):
@@ -10320,6 +10438,8 @@ def b60_clicked(b):
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+        enable_all_buttons()
+        disable_tic_60()
 
 
 def b61_clicked(b):
@@ -10341,6 +10461,8 @@ def b61_clicked(b):
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+        enable_all_buttons()
+        disable_tic_61()
 
 
 def b62_clicked(b):
@@ -10362,6 +10484,8 @@ def b62_clicked(b):
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+        enable_all_buttons()
+        disable_tic_62()
 
 
 def b63_clicked(b):
@@ -10383,6 +10507,8 @@ def b63_clicked(b):
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+        enable_all_buttons()
+        disable_tic_63()
 
 
 # [ TIC TAC TOE 8 ]
@@ -10406,6 +10532,8 @@ def b64_clicked(b):
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+        enable_all_buttons()
+        disable_tic_64()
 
 
 def b65_clicked(b):
@@ -10427,6 +10555,8 @@ def b65_clicked(b):
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+        enable_all_buttons()
+        disable_tic_65()
 
 
 def b66_clicked(b):
@@ -10448,6 +10578,8 @@ def b66_clicked(b):
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+        enable_all_buttons()
+        disable_tic_66()
 
 
 def b67_clicked(b):
@@ -10469,6 +10601,8 @@ def b67_clicked(b):
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+        enable_all_buttons()
+        disable_tic_67()
 
 
 def b68_clicked(b):
@@ -10490,6 +10624,8 @@ def b68_clicked(b):
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+        enable_all_buttons()
+        disable_tic_68()
 
 
 def b69_clicked(b):
@@ -10511,6 +10647,8 @@ def b69_clicked(b):
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+        enable_all_buttons()
+        disable_tic_69()
 
 
 def b70_clicked(b):
@@ -10532,6 +10670,8 @@ def b70_clicked(b):
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+        enable_all_buttons()
+        disable_tic_70()
 
 
 def b71_clicked(b):
@@ -10553,6 +10693,8 @@ def b71_clicked(b):
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+        enable_all_buttons()
+        disable_tic_71()
 
 
 def b72_clicked(b):
@@ -10574,6 +10716,8 @@ def b72_clicked(b):
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+        enable_all_buttons()
+        disable_tic_72()
 
 
 # [ TIC TAC TOE 9 ]
@@ -10597,6 +10741,8 @@ def b73_clicked(b):
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+        enable_all_buttons()
+        disable_tic_73()
 
 
 def b74_clicked(b):
@@ -10618,6 +10764,8 @@ def b74_clicked(b):
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+        enable_all_buttons()
+        disable_tic_74()
 
 
 def b75_clicked(b):
@@ -10639,6 +10787,8 @@ def b75_clicked(b):
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+        enable_all_buttons()
+        disable_tic_75()
 
 
 def b76_clicked(b):
@@ -10660,6 +10810,8 @@ def b76_clicked(b):
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+        enable_all_buttons()
+        disable_tic_76()
 
 
 def b77_clicked(b):
@@ -10681,6 +10833,8 @@ def b77_clicked(b):
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+        enable_all_buttons()
+        disable_tic_77()
 
 
 def b78_clicked(b):
@@ -10702,6 +10856,8 @@ def b78_clicked(b):
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+        enable_all_buttons()
+        disable_tic_78()
 
 
 def b79_clicked(b):
@@ -10723,6 +10879,8 @@ def b79_clicked(b):
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+        enable_all_buttons()
+        disable_tic_79()
 
 
 def b80_clicked(b):
@@ -10744,6 +10902,8 @@ def b80_clicked(b):
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+        enable_all_buttons()
+        disable_tic_80()
 
 
 def b81_clicked(b):
@@ -10765,26 +10925,8 @@ def b81_clicked(b):
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
-
-# [ CONTINUE THE NEXT 60 BUTTONS! :( ]
-
-
-# button click function
-def b_click(b):
-    global clicked, count
-
-    if b["text"] == " " and clicked == True:
-        b["text"] = "X"
-        clicked = False
-        count += 1
-        check_winner()
-    elif b["text"] == " " and clicked == False:
-        b["text"] = "O"
-        clicked = True
-        count += 1
-        check_winner()
-    else:
-        messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
+        enable_all_buttons()
+        disable_tic_81()
 
 
 # start game over
