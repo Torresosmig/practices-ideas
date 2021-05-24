@@ -9230,6 +9230,330 @@ def check_winner():
     if count == 81 and winner is False:
         messagebox.showinfo("Tie", "There is no winner\n     You suck!!")
 
+    # TIC TAC TOE 4
+    # 28 29 30 --> 31 32 33 --> 34 35 36
+    global winner_4
+    winner_4 = False
+
+    if b28["text"] == "X" and b29["text"] == "X" and b30["text"] == "X":
+        b28.config(bg="blue")
+        b29.config(bg="blue")
+        b30.config(bg="blue")
+        winner_4 = True
+
+    elif b31["text"] == "X" and b32["text"] == "X" and b33["text"] == "X":
+        b31.config(bg="blue")
+        b32.config(bg="blue")
+        b33.config(bg="blue")
+        winner_4 = True
+
+    elif b34["text"] == "X" and b35["text"] == "X" and b36["text"] == "X":
+        b34.config(bg="blue")
+        b35.config(bg="blue")
+        b36.config(bg="blue")
+        winner_4 = True
+
+    elif b28["text"] == "X" and b31["text"] == "X" and b34["text"] == "X":
+        b28.config(bg="blue")
+        b31.config(bg="blue")
+        b34.config(bg="blue")
+        winner_4 = True
+
+    elif b29["text"] == "X" and b32["text"] == "X" and b35["text"] == "X":
+        b29.config(bg="blue")
+        b32.config(bg="blue")
+        b35.config(bg="blue")
+        winner_4 = True
+
+    elif b30["text"] == "X" and b33["text"] == "X" and b36["text"] == "X":
+        b30.config(bg="blue")
+        b33.config(bg="blue")
+        b36.config(bg="blue")
+        winner_4 = True
+
+    elif b28["text"] == "X" and b32["text"] == "X" and b36["text"] == "X":
+        b28.config(bg="blue")
+        b32.config(bg="blue")
+        b36.config(bg="blue")
+        winner_4 = True
+
+    elif b28["text"] == "X" and b32["text"] == "X" and b36["text"] == "X":
+        b21.config(bg="blue")
+        b23.config(bg="blue")
+        b25.config(bg="blue")
+        winner_3 = True
+
+    # CHECK IF O HAS WON
+
+    if b28["text"] == "O" and b29["text"] == "O" and b30["text"] == "O":
+        b28.config(bg="red")
+        b29.config(bg="red")
+        b30.config(bg="red")
+        winner_4 = True
+
+    elif b31["text"] == "O" and b32["text"] == "O" and b33["text"] == "O":
+        b31.config(bg="red")
+        b32.config(bg="red")
+        b33.config(bg="red")
+        winner_4 = True
+
+    elif b34["text"] == "O" and b35["text"] == "O" and b36["text"] == "O":
+        b34.config(bg="red")
+        b35.config(bg="red")
+        b36.config(bg="red")
+        winner_4 = True
+
+    elif b28["text"] == "O" and b31["text"] == "O" and b34["text"] == "O":
+        b28.config(bg="red")
+        b31.config(bg="red")
+        b34.config(bg="red")
+        winner_4 = True
+
+    elif b29["text"] == "O" and b32["text"] == "O" and b35["text"] == "O":
+        b29.config(bg="red")
+        b32.config(bg="red")
+        b35.config(bg="red")
+        winne_4 = True
+
+    elif b30["text"] == "O" and b33["text"] == "O" and b36["text"] == "O":
+        b30.config(bg="red")
+        b33.config(bg="red")
+        b36.config(bg="red")
+        winner_4 = True
+
+    elif b28["text"] == "O" and b32["text"] == "O" and b36["text"] == "O":
+        b28.config(bg="red")
+        b32.config(bg="red")
+        b36.config(bg="red")
+        winner_4 = True
+
+    elif b30["text"] == "O" and b32["text"] == "O" and b34["text"] == "O":
+        b21.config(bg="red")
+        b23.config(bg="red")
+        b25.config(bg="red")
+        winner_4 = True
+
+    # check if tie
+    if count == 81 and winner is False:
+        messagebox.showinfo("Tie", "There is no winner\n     You suck!!")
+
+    # TIC TAC TOE 5
+    # 37 38 39 --> 40 41 42 --> 43 44 45
+    global winner_5
+    winner_5 = False
+
+    if b37["text"] == "X" and b38["text"] == "X" and b39["text"] == "X":
+        b37.config(bg="blue")
+        b38.config(bg="blue")
+        b39.config(bg="blue")
+        winner_5 = True
+
+    elif b40["text"] == "X" and b41["text"] == "X" and b42["text"] == "X":
+        b40.config(bg="blue")
+        b41.config(bg="blue")
+        b42.config(bg="blue")
+        winner_5 = True
+
+    elif b43["text"] == "X" and b44["text"] == "X" and b45["text"] == "X":
+        b43.config(bg="blue")
+        b44.config(bg="blue")
+        b45.config(bg="blue")
+        winner_5 = True
+
+    elif b37["text"] == "X" and b40["text"] == "X" and b43["text"] == "X":
+        b37.config(bg="blue")
+        b40.config(bg="blue")
+        b43.config(bg="blue")
+        winner_5 = True
+
+    elif b38["text"] == "X" and b41["text"] == "X" and b44["text"] == "X":
+        b38.config(bg="blue")
+        b41.config(bg="blue")
+        b44.config(bg="blue")
+        winner_5 = True
+
+    elif b39["text"] == "X" and b42["text"] == "X" and b45["text"] == "X":
+        b39.config(bg="blue")
+        b42.config(bg="blue")
+        b45.config(bg="blue")
+        winner_5 = True
+
+    elif b37["text"] == "X" and b41["text"] == "X" and b45["text"] == "X":
+        b27.config(bg="blue")
+        b41.config(bg="blue")
+        b45.config(bg="blue")
+        winner_5 = True
+
+    elif b39["text"] == "X" and b41["text"] == "X" and b43["text"] == "X":
+        b39.config(bg="blue")
+        b41.config(bg="blue")
+        b43.config(bg="blue")
+        winner_5 = True
+
+        # CHECK IF O HAS WON
+
+    if b37["text"] == "O" and b38["text"] == "O" and b39["text"] == "O":
+        b37.config(bg="red")
+        b38.config(bg="red")
+        b39.config(bg="red")
+        winner_5 = True
+
+    elif b40["text"] == "O" and b41["text"] == "O" and b42["text"] == "O":
+        b40.config(bg="red")
+        b41.config(bg="red")
+        b42.config(bg="red")
+        winner_5 = True
+
+    elif b43["text"] == "O" and b44["text"] == "O" and b45["text"] == "O":
+        b43.config(bg="red")
+        b44.config(bg="red")
+        b45.config(bg="red")
+        winner_5 = True
+
+    elif b37["text"] == "O" and b40["text"] == "O" and b43["text"] == "O":
+        b37.config(bg="red")
+        b40.config(bg="red")
+        b43.config(bg="red")
+        winner_5 = True
+
+    elif b38["text"] == "O" and b41["text"] == "O" and b44["text"] == "O":
+        b38.config(bg="red")
+        b41.config(bg="red")
+        b44.config(bg="red")
+        winne_5 = True
+
+    elif b39["text"] == "O" and b42["text"] == "O" and b45["text"] == "O":
+        b39.config(bg="red")
+        b42.config(bg="red")
+        b45.config(bg="red")
+        winner_5 = True
+
+    elif b37["text"] == "O" and b41["text"] == "O" and b45["text"] == "O":
+        b37.config(bg="red")
+        b41.config(bg="red")
+        b45.config(bg="red")
+        winner_5 = True
+
+    elif b39["text"] == "O" and b41["text"] == "O" and b43["text"] == "O":
+        b39.config(bg="red")
+        b41.config(bg="red")
+        b43.config(bg="red")
+        winner_5 = True
+
+        # check if tie
+
+    if count == 81 and winner is False:
+        messagebox.showinfo("Tie", "There is no winner\n     You suck!!")
+
+     # TIC TAC TOE 5
+    # 46 47 48 --> 49 50 51 --> 52 53 54
+    global winner_6
+    winner_6 = False
+
+    if b46["text"] == "X" and b47["text"] == "X" and b48["text"] == "X":
+        b46.config(bg="blue")
+        b47.config(bg="blue")
+        b48.config(bg="blue")
+        winner_6 = True
+
+    elif b49["text"] == "X" and b50["text"] == "X" and b51["text"] == "X":
+        b49.config(bg="blue")
+        b50.config(bg="blue")
+        b51.config(bg="blue")
+        winner_6 = True
+
+    elif b52["text"] == "X" and b53["text"] == "X" and b54["text"] == "X":
+        b52.config(bg="blue")
+        b53.config(bg="blue")
+        b54.config(bg="blue")
+        winner_6 = True
+
+    elif b46["text"] == "X" and b49["text"] == "X" and b52["text"] == "X":
+        b46.config(bg="blue")
+        b49.config(bg="blue")
+        b52.config(bg="blue")
+        winner_6 = True
+
+    elif b47["text"] == "X" and b50["text"] == "X" and b53["text"] == "X":
+        b47.config(bg="blue")
+        b50.config(bg="blue")
+        b53.config(bg="blue")
+        winner_6 = True
+
+    elif b48["text"] == "X" and b51["text"] == "X" and b54["text"] == "X":
+        b48.config(bg="blue")
+        b51.config(bg="blue")
+        b54.config(bg="blue")
+        winner_6 = True
+
+    elif b46["text"] == "X" and b50["text"] == "X" and b54["text"] == "X":
+        b46.config(bg="blue")
+        b50.config(bg="blue")
+        b54.config(bg="blue")
+        winner_6 = True
+
+    elif b48["text"] == "X" and b50["text"] == "X" and b52["text"] == "X":
+        b48.config(bg="blue")
+        b50.config(bg="blue")
+        b52.config(bg="blue")
+        winner_6 = True
+
+        # CHECK IF O HAS WON
+
+    if b46["text"] == "O" and b47["text"] == "O" and b48["text"] == "O":
+        b46.config(bg="red")
+        b47.config(bg="red")
+        b48.config(bg="red")
+        winner_6 = True
+
+    elif b49["text"] == "O" and b50["text"] == "O" and b51["text"] == "O":
+        b49.config(bg="red")
+        b50.config(bg="red")
+        b51.config(bg="red")
+        winner_6 = True
+
+    elif b52["text"] == "O" and b53["text"] == "O" and b54["text"] == "O":
+        b52.config(bg="red")
+        b53.config(bg="red")
+        b54.config(bg="red")
+        winner_6 = True
+
+    elif b46["text"] == "O" and b49["text"] == "O" and b52["text"] == "O":
+        b46.config(bg="red")
+        b49.config(bg="red")
+        b52.config(bg="red")
+        winner_6 = True
+
+    elif b47["text"] == "O" and b50["text"] == "O" and b53["text"] == "O":
+        b47.config(bg="red")
+        b50.config(bg="red")
+        b53.config(bg="red")
+        winne_6 = True
+
+    elif b48["text"] == "O" and b51["text"] == "O" and b54["text"] == "O":
+        b48.config(bg="red")
+        b51.config(bg="red")
+        b54.config(bg="red")
+        winner_6 = True
+
+    elif b46["text"] == "O" and b50["text"] == "O" and b54["text"] == "O":
+        b46.config(bg="red")
+        b50.config(bg="red")
+        b54.config(bg="red")
+        winner_6 = True
+
+    elif b48["text"] == "O" and b50["text"] == "O" and b52["text"] == "O":
+        b48.config(bg="red")
+        b50.config(bg="red")
+        b52.config(bg="red")
+        winner_6 = True
+
+        # check if tie
+
+    if count == 81 and winner is False:
+        messagebox.showinfo("Tie", "There is no winner\n     You suck!!")
+
+    # [ CHECK WINNER FOR LAST 3 TIC TAC TOE ]
 
 # build function for when button 1 is clicked [ note: it has to mark area for next move ]
 # [ TIC TAC TOE 1 ]
