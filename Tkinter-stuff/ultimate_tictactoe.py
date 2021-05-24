@@ -1068,7 +1068,7 @@ def disable_tic_10():
 
     b79.config(state=DISABLED)
     b80.config(state=DISABLED)
-    b81.config(state=DISABLED) #
+    b81.config(state=DISABLED)
 
 
 #   SAME AS DISABLE_TIC_TWO
@@ -3957,7 +3957,7 @@ def disable_tic_37():
 
     b79.config(state=DISABLED)
     b80.config(state=DISABLED)
-    b81.config(state=DISABLED) #
+    b81.config(state=DISABLED)
 
 
 #   SAME AS DISABLE_TIC_TWO
@@ -8919,64 +8919,48 @@ def check_winner():
         b2.config(bg="blue")
         b3.config(bg="blue")
         winner = True
-        messagebox.showinfo("Winner", "X is the winner...")
-        disable_all_buttons()
 
     elif b4["text"] == "X" and b5["text"] == "X" and b6["text"] == "X":
         b4.config(bg="blue")
         b5.config(bg="blue")
         b6.config(bg="blue")
         winner = True
-        messagebox.showinfo("Winner", "X is the winner...")
-        disable_all_buttons()
 
     elif b7["text"] == "X" and b8["text"] == "X" and b9["text"] == "X":
         b7.config(bg="blue")
         b8.config(bg="blue")
         b9.config(bg="blue")
         winner = True
-        messagebox.showinfo("Winner", "X is the winner...")
-        disable_all_buttons()
 
     elif b1["text"] == "X" and b4["text"] == "X" and b7["text"] == "X":
         b1.config(bg="blue")
         b4.config(bg="blue")
         b7.config(bg="blue")
         winner = True
-        messagebox.showinfo("Winner", "X is the winner...")
-        disable_all_buttons()
 
     elif b2["text"] == "X" and b5["text"] == "X" and b8["text"] == "X":
         b2.config(bg="blue")
         b5.config(bg="blue")
         b8.config(bg="blue")
         winner = True
-        messagebox.showinfo("Winner", "X is the winner...")
-        disable_all_buttons()
 
     elif b3["text"] == "X" and b6["text"] == "X" and b9["text"] == "X":
         b3.config(bg="blue")
         b6.config(bg="blue")
         b8.config(bg="blue")
         winner = True
-        messagebox.showinfo("Winner", "X is the winner...")
-        disable_all_buttons()
 
     elif b1["text"] == "X" and b5["text"] == "X" and b9["text"] == "X":
         b1.config(bg="blue")
         b5.config(bg="blue")
         b9.config(bg="blue")
         winner = True
-        messagebox.showinfo("Winner", "X is the winner...")
-        disable_all_buttons()
 
     elif b3["text"] == "X" and b5["text"] == "X" and b7["text"] == "X":
         b3.config(bg="blue")
         b5.config(bg="blue")
         b7.config(bg="blue")
         winner = True
-        messagebox.showinfo("Winner", "X is the winner...")
-        disable_all_buttons()
 
     # CHECK IF O HAS WON
 
@@ -8985,69 +8969,266 @@ def check_winner():
         b2.config(bg="red")
         b3.config(bg="red")
         winner = True
-        messagebox.showinfo("Winner", "O is the winner...")
-        disable_all_buttons()
 
     elif b4["text"] == "O" and b5["text"] == "O" and b6["text"] == "O":
         b4.config(bg="red")
         b5.config(bg="red")
         b6.config(bg="red")
         winner = True
-        messagebox.showinfo("Winner", "O is the winner...")
-        disable_all_buttons()
 
     elif b7["text"] == "O" and b8["text"] == "O" and b9["text"] == "O":
         b7.config(bg="red")
         b8.config(bg="red")
         b9.config(bg="red")
         winner = True
-        messagebox.showinfo("Winner", "O is the winner...")
-        disable_all_buttons()
 
     elif b1["text"] == "O" and b4["text"] == "O" and b7["text"] == "O":
         b1.config(bg="red")
         b4.config(bg="red")
         b7.config(bg="red")
         winner = True
-        messagebox.showinfo("Winner", "O is the winner...")
-        disable_all_buttons()
 
     elif b2["text"] == "O" and b5["text"] == "O" and b8["text"] == "O":
         b2.config(bg="red")
         b5.config(bg="red")
         b8.config(bg="red")
         winner = True
-        messagebox.showinfo("Winner", "O is the winner...")
-        disable_all_buttons()
 
     elif b3["text"] == "O" and b6["text"] == "O" and b9["text"] == "O":
         b3.config(bg="red")
         b6.config(bg="red")
         b9.config(bg="red")
         winner = True
-        messagebox.showinfo("Winner", "O is the winner...")
-        disable_all_buttons()
 
     elif b1["text"] == "O" and b5["text"] == "O" and b9["text"] == "O":
         b1.config(bg="red")
         b5.config(bg="red")
         b9.config(bg="red")
         winner = True
-        messagebox.showinfo("Winner", "O is the winner...")
-        disable_all_buttons()
 
     elif b3["text"] == "O" and b5["text"] == "O" and b7["text"] == "O":
         b3.config(bg="red")
         b5.config(bg="red")
         b7.config(bg="red")
         winner = True
-        messagebox.showinfo("Winner", "O is the winner...")
-        disable_all_buttons()
 
     # check if tie
     if count == 81 and winner == False:
         messagebox.showinfo("Tie", "There is no winner\n     You suck!!")
-        disable_all_buttons()
+
+    # CHECK WINNER FOR TIC TAC TOE 2
+    global winner_2
+    winner_2 = False
+
+    # CHECK IF X HAS WON [ on tic tac toe 1 ]
+    if b10["text"] == "X" and b11["text"] == "X" and b12["text"] == "X":
+        b10.config(bg="blue")
+        b11.config(bg="blue")
+        b12.config(bg="blue")
+        winner_2 = True
+
+    elif b13["text"] == "X" and b14["text"] == "X" and b15["text"] == "X":
+        b13.config(bg="blue")
+        b14.config(bg="blue")
+        b15.config(bg="blue")
+        winner_2 = True
+
+    elif b16["text"] == "X" and b17["text"] == "X" and b18["text"] == "X":
+        b16.config(bg="blue")
+        b17.config(bg="blue")
+        b18.config(bg="blue")
+        winner_2 = True
+
+    elif b10["text"] == "X" and b13["text"] == "X" and b16["text"] == "X":
+        b10.config(bg="blue")
+        b13.config(bg="blue")
+        b16.config(bg="blue")
+        winner_2 = True
+
+    elif b11["text"] == "X" and b14["text"] == "X" and b17["text"] == "X":
+        b11.config(bg="blue")
+        b14.config(bg="blue")
+        b17.config(bg="blue")
+        winner_2 = True
+
+    elif b12["text"] == "X" and b15["text"] == "X" and b18["text"] == "X":
+        b12.config(bg="blue")
+        b15.config(bg="blue")
+        b18.config(bg="blue")
+        winner_2 = True
+
+    elif b10["text"] == "X" and b14["text"] == "X" and b18["text"] == "X":
+        b10.config(bg="blue")
+        b14.config(bg="blue")
+        b18.config(bg="blue")
+        winner_2 = True
+
+    elif b12["text"] == "X" and b14["text"] == "X" and b16["text"] == "X":
+        b12.config(bg="blue")
+        b14.config(bg="blue")
+        b16.config(bg="blue")
+        winner_2 = True
+
+    # CHECK IF O HAS WON
+
+    if b10["text"] == "O" and b11["text"] == "O" and b12["text"] == "O":
+        b10.config(bg="red")
+        b11.config(bg="red")
+        b12.config(bg="red")
+        winner_2 = True
+
+    elif b13["text"] == "O" and b5["text"] == "O" and b6["text"] == "O":
+        b13.config(bg="red")
+        b14.config(bg="red")
+        b15.config(bg="red")
+        winner_2 = True
+
+    elif b16["text"] == "O" and b17["text"] == "O" and b18["text"] == "O":
+        b16.config(bg="red")
+        b17.config(bg="red")
+        b18.config(bg="red")
+        winner = True
+
+    elif b10["text"] == "O" and b13["text"] == "O" and b16["text"] == "O":
+        b10.config(bg="red")
+        b13.config(bg="red")
+        b16.config(bg="red")
+        winner = True
+
+    elif b11["text"] == "O" and b14["text"] == "O" and b17["text"] == "O":
+        b11.config(bg="red")
+        b14.config(bg="red")
+        b17.config(bg="red")
+        winner = True
+
+    elif b12["text"] == "O" and b15["text"] == "O" and b18["text"] == "O":
+        b12.config(bg="red")
+        b15.config(bg="red")
+        b18.config(bg="red")
+        winner_2 = True
+
+    elif b10["text"] == "O" and b5["text"] == "O" and b9["text"] == "O":
+        b10.config(bg="red")
+        b14.config(bg="red")
+        b18.config(bg="red")
+        winner_2 = True
+
+    elif b12["text"] == "O" and b14["text"] == "O" and b16["text"] == "O":
+        b12.config(bg="red")
+        b14.config(bg="red")
+        b16.config(bg="red")
+        winner_2 = True
+
+    # check if tie
+    if count == 81 and winner is False:
+        messagebox.showinfo("Tie", "There is no winner\n     You suck!!")
+
+    #   TIC TAC TOE 3
+    global winner_3
+    winner_3 = False
+
+    # CHECK IF X HAS WON [ on tic tac toe 1 ] 19 ---> 27
+    if b19["text"] == "X" and b20["text"] == "X" and b21["text"] == "X":
+        b19.config(bg="blue")
+        b20.config(bg="blue")
+        b21.config(bg="blue")
+        winner_3 = True
+
+    elif b22["text"] == "X" and b23["text"] == "X" and b24["text"] == "X":
+        b22.config(bg="blue")
+        b23.config(bg="blue")
+        b24.config(bg="blue")
+        winner_3 = True
+
+    elif b25["text"] == "X" and b26["text"] == "X" and b27["text"] == "X":
+        b25.config(bg="blue")
+        b26.config(bg="blue")
+        b27.config(bg="blue")
+        winner_3 = True
+
+    elif b19["text"] == "X" and b22["text"] == "X" and b25["text"] == "X":
+        b19.config(bg="blue")
+        b22.config(bg="blue")
+        b25.config(bg="blue")
+        winner_3 = True
+
+    elif b20["text"] == "X" and b23["text"] == "X" and b26["text"] == "X":
+        b21.config(bg="blue")
+        b24.config(bg="blue")
+        b27.config(bg="blue")
+        winner_3 = True
+
+    elif b21["text"] == "X" and b24["text"] == "X" and b27["text"] == "X":
+        b12.config(bg="blue")
+        b15.config(bg="blue")
+        b18.config(bg="blue")
+        winner_3 = True
+
+    elif b19["text"] == "X" and b23["text"] == "X" and b27["text"] == "X":
+        b19.config(bg="blue")
+        b23.config(bg="blue")
+        b27.config(bg="blue")
+        winner_3 = True
+
+    elif b21["text"] == "X" and b23["text"] == "X" and b25["text"] == "X":
+        b21.config(bg="blue")
+        b23.config(bg="blue")
+        b25.config(bg="blue")
+        winner_3 = True
+
+    # CHECK IF O HAS WON
+
+    if b19["text"] == "O" and b20["text"] == "O" and b21["text"] == "O":
+        b19.config(bg="red")
+        b20.config(bg="red")
+        b21.config(bg="red")
+        winner_3 = True
+
+    elif b22["text"] == "O" and b23["text"] == "O" and b24["text"] == "O":
+        b22.config(bg="red")
+        b23.config(bg="red")
+        b24.config(bg="red")
+        winner_3 = True
+
+    elif b25["text"] == "O" and b26["text"] == "O" and b27["text"] == "O":
+        b25.config(bg="red")
+        b26.config(bg="red")
+        b27.config(bg="red")
+        winner_3 = True
+
+    elif b19["text"] == "O" and b22["text"] == "O" and b25["text"] == "O":
+        b19.config(bg="red")
+        b22.config(bg="red")
+        b25.config(bg="red")
+        winner_3 = True
+
+    elif b20["text"] == "O" and b23["text"] == "O" and b26["text"] == "O":
+        b20.config(bg="red")
+        b23.config(bg="red")
+        b26.config(bg="red")
+        winne_3 = True
+
+    elif b21["text"] == "O" and b24["text"] == "O" and b27["text"] == "O":
+        b21.config(bg="red")
+        b24.config(bg="red")
+        b27.config(bg="red")
+        winner_3 = True
+
+    elif b19["text"] == "O" and b23["text"] == "O" and b27["text"] == "O":
+        b10.config(bg="red")
+        b14.config(bg="red")
+        b18.config(bg="red")
+        winner_3 = True
+
+    elif b21["text"] == "O" and b23["text"] == "O" and b25["text"] == "O":
+        b21.config(bg="red")
+        b23.config(bg="red")
+        b25.config(bg="red")
+        winner_3 = True
+
+    # check if tie
+    if count == 81 and winner is False:
+        messagebox.showinfo("Tie", "There is no winner\n     You suck!!")
 
 
 # build function for when button 1 is clicked [ note: it has to mark area for next move ]
@@ -9280,8 +9461,6 @@ def b10_clicked(b):
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
-        enable_all_buttons()
-        disable_tic_two()
 
 
 def b11_clicked(b):
