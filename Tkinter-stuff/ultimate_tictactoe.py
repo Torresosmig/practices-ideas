@@ -6,7 +6,7 @@ root.title("Tic Tac Toe")
 
 # X starts so true
 clicked = True
-count = 0
+global_count = 0
 
 
 # to allow playing on the area assigned by playing button 1 or 2 or 3 .... [ tic tac toe 1 ]
@@ -8910,8 +8910,9 @@ def disable_all_buttons():
 
 # check if someone won
 def check_winner():
-    global winner
+    global winner, winner_first_row, counter_1
     winner = False
+    winner_first_row = False
 
     # CHECK IF X HAS WON [ on tic tac toe 1 ]
     if b1["text"] == "X" and b2["text"] == "X" and b3["text"] == "X":
@@ -8919,12 +8920,19 @@ def check_winner():
         b2.config(bg="blue")
         b3.config(bg="blue")
         winner = True
+        winner_first_row = True
 
     elif b4["text"] == "X" and b5["text"] == "X" and b6["text"] == "X":
-        b4.config(bg="blue")
-        b5.config(bg="blue")
-        b6.config(bg="blue")
-        winner = True
+        # [ I THINK THIS IS HOW i HAVE TO DO IT TO FIX OVERLAY WINNER ]
+        if winner_first_row:
+            b4.config(bg="SystemButtonFace")
+            b5.config(bg="SystemButtonFace")
+            b6.config(bg="SystemButtonFace")
+        else:
+            b4.config(bg="blue")
+            b5.config(bg="blue")
+            b6.config(bg="blue")
+            winner = True
 
     elif b7["text"] == "X" and b8["text"] == "X" and b9["text"] == "X":
         b7.config(bg="blue")
@@ -8947,7 +8955,7 @@ def check_winner():
     elif b3["text"] == "X" and b6["text"] == "X" and b9["text"] == "X":
         b3.config(bg="blue")
         b6.config(bg="blue")
-        b8.config(bg="blue")
+        b9.config(bg="blue")
         winner = True
 
     elif b1["text"] == "X" and b5["text"] == "X" and b9["text"] == "X":
@@ -9013,7 +9021,7 @@ def check_winner():
         winner = True
 
     # check if tie
-    if count == 81 and winner == False:
+    if global_count == 81 and winner == False:
         messagebox.showinfo("Tie", "There is no winner\n     You suck!!")
 
     # CHECK WINNER FOR TIC TAC TOE 2
@@ -9120,7 +9128,7 @@ def check_winner():
         winner_2 = True
 
     # check if tie
-    if count == 81 and winner is False:
+    if global_count == 81 and winner is False:
         messagebox.showinfo("Tie", "There is no winner\n     You suck!!")
 
     #   TIC TAC TOE 3
@@ -9227,7 +9235,7 @@ def check_winner():
         winner_3 = True
 
     # check if tie
-    if count == 81 and winner is False:
+    if global_count == 81 and winner is False:
         messagebox.showinfo("Tie", "There is no winner\n     You suck!!")
 
     # TIC TAC TOE 4
@@ -9334,7 +9342,7 @@ def check_winner():
         winner_4 = True
 
     # check if tie
-    if count == 81 and winner is False:
+    if global_count == 81 and winner is False:
         messagebox.showinfo("Tie", "There is no winner\n     You suck!!")
 
     # TIC TAC TOE 5
@@ -9442,7 +9450,7 @@ def check_winner():
 
         # check if tie
 
-    if count == 81 and winner is False:
+    if global_count == 81 and winner is False:
         messagebox.showinfo("Tie", "There is no winner\n     You suck!!")
 
      # TIC TAC TOE 6
@@ -9550,7 +9558,7 @@ def check_winner():
 
         # check if tie
 
-    if count == 81 and winner is False:
+    if global_count == 81 and winner is False:
         messagebox.showinfo("Tie", "There is no winner\n     You suck!!")
 
     # [ CHECK WINNER FOR LAST 3 TIC TAC TOE ]
@@ -9659,7 +9667,7 @@ def check_winner():
 
         # check if tie
 
-    if count == 81 and winner is False:
+    if global_count == 81 and winner is False:
         messagebox.showinfo("Tie", "There is no winner\n     You suck!!")
 
         # TIC TAC TOE 8
@@ -9767,7 +9775,7 @@ def check_winner():
 
         # check if tie
 
-    if count == 81 and winner is False:
+    if global_count == 81 and winner is False:
         messagebox.showinfo("Tie", "There is no winner\n     You suck!!")
 
         # TIC TAC TOE 9
@@ -9875,26 +9883,32 @@ def check_winner():
 
         # check if tie
 
-    if count == 81 and winner is False:
+    if global_count == 81 and winner is False:
         messagebox.showinfo("Tie", "There is no winner\n     You suck!!")
 
 
 # build function for when button 1 is clicked [ note: it has to mark area for next move ]
 # [ TIC TAC TOE 1 ]
 def b1_clicked(b):
-    global clicked, count
+    global clicked, global_count, count_1
+    count_1 = 0
     enable_all_buttons()
     disable_tic_one()
 
     if b["text"] == " " and clicked == True:
         b["text"] = "X"
         clicked = False
-        count += 1
+        global_count += 1
+        count_1 += 1
+        print("counter 1")
+        print(count_1)
         check_winner()
     elif b["text"] == " " and clicked == False:
         b["text"] = "O"
         clicked = True
-        count += 1
+        global_count += 1
+        count_1 += 1
+        print(count_1)
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
@@ -9903,7 +9917,8 @@ def b1_clicked(b):
 
 
 def b2_clicked(b):
-    global clicked, count
+    global clicked, global_count, count_1
+
     # first I need to set the buttons to normal, otherwise it'd cause a bug
     enable_all_buttons()
     # secondly disable all areas except the one I need to play in
@@ -9912,12 +9927,16 @@ def b2_clicked(b):
     if b["text"] == " " and clicked == True:
         b["text"] = "X"
         clicked = False
-        count += 1
+        global_count += 1
+        count_1 += 1
+        print(count_1)
         check_winner()
     elif b["text"] == " " and clicked == False:
         b["text"] = "O"
         clicked = True
-        count += 1
+        global_count += 1
+        count_1 += 1
+        print(count_1)
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
@@ -9927,7 +9946,8 @@ def b2_clicked(b):
 
 # function when button 3 is clicked
 def b3_clicked(b):
-    global clicked, count
+    global clicked, global_count, count_1
+    # count_1 = 0
     # first I need to set the buttons to normal, otherwise it'd cause a bug
     enable_all_buttons()
     # secondly disable all areas except the one I need to play in
@@ -9936,12 +9956,16 @@ def b3_clicked(b):
     if b["text"] == " " and clicked == True:
         b["text"] = "X"
         clicked = False
-        count += 1
+        global_count += 1
+        count_1 += 1
+        print(count_1)
         check_winner()
     elif b["text"] == " " and clicked == False:
         b["text"] = "O"
         clicked = True
-        count += 1
+        global_count += 1
+        count_1 += 1
+        print(count_1)
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
@@ -9951,7 +9975,8 @@ def b3_clicked(b):
 
 # function when button 4 is clicked
 def b4_clicked(b):
-    global clicked, count
+    global clicked, global_count, count_1
+    # count_1 = 0
     # first I need to set the buttons to normal, otherwise it'd cause a bug
     enable_all_buttons()
     # secondly disable all areas except the one I need to play in
@@ -9960,12 +9985,16 @@ def b4_clicked(b):
     if b["text"] == " " and clicked == True:
         b["text"] = "X"
         clicked = False
-        count += 1
+        global_count += 1
+        count_1 += 1
+        print(count_1)
         check_winner()
     elif b["text"] == " " and clicked == False:
         b["text"] = "O"
         clicked = True
-        count += 1
+        global_count += 1
+        count_1 += 1
+        print(count_1)
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
@@ -9975,7 +10004,8 @@ def b4_clicked(b):
 
 # function when button 5 is clicked
 def b5_clicked(b):
-    global clicked, count
+    global clicked, global_count, count_1
+    # count_1 = 0
     # first I need to set the buttons to normal, otherwise it'd cause a bug
     enable_all_buttons()
     # secondly disable all areas except the one I need to play in
@@ -9984,12 +10014,16 @@ def b5_clicked(b):
     if b["text"] == " " and clicked == True:
         b["text"] = "X"
         clicked = False
-        count += 1
+        global_count += 1
+        count_1 += 1
+        print(count_1)
         check_winner()
     elif b["text"] == " " and clicked == False:
         b["text"] = "O"
         clicked = True
-        count += 1
+        global_count += 1
+        count_1 += 1
+        print(count_1)
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
@@ -9998,7 +10032,8 @@ def b5_clicked(b):
 
 
 def b6_clicked(b):
-    global clicked, count
+    global clicked, global_count, count_1
+    # count_1 = 0
     # first I need to set the buttons to normal, otherwise it'd cause a bug
     enable_all_buttons()
     # secondly disable all areas except the one I need to play in
@@ -10007,12 +10042,16 @@ def b6_clicked(b):
     if b["text"] == " " and clicked == True:
         b["text"] = "X"
         clicked = False
-        count += 1
+        global_count += 1
+        count_1 += 1
+        print(count_1)
         check_winner()
     elif b["text"] == " " and clicked == False:
         b["text"] = "O"
         clicked = True
-        count += 1
+        global_count += 1
+        count_1 += 1
+        print(count_1)
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
@@ -10021,7 +10060,8 @@ def b6_clicked(b):
 
 
 def b7_clicked(b):
-    global clicked, count
+    global clicked, global_count, count_1
+    # count_1 = 0
     # first I need to set the buttons to normal, otherwise it'd cause a bug
     enable_all_buttons()
     # secondly disable all areas except the one I need to play in
@@ -10030,12 +10070,16 @@ def b7_clicked(b):
     if b["text"] == " " and clicked == True:
         b["text"] = "X"
         clicked = False
-        count += 1
+        global_count += 1
+        count_1 += 1
+        print(count_1)
         check_winner()
     elif b["text"] == " " and clicked == False:
         b["text"] = "O"
         clicked = True
-        count += 1
+        global_count += 1
+        count_1 += 1
+        print(count_1)
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
@@ -10044,7 +10088,8 @@ def b7_clicked(b):
 
 
 def b8_clicked(b):
-    global clicked, count
+    global clicked, global_count, count_1
+    # count_1 = 0
     # first I need to set the buttons to normal, otherwise it'd cause a bug
     enable_all_buttons()
     # secondly disable all areas except the one I need to play in
@@ -10053,12 +10098,16 @@ def b8_clicked(b):
     if b["text"] == " " and clicked == True:
         b["text"] = "X"
         clicked = False
-        count += 1
+        global_count += 1
+        count_1 += 1
+        print(count_1)
         check_winner()
     elif b["text"] == " " and clicked == False:
         b["text"] = "O"
         clicked = True
-        count += 1
+        global_count += 1
+        count_1 += 1
+        print(count_1)
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
@@ -10067,7 +10116,8 @@ def b8_clicked(b):
 
 
 def b9_clicked(b):
-    global clicked, count
+    global clicked, global_count, count_1
+    # count_1 = 0
     # first I need to set the buttons to normal, otherwise it'd cause a bug
     enable_all_buttons()
     # secondly disable all areas except the one I need to play in
@@ -10076,12 +10126,16 @@ def b9_clicked(b):
     if b["text"] == " " and clicked == True:
         b["text"] = "X"
         clicked = False
-        count += 1
+        global_count += 1
+        count_1 += 1
+        print(count_1)
         check_winner()
     elif b["text"] == " " and clicked == False:
         b["text"] = "O"
         clicked = True
-        count += 1
+        global_count += 1
+        count_1 += 1
+        print(count_1)
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
@@ -10091,7 +10145,7 @@ def b9_clicked(b):
 
 # [ TIC TAC TOE 2 ]
 def b10_clicked(b):
-    global clicked, count
+    global clicked, global_count
     # first I need to set the buttons to normal, otherwise it'd cause a bug
     enable_all_buttons()
     # secondly disable all areas except the one I need to play in
@@ -10100,19 +10154,19 @@ def b10_clicked(b):
     if b["text"] == " " and clicked == True:
         b["text"] = "X"
         clicked = False
-        count += 1
+        global_count += 1
         check_winner()
     elif b["text"] == " " and clicked == False:
         b["text"] = "O"
         clicked = True
-        count += 1
+        global_count += 1
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
 
 
 def b11_clicked(b):
-    global clicked, count
+    global clicked, global_count
     # first I need to set the buttons to normal, otherwise it'd cause a bug
     enable_all_buttons()
     # secondly disable all areas except the one I need to play in
@@ -10121,12 +10175,12 @@ def b11_clicked(b):
     if b["text"] == " " and clicked == True:
         b["text"] = "X"
         clicked = False
-        count += 1
+        global_count += 1
         check_winner()
     elif b["text"] == " " and clicked == False:
         b["text"] = "O"
         clicked = True
-        count += 1
+        global_count += 1
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
@@ -10135,7 +10189,7 @@ def b11_clicked(b):
 
 
 def b12_clicked(b):
-    global clicked, count
+    global clicked, global_count
     # first I need to set the buttons to normal, otherwise it'd cause a bug
     enable_all_buttons()
     # secondly disable all areas except the one I need to play in
@@ -10144,12 +10198,12 @@ def b12_clicked(b):
     if b["text"] == " " and clicked == True:
         b["text"] = "X"
         clicked = False
-        count += 1
+        global_count += 1
         check_winner()
     elif b["text"] == " " and clicked == False:
         b["text"] = "O"
         clicked = True
-        count += 1
+        global_count += 1
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
@@ -10158,7 +10212,7 @@ def b12_clicked(b):
 
 
 def b13_clicked(b):
-    global clicked, count
+    global clicked, global_count
     # first I need to set the buttons to normal, otherwise it'd cause a bug
     enable_all_buttons()
     # secondly disable all areas except the one I need to play in
@@ -10167,12 +10221,12 @@ def b13_clicked(b):
     if b["text"] == " " and clicked == True:
         b["text"] = "X"
         clicked = False
-        count += 1
+        global_count += 1
         check_winner()
     elif b["text"] == " " and clicked == False:
         b["text"] = "O"
         clicked = True
-        count += 1
+        global_count += 1
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
@@ -10181,7 +10235,7 @@ def b13_clicked(b):
 
 
 def b14_clicked(b):
-    global clicked, count
+    global clicked, global_count
     # first I need to set the buttons to normal, otherwise it'd cause a bug
     enable_all_buttons()
     # secondly disable all areas except the one I need to play in
@@ -10190,12 +10244,12 @@ def b14_clicked(b):
     if b["text"] == " " and clicked == True:
         b["text"] = "X"
         clicked = False
-        count += 1
+        global_count += 1
         check_winner()
     elif b["text"] == " " and clicked == False:
         b["text"] = "O"
         clicked = True
-        count += 1
+        global_count += 1
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
@@ -10204,7 +10258,7 @@ def b14_clicked(b):
 
 
 def b15_clicked(b):
-    global clicked, count
+    global clicked, global_count
     # first I need to set the buttons to normal, otherwise it'd cause a bug
     enable_all_buttons()
     # secondly disable all areas except the one I need to play in
@@ -10213,12 +10267,12 @@ def b15_clicked(b):
     if b["text"] == " " and clicked == True:
         b["text"] = "X"
         clicked = False
-        count += 1
+        global_count += 1
         check_winner()
     elif b["text"] == " " and clicked == False:
         b["text"] = "O"
         clicked = True
-        count += 1
+        global_count += 1
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
@@ -10227,7 +10281,7 @@ def b15_clicked(b):
 
 
 def b16_clicked(b):
-    global clicked, count
+    global clicked, global_count
     # first I need to set the buttons to normal, otherwise it'd cause a bug
     enable_all_buttons()
     # secondly disable all areas except the one I need to play in
@@ -10236,12 +10290,12 @@ def b16_clicked(b):
     if b["text"] == " " and clicked == True:
         b["text"] = "X"
         clicked = False
-        count += 1
+        global_count += 1
         check_winner()
     elif b["text"] == " " and clicked == False:
         b["text"] = "O"
         clicked = True
-        count += 1
+        global_count += 1
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
@@ -10250,7 +10304,7 @@ def b16_clicked(b):
 
 
 def b17_clicked(b):
-    global clicked, count
+    global clicked, global_count
     # first I need to set the buttons to normal, otherwise it'd cause a bug
     enable_all_buttons()
     # secondly disable all areas except the one I need to play in
@@ -10259,12 +10313,12 @@ def b17_clicked(b):
     if b["text"] == " " and clicked == True:
         b["text"] = "X"
         clicked = False
-        count += 1
+        global_count += 1
         check_winner()
     elif b["text"] == " " and clicked == False:
         b["text"] = "O"
         clicked = True
-        count += 1
+        global_count += 1
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
@@ -10273,7 +10327,7 @@ def b17_clicked(b):
 
 
 def b18_clicked(b):
-    global clicked, count
+    global clicked, global_count
     # first I need to set the buttons to normal, otherwise it'd cause a bug
     enable_all_buttons()
     # secondly disable all areas except the one I need to play in
@@ -10282,12 +10336,12 @@ def b18_clicked(b):
     if b["text"] == " " and clicked == True:
         b["text"] = "X"
         clicked = False
-        count += 1
+        global_count += 1
         check_winner()
     elif b["text"] == " " and clicked == False:
         b["text"] = "O"
         clicked = True
-        count += 1
+        global_count += 1
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
@@ -10297,7 +10351,7 @@ def b18_clicked(b):
 
 # [ TIC TAC TOE 3 ]
 def b19_clicked(b):
-    global clicked, count
+    global clicked, global_count
     # first I need to set the buttons to normal, otherwise it'd cause a bug
     enable_all_buttons()
     # secondly disable all areas except the one I need to play in
@@ -10306,12 +10360,12 @@ def b19_clicked(b):
     if b["text"] == " " and clicked == True:
         b["text"] = "X"
         clicked = False
-        count += 1
+        global_count += 1
         check_winner()
     elif b["text"] == " " and clicked == False:
         b["text"] = "O"
         clicked = True
-        count += 1
+        global_count += 1
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
@@ -10320,7 +10374,7 @@ def b19_clicked(b):
 
 
 def b20_clicked(b):
-    global clicked, count
+    global clicked, global_count
     # first I need to set the buttons to normal, otherwise it'd cause a bug
     enable_all_buttons()
     # secondly disable all areas except the one I need to play in
@@ -10329,12 +10383,12 @@ def b20_clicked(b):
     if b["text"] == " " and clicked == True:
         b["text"] = "X"
         clicked = False
-        count += 1
+        global_count += 1
         check_winner()
     elif b["text"] == " " and clicked == False:
         b["text"] = "O"
         clicked = True
-        count += 1
+        global_count += 1
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
@@ -10343,7 +10397,7 @@ def b20_clicked(b):
 
 
 def b21_clicked(b):
-    global clicked, count
+    global clicked, global_count
     # first I need to set the buttons to normal, otherwise it'd cause a bug
     enable_all_buttons()
     # secondly disable all areas except the one I need to play in
@@ -10352,12 +10406,12 @@ def b21_clicked(b):
     if b["text"] == " " and clicked == True:
         b["text"] = "X"
         clicked = False
-        count += 1
+        global_count += 1
         check_winner()
     elif b["text"] == " " and clicked == False:
         b["text"] = "O"
         clicked = True
-        count += 1
+        global_count += 1
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
@@ -10366,7 +10420,7 @@ def b21_clicked(b):
 
 
 def b22_clicked(b):
-    global clicked, count
+    global clicked, global_count
     # first I need to set the buttons to normal, otherwise it'd cause a bug
     enable_all_buttons()
     # secondly disable all areas except the one I need to play in
@@ -10375,12 +10429,12 @@ def b22_clicked(b):
     if b["text"] == " " and clicked == True:
         b["text"] = "X"
         clicked = False
-        count += 1
+        global_count += 1
         check_winner()
     elif b["text"] == " " and clicked == False:
         b["text"] = "O"
         clicked = True
-        count += 1
+        global_count += 1
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
@@ -10389,7 +10443,7 @@ def b22_clicked(b):
 
 
 def b23_clicked(b):
-    global clicked, count
+    global clicked, global_count
     # first I need to set the buttons to normal, otherwise it'd cause a bug
     enable_all_buttons()
     # secondly disable all areas except the one I need to play in
@@ -10398,12 +10452,12 @@ def b23_clicked(b):
     if b["text"] == " " and clicked == True:
         b["text"] = "X"
         clicked = False
-        count += 1
+        global_count += 1
         check_winner()
     elif b["text"] == " " and clicked == False:
         b["text"] = "O"
         clicked = True
-        count += 1
+        global_count += 1
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
@@ -10412,7 +10466,7 @@ def b23_clicked(b):
 
 
 def b24_clicked(b):
-    global clicked, count
+    global clicked, global_count
     # first I need to set the buttons to normal, otherwise it'd cause a bug
     enable_all_buttons()
     # secondly disable all areas except the one I need to play in
@@ -10421,12 +10475,12 @@ def b24_clicked(b):
     if b["text"] == " " and clicked == True:
         b["text"] = "X"
         clicked = False
-        count += 1
+        global_count += 1
         check_winner()
     elif b["text"] == " " and clicked == False:
         b["text"] = "O"
         clicked = True
-        count += 1
+        global_count += 1
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
@@ -10435,7 +10489,7 @@ def b24_clicked(b):
 
 
 def b25_clicked(b):
-    global clicked, count
+    global clicked, global_count
     # first I need to set the buttons to normal, otherwise it'd cause a bug
     enable_all_buttons()
     # secondly disable all areas except the one I need to play in
@@ -10444,12 +10498,12 @@ def b25_clicked(b):
     if b["text"] == " " and clicked == True:
         b["text"] = "X"
         clicked = False
-        count += 1
+        global_count += 1
         check_winner()
     elif b["text"] == " " and clicked == False:
         b["text"] = "O"
         clicked = True
-        count += 1
+        global_count += 1
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
@@ -10458,7 +10512,7 @@ def b25_clicked(b):
 
 
 def b26_clicked(b):
-    global clicked, count
+    global clicked, global_count
     # first I need to set the buttons to normal, otherwise it'd cause a bug
     enable_all_buttons()
     # secondly disable all areas except the one I need to play in
@@ -10467,12 +10521,12 @@ def b26_clicked(b):
     if b["text"] == " " and clicked == True:
         b["text"] = "X"
         clicked = False
-        count += 1
+        global_count += 1
         check_winner()
     elif b["text"] == " " and clicked == False:
         b["text"] = "O"
         clicked = True
-        count += 1
+        global_count += 1
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
@@ -10481,7 +10535,7 @@ def b26_clicked(b):
 
 
 def b27_clicked(b):
-    global clicked, count
+    global clicked, global_count
     # first I need to set the buttons to normal, otherwise it'd cause a bug
     enable_all_buttons()
     # secondly disable all areas except the one I need to play in
@@ -10490,12 +10544,12 @@ def b27_clicked(b):
     if b["text"] == " " and clicked == True:
         b["text"] = "X"
         clicked = False
-        count += 1
+        global_count += 1
         check_winner()
     elif b["text"] == " " and clicked == False:
         b["text"] = "O"
         clicked = True
-        count += 1
+        global_count += 1
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
@@ -10505,7 +10559,7 @@ def b27_clicked(b):
 
 # [ TIC TAC TOE 4 ]
 def b28_clicked(b):
-    global clicked, count
+    global clicked, global_count
     # first I need to set the buttons to normal, otherwise it'd cause a bug
     enable_all_buttons()
     # secondly disable all areas except the one I need to play in
@@ -10514,12 +10568,12 @@ def b28_clicked(b):
     if b["text"] == " " and clicked == True:
         b["text"] = "X"
         clicked = False
-        count += 1
+        global_count += 1
         check_winner()
     elif b["text"] == " " and clicked == False:
         b["text"] = "O"
         clicked = True
-        count += 1
+        global_count += 1
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
@@ -10528,7 +10582,7 @@ def b28_clicked(b):
 
 
 def b29_clicked(b):
-    global clicked, count
+    global clicked, global_count
     # first I need to set the buttons to normal, otherwise it'd cause a bug
     enable_all_buttons()
     # secondly disable all areas except the one I need to play in
@@ -10537,12 +10591,12 @@ def b29_clicked(b):
     if b["text"] == " " and clicked == True:
         b["text"] = "X"
         clicked = False
-        count += 1
+        global_count += 1
         check_winner()
     elif b["text"] == " " and clicked == False:
         b["text"] = "O"
         clicked = True
-        count += 1
+        global_count += 1
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
@@ -10551,7 +10605,7 @@ def b29_clicked(b):
 
 
 def b30_clicked(b):
-    global clicked, count
+    global clicked, global_count
     # first I need to set the buttons to normal, otherwise it'd cause a bug
     enable_all_buttons()
     # secondly disable all areas except the one I need to play in
@@ -10560,12 +10614,12 @@ def b30_clicked(b):
     if b["text"] == " " and clicked == True:
         b["text"] = "X"
         clicked = False
-        count += 1
+        global_count += 1
         check_winner()
     elif b["text"] == " " and clicked == False:
         b["text"] = "O"
         clicked = True
-        count += 1
+        global_count += 1
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
@@ -10574,7 +10628,7 @@ def b30_clicked(b):
 
 
 def b31_clicked(b):
-    global clicked, count
+    global clicked, global_count
     # first I need to set the buttons to normal, otherwise it'd cause a bug
     enable_all_buttons()
     # secondly disable all areas except the one I need to play in
@@ -10583,12 +10637,12 @@ def b31_clicked(b):
     if b["text"] == " " and clicked == True:
         b["text"] = "X"
         clicked = False
-        count += 1
+        global_count += 1
         check_winner()
     elif b["text"] == " " and clicked == False:
         b["text"] = "O"
         clicked = True
-        count += 1
+        global_count += 1
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
@@ -10597,7 +10651,7 @@ def b31_clicked(b):
 
 
 def b32_clicked(b):
-    global clicked, count
+    global clicked, global_count
     # first I need to set the buttons to normal, otherwise it'd cause a bug
     enable_all_buttons()
     # secondly disable all areas except the one I need to play in
@@ -10606,12 +10660,12 @@ def b32_clicked(b):
     if b["text"] == " " and clicked == True:
         b["text"] = "X"
         clicked = False
-        count += 1
+        global_count += 1
         check_winner()
     elif b["text"] == " " and clicked == False:
         b["text"] = "O"
         clicked = True
-        count += 1
+        global_count += 1
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
@@ -10620,7 +10674,7 @@ def b32_clicked(b):
 
 
 def b33_clicked(b):
-    global clicked, count
+    global clicked, global_count
     # first I need to set the buttons to normal, otherwise it'd cause a bug
     enable_all_buttons()
     # secondly disable all areas except the one I need to play in
@@ -10629,12 +10683,12 @@ def b33_clicked(b):
     if b["text"] == " " and clicked == True:
         b["text"] = "X"
         clicked = False
-        count += 1
+        global_count += 1
         check_winner()
     elif b["text"] == " " and clicked == False:
         b["text"] = "O"
         clicked = True
-        count += 1
+        global_count += 1
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
@@ -10643,7 +10697,7 @@ def b33_clicked(b):
 
 
 def b34_clicked(b):
-    global clicked, count
+    global clicked, global_count
     # first I need to set the buttons to normal, otherwise it'd cause a bug
     enable_all_buttons()
     # secondly disable all areas except the one I need to play in
@@ -10652,12 +10706,12 @@ def b34_clicked(b):
     if b["text"] == " " and clicked == True:
         b["text"] = "X"
         clicked = False
-        count += 1
+        global_count += 1
         check_winner()
     elif b["text"] == " " and clicked == False:
         b["text"] = "O"
         clicked = True
-        count += 1
+        global_count += 1
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
@@ -10666,7 +10720,7 @@ def b34_clicked(b):
 
 
 def b35_clicked(b):
-    global clicked, count
+    global clicked, global_count
     # first I need to set the buttons to normal, otherwise it'd cause a bug
     enable_all_buttons()
     # secondly disable all areas except the one I need to play in
@@ -10675,12 +10729,12 @@ def b35_clicked(b):
     if b["text"] == " " and clicked == True:
         b["text"] = "X"
         clicked = False
-        count += 1
+        global_count += 1
         check_winner()
     elif b["text"] == " " and clicked == False:
         b["text"] = "O"
         clicked = True
-        count += 1
+        global_count += 1
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
@@ -10689,7 +10743,7 @@ def b35_clicked(b):
 
 
 def b36_clicked(b):
-    global clicked, count
+    global clicked, global_count
     # first I need to set the buttons to normal, otherwise it'd cause a bug
     enable_all_buttons()
     # secondly disable all areas except the one I need to play in
@@ -10698,12 +10752,12 @@ def b36_clicked(b):
     if b["text"] == " " and clicked == True:
         b["text"] = "X"
         clicked = False
-        count += 1
+        global_count += 1
         check_winner()
     elif b["text"] == " " and clicked == False:
         b["text"] = "O"
         clicked = True
-        count += 1
+        global_count += 1
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
@@ -10714,7 +10768,7 @@ def b36_clicked(b):
 # [ TIC TAC TOE 5 ]
 
 def b37_clicked(b):
-    global clicked, count
+    global clicked, global_count
     # first I need to set the buttons to normal, otherwise it'd cause a bug
     enable_all_buttons()
     # secondly disable all areas except the one I need to play in
@@ -10723,12 +10777,12 @@ def b37_clicked(b):
     if b["text"] == " " and clicked == True:
         b["text"] = "X"
         clicked = False
-        count += 1
+        global_count += 1
         check_winner()
     elif b["text"] == " " and clicked == False:
         b["text"] = "O"
         clicked = True
-        count += 1
+        global_count += 1
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
@@ -10737,7 +10791,7 @@ def b37_clicked(b):
 
 
 def b38_clicked(b):
-    global clicked, count
+    global clicked, global_count
     # first I need to set the buttons to normal, otherwise it'd cause a bug
     enable_all_buttons()
     # secondly disable all areas except the one I need to play in
@@ -10746,12 +10800,12 @@ def b38_clicked(b):
     if b["text"] == " " and clicked == True:
         b["text"] = "X"
         clicked = False
-        count += 1
+        global_count += 1
         check_winner()
     elif b["text"] == " " and clicked == False:
         b["text"] = "O"
         clicked = True
-        count += 1
+        global_count += 1
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
@@ -10760,7 +10814,7 @@ def b38_clicked(b):
 
 
 def b39_clicked(b):
-    global clicked, count
+    global clicked, global_count
     # first I need to set the buttons to normal, otherwise it'd cause a bug
     enable_all_buttons()
     # secondly disable all areas except the one I need to play in
@@ -10769,12 +10823,12 @@ def b39_clicked(b):
     if b["text"] == " " and clicked == True:
         b["text"] = "X"
         clicked = False
-        count += 1
+        global_count += 1
         check_winner()
     elif b["text"] == " " and clicked == False:
         b["text"] = "O"
         clicked = True
-        count += 1
+        global_count += 1
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
@@ -10783,7 +10837,7 @@ def b39_clicked(b):
 
 
 def b40_clicked(b):
-    global clicked, count
+    global clicked, global_count
     # first I need to set the buttons to normal, otherwise it'd cause a bug
     enable_all_buttons()
     # secondly disable all areas except the one I need to play in
@@ -10792,12 +10846,12 @@ def b40_clicked(b):
     if b["text"] == " " and clicked == True:
         b["text"] = "X"
         clicked = False
-        count += 1
+        global_count += 1
         check_winner()
     elif b["text"] == " " and clicked == False:
         b["text"] = "O"
         clicked = True
-        count += 1
+        global_count += 1
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
@@ -10806,7 +10860,7 @@ def b40_clicked(b):
 
 
 def b41_clicked(b):
-    global clicked, count
+    global clicked, global_count
     # first I need to set the buttons to normal, otherwise it'd cause a bug
     enable_all_buttons()
     # secondly disable all areas except the one I need to play in
@@ -10815,12 +10869,12 @@ def b41_clicked(b):
     if b["text"] == " " and clicked == True:
         b["text"] = "X"
         clicked = False
-        count += 1
+        global_count += 1
         check_winner()
     elif b["text"] == " " and clicked == False:
         b["text"] = "O"
         clicked = True
-        count += 1
+        global_count += 1
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
@@ -10829,7 +10883,7 @@ def b41_clicked(b):
 
 
 def b42_clicked(b):
-    global clicked, count
+    global clicked, global_count
     # first I need to set the buttons to normal, otherwise it'd cause a bug
     enable_all_buttons()
     # secondly disable all areas except the one I need to play in
@@ -10838,12 +10892,12 @@ def b42_clicked(b):
     if b["text"] == " " and clicked == True:
         b["text"] = "X"
         clicked = False
-        count += 1
+        global_count += 1
         check_winner()
     elif b["text"] == " " and clicked == False:
         b["text"] = "O"
         clicked = True
-        count += 1
+        global_count += 1
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
@@ -10852,7 +10906,7 @@ def b42_clicked(b):
 
 
 def b43_clicked(b):
-    global clicked, count
+    global clicked, global_count
     # first I need to set the buttons to normal, otherwise it'd cause a bug
     enable_all_buttons()
     # secondly disable all areas except the one I need to play in
@@ -10861,12 +10915,12 @@ def b43_clicked(b):
     if b["text"] == " " and clicked == True:
         b["text"] = "X"
         clicked = False
-        count += 1
+        global_count += 1
         check_winner()
     elif b["text"] == " " and clicked == False:
         b["text"] = "O"
         clicked = True
-        count += 1
+        global_count += 1
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
@@ -10875,7 +10929,7 @@ def b43_clicked(b):
 
 
 def b44_clicked(b):
-    global clicked, count
+    global clicked, global_count
     # first I need to set the buttons to normal, otherwise it'd cause a bug
     enable_all_buttons()
     # secondly disable all areas except the one I need to play in
@@ -10884,12 +10938,12 @@ def b44_clicked(b):
     if b["text"] == " " and clicked == True:
         b["text"] = "X"
         clicked = False
-        count += 1
+        global_count += 1
         check_winner()
     elif b["text"] == " " and clicked == False:
         b["text"] = "O"
         clicked = True
-        count += 1
+        global_count += 1
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
@@ -10898,7 +10952,7 @@ def b44_clicked(b):
 
 
 def b45_clicked(b):
-    global clicked, count
+    global clicked, global_count
     # first I need to set the buttons to normal, otherwise it'd cause a bug
     enable_all_buttons()
     # secondly disable all areas except the one I need to play in
@@ -10907,12 +10961,12 @@ def b45_clicked(b):
     if b["text"] == " " and clicked == True:
         b["text"] = "X"
         clicked = False
-        count += 1
+        global_count += 1
         check_winner()
     elif b["text"] == " " and clicked == False:
         b["text"] = "O"
         clicked = True
-        count += 1
+        global_count += 1
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
@@ -10923,7 +10977,7 @@ def b45_clicked(b):
 # [ TIC TAC TOE 6 ]
 
 def b46_clicked(b):
-    global clicked, count
+    global clicked, global_count
     # first I need to set the buttons to normal, otherwise it'd cause a bug
     enable_all_buttons()
     # secondly disable all areas except the one I need to play in
@@ -10932,12 +10986,12 @@ def b46_clicked(b):
     if b["text"] == " " and clicked == True:
         b["text"] = "X"
         clicked = False
-        count += 1
+        global_count += 1
         check_winner()
     elif b["text"] == " " and clicked == False:
         b["text"] = "O"
         clicked = True
-        count += 1
+        global_count += 1
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
@@ -10946,7 +11000,7 @@ def b46_clicked(b):
 
 
 def b47_clicked(b):
-    global clicked, count
+    global clicked, global_count
     # first I need to set the buttons to normal, otherwise it'd cause a bug
     enable_all_buttons()
     # secondly disable all areas except the one I need to play in
@@ -10955,12 +11009,12 @@ def b47_clicked(b):
     if b["text"] == " " and clicked == True:
         b["text"] = "X"
         clicked = False
-        count += 1
+        global_count += 1
         check_winner()
     elif b["text"] == " " and clicked == False:
         b["text"] = "O"
         clicked = True
-        count += 1
+        global_count += 1
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
@@ -10969,7 +11023,7 @@ def b47_clicked(b):
 
 
 def b48_clicked(b):
-    global clicked, count
+    global clicked, global_count
     # first I need to set the buttons to normal, otherwise it'd cause a bug
     enable_all_buttons()
     # secondly disable all areas except the one I need to play in
@@ -10978,12 +11032,12 @@ def b48_clicked(b):
     if b["text"] == " " and clicked == True:
         b["text"] = "X"
         clicked = False
-        count += 1
+        global_count += 1
         check_winner()
     elif b["text"] == " " and clicked == False:
         b["text"] = "O"
         clicked = True
-        count += 1
+        global_count += 1
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
@@ -10992,7 +11046,7 @@ def b48_clicked(b):
 
 
 def b49_clicked(b):
-    global clicked, count
+    global clicked, global_count
     # first I need to set the buttons to normal, otherwise it'd cause a bug
     enable_all_buttons()
     # secondly disable all areas except the one I need to play in
@@ -11001,12 +11055,12 @@ def b49_clicked(b):
     if b["text"] == " " and clicked == True:
         b["text"] = "X"
         clicked = False
-        count += 1
+        global_count += 1
         check_winner()
     elif b["text"] == " " and clicked == False:
         b["text"] = "O"
         clicked = True
-        count += 1
+        global_count += 1
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
@@ -11015,7 +11069,7 @@ def b49_clicked(b):
 
 
 def b50_clicked(b):
-    global clicked, count
+    global clicked, global_count
     # first I need to set the buttons to normal, otherwise it'd cause a bug
     enable_all_buttons()
     # secondly disable all areas except the one I need to play in
@@ -11024,12 +11078,12 @@ def b50_clicked(b):
     if b["text"] == " " and clicked == True:
         b["text"] = "X"
         clicked = False
-        count += 1
+        global_count += 1
         check_winner()
     elif b["text"] == " " and clicked == False:
         b["text"] = "O"
         clicked = True
-        count += 1
+        global_count += 1
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
@@ -11038,7 +11092,7 @@ def b50_clicked(b):
 
 
 def b51_clicked(b):
-    global clicked, count
+    global clicked, global_count
     # first I need to set the buttons to normal, otherwise it'd cause a bug
     enable_all_buttons()
     # secondly disable all areas except the one I need to play in
@@ -11047,12 +11101,12 @@ def b51_clicked(b):
     if b["text"] == " " and clicked == True:
         b["text"] = "X"
         clicked = False
-        count += 1
+        global_count += 1
         check_winner()
     elif b["text"] == " " and clicked == False:
         b["text"] = "O"
         clicked = True
-        count += 1
+        global_count += 1
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
@@ -11061,7 +11115,7 @@ def b51_clicked(b):
 
 
 def b52_clicked(b):
-    global clicked, count
+    global clicked, global_count
     # first I need to set the buttons to normal, otherwise it'd cause a bug
     enable_all_buttons()
     # secondly disable all areas except the one I need to play in
@@ -11070,12 +11124,12 @@ def b52_clicked(b):
     if b["text"] == " " and clicked == True:
         b["text"] = "X"
         clicked = False
-        count += 1
+        global_count += 1
         check_winner()
     elif b["text"] == " " and clicked == False:
         b["text"] = "O"
         clicked = True
-        count += 1
+        global_count += 1
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
@@ -11084,7 +11138,7 @@ def b52_clicked(b):
 
 
 def b53_clicked(b):
-    global clicked, count
+    global clicked, global_count
     # first I need to set the buttons to normal, otherwise it'd cause a bug
     enable_all_buttons()
     # secondly disable all areas except the one I need to play in
@@ -11093,12 +11147,12 @@ def b53_clicked(b):
     if b["text"] == " " and clicked == True:
         b["text"] = "X"
         clicked = False
-        count += 1
+        global_count += 1
         check_winner()
     elif b["text"] == " " and clicked == False:
         b["text"] = "O"
         clicked = True
-        count += 1
+        global_count += 1
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
@@ -11107,7 +11161,7 @@ def b53_clicked(b):
 
 
 def b54_clicked(b):
-    global clicked, count
+    global clicked, global_count
     # first I need to set the buttons to normal, otherwise it'd cause a bug
     enable_all_buttons()
     # secondly disable all areas except the one I need to play in
@@ -11116,12 +11170,12 @@ def b54_clicked(b):
     if b["text"] == " " and clicked == True:
         b["text"] = "X"
         clicked = False
-        count += 1
+        global_count += 1
         check_winner()
     elif b["text"] == " " and clicked == False:
         b["text"] = "O"
         clicked = True
-        count += 1
+        global_count += 1
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
@@ -11132,7 +11186,7 @@ def b54_clicked(b):
 # [ TIC TAC TOE 7 ]
 
 def b55_clicked(b):
-    global clicked, count
+    global clicked, global_count
     # first I need to set the buttons to normal, otherwise it'd cause a bug
     enable_all_buttons()
     # secondly disable all areas except the one I need to play in
@@ -11141,12 +11195,12 @@ def b55_clicked(b):
     if b["text"] == " " and clicked == True:
         b["text"] = "X"
         clicked = False
-        count += 1
+        global_count += 1
         check_winner()
     elif b["text"] == " " and clicked == False:
         b["text"] = "O"
         clicked = True
-        count += 1
+        global_count += 1
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
@@ -11155,7 +11209,7 @@ def b55_clicked(b):
 
 
 def b56_clicked(b):
-    global clicked, count
+    global clicked, global_count
     # first I need to set the buttons to normal, otherwise it'd cause a bug
     enable_all_buttons()
     # secondly disable all areas except the one I need to play in
@@ -11164,12 +11218,12 @@ def b56_clicked(b):
     if b["text"] == " " and clicked == True:
         b["text"] = "X"
         clicked = False
-        count += 1
+        global_count += 1
         check_winner()
     elif b["text"] == " " and clicked == False:
         b["text"] = "O"
         clicked = True
-        count += 1
+        global_count += 1
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
@@ -11178,7 +11232,7 @@ def b56_clicked(b):
 
 
 def b57_clicked(b):
-    global clicked, count
+    global clicked, global_count
     # first I need to set the buttons to normal, otherwise it'd cause a bug
     enable_all_buttons()
     # secondly disable all areas except the one I need to play in
@@ -11187,12 +11241,12 @@ def b57_clicked(b):
     if b["text"] == " " and clicked == True:
         b["text"] = "X"
         clicked = False
-        count += 1
+        global_count += 1
         check_winner()
     elif b["text"] == " " and clicked == False:
         b["text"] = "O"
         clicked = True
-        count += 1
+        global_count += 1
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
@@ -11201,7 +11255,7 @@ def b57_clicked(b):
 
 
 def b58_clicked(b):
-    global clicked, count
+    global clicked, global_count
     # first I need to set the buttons to normal, otherwise it'd cause a bug
     enable_all_buttons()
     # secondly disable all areas except the one I need to play in
@@ -11210,12 +11264,12 @@ def b58_clicked(b):
     if b["text"] == " " and clicked == True:
         b["text"] = "X"
         clicked = False
-        count += 1
+        global_count += 1
         check_winner()
     elif b["text"] == " " and clicked == False:
         b["text"] = "O"
         clicked = True
-        count += 1
+        global_count += 1
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
@@ -11224,7 +11278,7 @@ def b58_clicked(b):
 
 
 def b59_clicked(b):
-    global clicked, count
+    global clicked, global_count
     # first I need to set the buttons to normal, otherwise it'd cause a bug
     enable_all_buttons()
     # secondly disable all areas except the one I need to play in
@@ -11233,12 +11287,12 @@ def b59_clicked(b):
     if b["text"] == " " and clicked == True:
         b["text"] = "X"
         clicked = False
-        count += 1
+        global_count += 1
         check_winner()
     elif b["text"] == " " and clicked == False:
         b["text"] = "O"
         clicked = True
-        count += 1
+        global_count += 1
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
@@ -11247,7 +11301,7 @@ def b59_clicked(b):
 
 
 def b60_clicked(b):
-    global clicked, count
+    global clicked, global_count
     # first I need to set the buttons to normal, otherwise it'd cause a bug
     enable_all_buttons()
     # secondly disable all areas except the one I need to play in
@@ -11256,12 +11310,12 @@ def b60_clicked(b):
     if b["text"] == " " and clicked == True:
         b["text"] = "X"
         clicked = False
-        count += 1
+        global_count += 1
         check_winner()
     elif b["text"] == " " and clicked == False:
         b["text"] = "O"
         clicked = True
-        count += 1
+        global_count += 1
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
@@ -11270,7 +11324,7 @@ def b60_clicked(b):
 
 
 def b61_clicked(b):
-    global clicked, count
+    global clicked, global_count
     # first I need to set the buttons to normal, otherwise it'd cause a bug
     enable_all_buttons()
     # secondly disable all areas except the one I need to play in
@@ -11279,12 +11333,12 @@ def b61_clicked(b):
     if b["text"] == " " and clicked == True:
         b["text"] = "X"
         clicked = False
-        count += 1
+        global_count += 1
         check_winner()
     elif b["text"] == " " and clicked == False:
         b["text"] = "O"
         clicked = True
-        count += 1
+        global_count += 1
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
@@ -11293,7 +11347,7 @@ def b61_clicked(b):
 
 
 def b62_clicked(b):
-    global clicked, count
+    global clicked, global_count
     # first I need to set the buttons to normal, otherwise it'd cause a bug
     enable_all_buttons()
     # secondly disable all areas except the one I need to play in
@@ -11302,12 +11356,12 @@ def b62_clicked(b):
     if b["text"] == " " and clicked == True:
         b["text"] = "X"
         clicked = False
-        count += 1
+        global_count += 1
         check_winner()
     elif b["text"] == " " and clicked == False:
         b["text"] = "O"
         clicked = True
-        count += 1
+        global_count += 1
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
@@ -11316,7 +11370,7 @@ def b62_clicked(b):
 
 
 def b63_clicked(b):
-    global clicked, count
+    global clicked, global_count
     # first I need to set the buttons to normal, otherwise it'd cause a bug
     enable_all_buttons()
     # secondly disable all areas except the one I need to play in
@@ -11325,12 +11379,12 @@ def b63_clicked(b):
     if b["text"] == " " and clicked == True:
         b["text"] = "X"
         clicked = False
-        count += 1
+        global_count += 1
         check_winner()
     elif b["text"] == " " and clicked == False:
         b["text"] = "O"
         clicked = True
-        count += 1
+        global_count += 1
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
@@ -11341,7 +11395,7 @@ def b63_clicked(b):
 # [ TIC TAC TOE 8 ]
 
 def b64_clicked(b):
-    global clicked, count
+    global clicked, global_count
     # first I need to set the buttons to normal, otherwise it'd cause a bug
     enable_all_buttons()
     # secondly disable all areas except the one I need to play in
@@ -11350,12 +11404,12 @@ def b64_clicked(b):
     if b["text"] == " " and clicked == True:
         b["text"] = "X"
         clicked = False
-        count += 1
+        global_count += 1
         check_winner()
     elif b["text"] == " " and clicked == False:
         b["text"] = "O"
         clicked = True
-        count += 1
+        global_count += 1
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
@@ -11364,7 +11418,7 @@ def b64_clicked(b):
 
 
 def b65_clicked(b):
-    global clicked, count
+    global clicked, global_count
     # first I need to set the buttons to normal, otherwise it'd cause a bug
     enable_all_buttons()
     # secondly disable all areas except the one I need to play in
@@ -11373,12 +11427,12 @@ def b65_clicked(b):
     if b["text"] == " " and clicked == True:
         b["text"] = "X"
         clicked = False
-        count += 1
+        global_count += 1
         check_winner()
     elif b["text"] == " " and clicked == False:
         b["text"] = "O"
         clicked = True
-        count += 1
+        global_count += 1
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
@@ -11387,7 +11441,7 @@ def b65_clicked(b):
 
 
 def b66_clicked(b):
-    global clicked, count
+    global clicked, global_count
     # first I need to set the buttons to normal, otherwise it'd cause a bug
     enable_all_buttons()
     # secondly disable all areas except the one I need to play in
@@ -11396,12 +11450,12 @@ def b66_clicked(b):
     if b["text"] == " " and clicked == True:
         b["text"] = "X"
         clicked = False
-        count += 1
+        global_count += 1
         check_winner()
     elif b["text"] == " " and clicked == False:
         b["text"] = "O"
         clicked = True
-        count += 1
+        global_count += 1
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
@@ -11410,7 +11464,7 @@ def b66_clicked(b):
 
 
 def b67_clicked(b):
-    global clicked, count
+    global clicked, global_count
     # first I need to set the buttons to normal, otherwise it'd cause a bug
     enable_all_buttons()
     # secondly disable all areas except the one I need to play in
@@ -11419,12 +11473,12 @@ def b67_clicked(b):
     if b["text"] == " " and clicked == True:
         b["text"] = "X"
         clicked = False
-        count += 1
+        global_count += 1
         check_winner()
     elif b["text"] == " " and clicked == False:
         b["text"] = "O"
         clicked = True
-        count += 1
+        global_count += 1
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
@@ -11433,7 +11487,7 @@ def b67_clicked(b):
 
 
 def b68_clicked(b):
-    global clicked, count
+    global clicked, global_count
     # first I need to set the buttons to normal, otherwise it'd cause a bug
     enable_all_buttons()
     # secondly disable all areas except the one I need to play in
@@ -11442,12 +11496,12 @@ def b68_clicked(b):
     if b["text"] == " " and clicked == True:
         b["text"] = "X"
         clicked = False
-        count += 1
+        global_count += 1
         check_winner()
     elif b["text"] == " " and clicked == False:
         b["text"] = "O"
         clicked = True
-        count += 1
+        global_count += 1
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
@@ -11456,7 +11510,7 @@ def b68_clicked(b):
 
 
 def b69_clicked(b):
-    global clicked, count
+    global clicked, global_count
     # first I need to set the buttons to normal, otherwise it'd cause a bug
     enable_all_buttons()
     # secondly disable all areas except the one I need to play in
@@ -11465,12 +11519,12 @@ def b69_clicked(b):
     if b["text"] == " " and clicked == True:
         b["text"] = "X"
         clicked = False
-        count += 1
+        global_count += 1
         check_winner()
     elif b["text"] == " " and clicked == False:
         b["text"] = "O"
         clicked = True
-        count += 1
+        global_count += 1
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
@@ -11479,7 +11533,7 @@ def b69_clicked(b):
 
 
 def b70_clicked(b):
-    global clicked, count
+    global clicked, global_count
     # first I need to set the buttons to normal, otherwise it'd cause a bug
     enable_all_buttons()
     # secondly disable all areas except the one I need to play in
@@ -11488,12 +11542,12 @@ def b70_clicked(b):
     if b["text"] == " " and clicked == True:
         b["text"] = "X"
         clicked = False
-        count += 1
+        global_count += 1
         check_winner()
     elif b["text"] == " " and clicked == False:
         b["text"] = "O"
         clicked = True
-        count += 1
+        global_count += 1
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
@@ -11502,7 +11556,7 @@ def b70_clicked(b):
 
 
 def b71_clicked(b):
-    global clicked, count
+    global clicked, global_count
     # first I need to set the buttons to normal, otherwise it'd cause a bug
     enable_all_buttons()
     # secondly disable all areas except the one I need to play in
@@ -11511,12 +11565,12 @@ def b71_clicked(b):
     if b["text"] == " " and clicked == True:
         b["text"] = "X"
         clicked = False
-        count += 1
+        global_count += 1
         check_winner()
     elif b["text"] == " " and clicked == False:
         b["text"] = "O"
         clicked = True
-        count += 1
+        global_count += 1
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
@@ -11525,7 +11579,7 @@ def b71_clicked(b):
 
 
 def b72_clicked(b):
-    global clicked, count
+    global clicked, global_count
     # first I need to set the buttons to normal, otherwise it'd cause a bug
     enable_all_buttons()
     # secondly disable all areas except the one I need to play in
@@ -11534,12 +11588,12 @@ def b72_clicked(b):
     if b["text"] == " " and clicked == True:
         b["text"] = "X"
         clicked = False
-        count += 1
+        global_count += 1
         check_winner()
     elif b["text"] == " " and clicked == False:
         b["text"] = "O"
         clicked = True
-        count += 1
+        global_count += 1
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
@@ -11550,7 +11604,7 @@ def b72_clicked(b):
 # [ TIC TAC TOE 9 ]
 
 def b73_clicked(b):
-    global clicked, count
+    global clicked, global_count
     # first I need to set the buttons to normal, otherwise it'd cause a bug
     enable_all_buttons()
     # secondly disable all areas except the one I need to play in
@@ -11559,12 +11613,12 @@ def b73_clicked(b):
     if b["text"] == " " and clicked == True:
         b["text"] = "X"
         clicked = False
-        count += 1
+        global_count += 1
         check_winner()
     elif b["text"] == " " and clicked == False:
         b["text"] = "O"
         clicked = True
-        count += 1
+        global_count += 1
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
@@ -11573,7 +11627,7 @@ def b73_clicked(b):
 
 
 def b74_clicked(b):
-    global clicked, count
+    global clicked, global_count
     # first I need to set the buttons to normal, otherwise it'd cause a bug
     enable_all_buttons()
     # secondly disable all areas except the one I need to play in
@@ -11582,12 +11636,12 @@ def b74_clicked(b):
     if b["text"] == " " and clicked == True:
         b["text"] = "X"
         clicked = False
-        count += 1
+        global_count += 1
         check_winner()
     elif b["text"] == " " and clicked == False:
         b["text"] = "O"
         clicked = True
-        count += 1
+        global_count += 1
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
@@ -11596,7 +11650,7 @@ def b74_clicked(b):
 
 
 def b75_clicked(b):
-    global clicked, count
+    global clicked, global_count
     # first I need to set the buttons to normal, otherwise it'd cause a bug
     enable_all_buttons()
     # secondly disable all areas except the one I need to play in
@@ -11605,12 +11659,12 @@ def b75_clicked(b):
     if b["text"] == " " and clicked == True:
         b["text"] = "X"
         clicked = False
-        count += 1
+        global_count += 1
         check_winner()
     elif b["text"] == " " and clicked == False:
         b["text"] = "O"
         clicked = True
-        count += 1
+        global_count += 1
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
@@ -11619,7 +11673,7 @@ def b75_clicked(b):
 
 
 def b76_clicked(b):
-    global clicked, count
+    global clicked, global_count
     # first I need to set the buttons to normal, otherwise it'd cause a bug
     enable_all_buttons()
     # secondly disable all areas except the one I need to play in
@@ -11628,12 +11682,12 @@ def b76_clicked(b):
     if b["text"] == " " and clicked == True:
         b["text"] = "X"
         clicked = False
-        count += 1
+        global_count += 1
         check_winner()
     elif b["text"] == " " and clicked == False:
         b["text"] = "O"
         clicked = True
-        count += 1
+        global_count += 1
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
@@ -11642,7 +11696,7 @@ def b76_clicked(b):
 
 
 def b77_clicked(b):
-    global clicked, count
+    global clicked, global_count
     # first I need to set the buttons to normal, otherwise it'd cause a bug
     enable_all_buttons()
     # secondly disable all areas except the one I need to play in
@@ -11651,12 +11705,12 @@ def b77_clicked(b):
     if b["text"] == " " and clicked == True:
         b["text"] = "X"
         clicked = False
-        count += 1
+        global_count += 1
         check_winner()
     elif b["text"] == " " and clicked == False:
         b["text"] = "O"
         clicked = True
-        count += 1
+        global_count += 1
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
@@ -11665,7 +11719,7 @@ def b77_clicked(b):
 
 
 def b78_clicked(b):
-    global clicked, count
+    global clicked, global_count
     # first I need to set the buttons to normal, otherwise it'd cause a bug
     enable_all_buttons()
     # secondly disable all areas except the one I need to play in
@@ -11674,12 +11728,12 @@ def b78_clicked(b):
     if b["text"] == " " and clicked == True:
         b["text"] = "X"
         clicked = False
-        count += 1
+        global_count += 1
         check_winner()
     elif b["text"] == " " and clicked == False:
         b["text"] = "O"
         clicked = True
-        count += 1
+        global_count += 1
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
@@ -11688,7 +11742,7 @@ def b78_clicked(b):
 
 
 def b79_clicked(b):
-    global clicked, count
+    global clicked, global_count
     # first I need to set the buttons to normal, otherwise it'd cause a bug
     enable_all_buttons()
     # secondly disable all areas except the one I need to play in
@@ -11697,12 +11751,12 @@ def b79_clicked(b):
     if b["text"] == " " and clicked == True:
         b["text"] = "X"
         clicked = False
-        count += 1
+        global_count += 1
         check_winner()
     elif b["text"] == " " and clicked == False:
         b["text"] = "O"
         clicked = True
-        count += 1
+        global_count += 1
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
@@ -11711,7 +11765,7 @@ def b79_clicked(b):
 
 
 def b80_clicked(b):
-    global clicked, count
+    global clicked, global_count
     # first I need to set the buttons to normal, otherwise it'd cause a bug
     enable_all_buttons()
     # secondly disable all areas except the one I need to play in
@@ -11720,12 +11774,12 @@ def b80_clicked(b):
     if b["text"] == " " and clicked == True:
         b["text"] = "X"
         clicked = False
-        count += 1
+        global_count += 1
         check_winner()
     elif b["text"] == " " and clicked == False:
         b["text"] = "O"
         clicked = True
-        count += 1
+        global_count += 1
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
@@ -11734,7 +11788,7 @@ def b80_clicked(b):
 
 
 def b81_clicked(b):
-    global clicked, count
+    global clicked, global_count
     # first I need to set the buttons to normal, otherwise it'd cause a bug
     enable_all_buttons()
     # secondly disable all areas except the one I need to play in
@@ -11743,12 +11797,12 @@ def b81_clicked(b):
     if b["text"] == " " and clicked == True:
         b["text"] = "X"
         clicked = False
-        count += 1
+        global_count += 1
         check_winner()
     elif b["text"] == " " and clicked == False:
         b["text"] = "O"
         clicked = True
-        count += 1
+        global_count += 1
         check_winner()
     else:
         messagebox.showerror("Error", "THAT SPOT IS TAKEN\nPICK ANOTHER SPOT\n         DUMMY!")
@@ -11764,9 +11818,9 @@ def reset():
     global b45, b46, b47, b48, b49, b50, b51, b52, b53, b54, b55, b56, b57, b58, b59, b60, b61, b62, b63, b64, b65
     global b66, b67, b68, b69, b70, b71, b72, b73, b74, b75, b76, b77, b78, b79, b80, b81
 
-    global clicked, count
+    global clicked, global_count
     clicked = True
-    count = 0
+    global_count = 0
 
     # building buttons for 1st tic tac toe
     b1 = Button(root, text=" ", font=("Helvetica", 20), height=1, width=3, bg="SystemButtonFace", command=lambda: b1_clicked(b1))
